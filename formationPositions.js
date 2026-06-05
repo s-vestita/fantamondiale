@@ -56,3 +56,39 @@ function genericPositions(slotCount) {
 export function fallbackPosizione(ruolo) {
   return RUOLO_FALLBACK[ruolo] || "—";
 }
+
+/** Sigla slot → ruolo fanta P / D / C / A */
+export const POS_TO_ROLE_LETTER = {
+  POR: "P",
+  DD: "D",
+  DC: "D",
+  DS: "D",
+  E: "C",
+  CDC: "C",
+  CC: "C",
+  TRQ: "C",
+  ALA: "A",
+  ATT: "A",
+};
+
+export const ROLE_LETTER_TO_ROSA = {
+  P: "portieri",
+  D: "difensori",
+  C: "centrocampisti",
+  A: "attaccanti",
+};
+
+export const ROSA_TO_ROLE_LETTER = {
+  portieri: "P",
+  difensori: "D",
+  centrocampisti: "C",
+  attaccanti: "A",
+};
+
+export function slotRoleLetter(pos) {
+  return POS_TO_ROLE_LETTER[pos] || "C";
+}
+
+export function slotRosaRuolo(pos) {
+  return ROLE_LETTER_TO_ROSA[slotRoleLetter(pos)] || "centrocampisti";
+}

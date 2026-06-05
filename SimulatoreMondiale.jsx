@@ -1,6 +1,7 @@
-import React, { useState, useMemo, useEffect } from "react";
-import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight } from "lucide-react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
+import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown } from "lucide-react";
 import { buildListone, FASCE, FASCIA_ORDER, ROSA_LIMITS, ROSA_BUDGET, NAT_TO_TEAM, natFlagUrl, teamName } from "./fantamondialeLogic.js";
+import { SLOT_POSITIONS, slotRoleLetter, slotRosaRuolo, ROSA_TO_ROLE_LETTER } from "./formationPositions.js";
 import { SET_PIECES } from "./setPiecesData.js";
 import { simulateGroupStandings, pickThirdSlots } from "./bookmakerOdds.js";
 
@@ -113,6 +114,71 @@ async function saveRosaToFile(rosa) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(serializeRosa(rosa), null, 2),
+  });
+  if (!res.ok) throw new Error("save failed");
+}
+
+const FORM_MODULES = Object.keys(SLOT_POSITIONS);
+const FORM_GIORNATE = [1, 2, 3];
+
+function emptyFormDay(modulo = "4-3-3") {
+  return { modulo, titolari: Array(11).fill(null), panchina: [] };
+}
+
+function emptyFormazioniStore() {
+  return { giornate: Object.fromEntries(FORM_GIORNATE.map((g) => [String(g), emptyFormDay()])) };
+}
+
+function serializeFormStore(store) {
+  const giornate = {};
+  for (const g of FORM_GIORNATE) {
+    const key = String(g);
+    const day = store.giornate[key] || emptyFormDay();
+    giornate[key] = {
+      modulo: day.modulo,
+      titolari: day.titolari
+        .map((p, slot) => (p ? { slot, nome: p.nome, nazione: p.nazione, ruolo: p.ruolo } : null))
+        .filter(Boolean),
+      panchina: day.panchina.map((p) => ({ nome: p.nome, nazione: p.nazione, ruolo: p.ruolo })),
+    };
+  }
+  return { giornate };
+}
+
+function hydrateFormStore(data, lookup) {
+  const store = emptyFormazioniStore();
+  for (const g of FORM_GIORNATE) {
+    const key = String(g);
+    const raw = data?.giornate?.[key];
+    if (!raw) continue;
+    const titolari = Array(11).fill(null);
+    (raw.titolari || []).forEach((s) => {
+      const p = lookup.get(`${s.ruolo}|${s.nome}|${s.nazione}`);
+      if (p && s.slot >= 0 && s.slot < 11) titolari[s.slot] = p;
+    });
+    const panchina = (raw.panchina || [])
+      .map((s) => lookup.get(`${s.ruolo}|${s.nome}|${s.nazione}`))
+      .filter(Boolean);
+    store.giornate[key] = { modulo: raw.modulo || "4-3-3", titolari, panchina };
+  }
+  return store;
+}
+
+async function loadFormazioniFromFile(lookup) {
+  try {
+    const res = await fetch("/api/formazioni");
+    if (res.ok) return hydrateFormStore(await res.json(), lookup);
+  } catch {
+    /* file non disponibile */
+  }
+  return emptyFormazioniStore();
+}
+
+async function saveFormazioniToFile(store) {
+  const res = await fetch("/api/formazioni", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(serializeFormStore(store), null, 2),
   });
   if (!res.ok) throw new Error("save failed");
 }
@@ -309,6 +375,92 @@ function renderGCell(cells, md) {
   );
 }
 
+function PlayerGiornataDots({ p, md, size = 16 }) {
+  if (!p?.cells?.length) return null;
+  const cells = md != null ? p.cells.filter((c) => c.md === md) : p.cells;
+  if (!cells.length) return null;
+  return (
+    <span className="wm-dots">
+      {cells.map((c) => (
+        <span
+          key={c.md}
+          className="wm-dot"
+          title={`G${c.md}: vs ${c.opp} (${c.str})`}
+          style={{ background: diffColor(c.str), width: size, height: size, fontSize: size <= 16 ? 7 : 8 }}
+        >
+          {c.abbr}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+function NatFlagImg({ nazione }) {
+  const src = natFlagUrl(nazione);
+  if (!src) return <span className="wm-flag-fallback">{nazione}</span>;
+  return <img className="wm-flag" src={src} alt="" loading="lazy" decoding="async" />;
+}
+
+function FormPlayerSelect({ value, options, placeholder, md, open, onToggle, onClose, onChange, keyFn }) {
+  const ref = useRef(null);
+  const selected = value ? options.find((p) => keyFn(p) === value) : null;
+
+  useEffect(() => {
+    if (!open) return;
+    const close = (e) => {
+      if (!ref.current?.contains(e.target)) onClose();
+    };
+    document.addEventListener("mousedown", close);
+    return () => document.removeEventListener("mousedown", close);
+  }, [open, onClose]);
+
+  return (
+    <div className="wm-fpsel" ref={ref}>
+      <button type="button" className={"wm-fpsel-btn" + (open ? " open" : "")} onClick={onToggle}>
+        {selected ? (
+          <>
+            <NatFlagImg nazione={selected.nazione} />
+            <PlayerGiornataDots p={selected} md={md} />
+            <span className="wm-fpsel-nm">{selected.nome}</span>
+          </>
+        ) : (
+          <span className="wm-fpsel-ph">{placeholder}</span>
+        )}
+        <ChevronDown size={14} className="wm-fpsel-chev" />
+      </button>
+      {open && (
+        <div className="wm-fpsel-menu">
+          <button
+            type="button"
+            className="wm-fpsel-opt empty"
+            onClick={() => {
+              onChange(null);
+              onClose();
+            }}
+          >
+            {placeholder}
+          </button>
+          {options.map((p) => (
+            <button
+              key={keyFn(p)}
+              type="button"
+              className={"wm-fpsel-opt" + (value === keyFn(p) ? " on" : "")}
+              onClick={() => {
+                onChange(keyFn(p));
+                onClose();
+              }}
+            >
+              <NatFlagImg nazione={p.nazione} />
+              <PlayerGiornataDots p={p} md={md} />
+              <span className="wm-fpsel-nm">{p.nome}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ---------------- STYLES ---------------- */
 const CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
@@ -463,6 +615,51 @@ const CSS = `
 .wm-sp-col{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;}
 .wm-sp-col-hd{display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono';font-size:10px;letter-spacing:1px;text-transform:uppercase;font-weight:700;margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed #1a2231;}
 .wm-sp-empty{color:var(--mut);font-size:13px;font-style:italic;padding:24px;text-align:center;}
+.wm-form-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:14px;}
+.wm-form-ctrl{display:flex;flex-direction:column;gap:4px;}
+.wm-form-ctrl label{font-family:'JetBrains Mono';font-size:9px;letter-spacing:1px;color:var(--mut);text-transform:uppercase;}
+.wm-form-ctrl select{min-width:140px;background:#0a0f1a;color:var(--txt);border:1px solid var(--line);border-radius:7px;padding:8px 10px;font-size:12px;}
+.wm-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+@media(max-width:900px){.wm-form-grid{grid-template-columns:1fr;}}
+.wm-form-col{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:12px;}
+.wm-form-col h4{margin:0 0 10px;font-family:'Anton';font-size:13px;letter-spacing:1px;color:var(--gold);text-transform:uppercase;}
+.wm-form-slot{display:grid;grid-template-columns:42px 1fr;gap:8px;align-items:center;padding:6px 8px;border-bottom:1px solid #1a2231;border-radius:8px;margin-bottom:2px;}
+.wm-form-slot:last-child{border-bottom:none;}
+.wm-form-slot.role-p{background:rgba(252,211,77,.07);border-left:3px solid #fcd34d;}
+.wm-form-slot.role-d{background:rgba(59,130,246,.08);border-left:3px solid #3b82f6;}
+.wm-form-slot.role-c{background:rgba(34,197,94,.08);border-left:3px solid #22c55e;}
+.wm-form-slot.role-a{background:rgba(239,68,68,.08);border-left:3px solid #ef4444;}
+.wm-form-pos{font-family:'Anton';font-size:16px;font-weight:700;text-align:center;line-height:1;}
+.wm-form-pos.p{color:#fcd34d;}
+.wm-form-pos.d{color:#3b82f6;}
+.wm-form-pos.c{color:#22c55e;}
+.wm-form-pos.a{color:#ef4444;}
+.wm-form-role{font-family:'Anton';font-size:11px;width:18px;height:18px;border-radius:5px;display:flex;align-items:center;justify-content:center;flex:none;}
+.wm-form-role.p{background:rgba(252,211,77,.2);color:#fcd34d;}
+.wm-form-role.d{background:rgba(59,130,246,.2);color:#3b82f6;}
+.wm-form-role.c{background:rgba(34,197,94,.2);color:#22c55e;}
+.wm-form-role.a{background:rgba(239,68,68,.2);color:#ef4444;}
+.wm-form-pick{display:flex;flex-direction:column;gap:5px;min-width:0;}
+.wm-fpsel{position:relative;width:100%;}
+.wm-fpsel-btn{width:100%;display:flex;align-items:center;gap:6px;padding:6px 8px;background:#0a0f1a;border:1px solid var(--line);border-radius:7px;color:var(--txt);font-size:11px;cursor:pointer;text-align:left;}
+.wm-fpsel-btn.open,.wm-fpsel-btn:hover{border-color:var(--turf);}
+.wm-fpsel-ph{color:var(--mut);flex:1;}
+.wm-fpsel-nm{flex:1;min-width:0;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.wm-fpsel-chev{color:var(--mut);flex:none;margin-left:auto;}
+.wm-fpsel-menu{position:absolute;z-index:30;top:calc(100% + 4px);left:0;right:0;max-height:240px;overflow-y:auto;background:#0a0f1a;border:1px solid var(--line);border-radius:7px;box-shadow:0 10px 28px rgba(0,0,0,.45);}
+.wm-fpsel-opt{width:100%;display:flex;align-items:center;gap:8px;padding:7px 10px;border:none;background:transparent;color:var(--txt);font-size:11px;cursor:pointer;text-align:left;}
+.wm-fpsel-opt:hover,.wm-fpsel-opt.on{background:rgba(34,197,94,.12);}
+.wm-fpsel-opt.empty{color:var(--mut);font-style:italic;border-bottom:1px solid var(--line);}
+.wm-bench-main{display:flex;align-items:center;gap:6px;flex:1;min-width:0;}
+.wm-bench-row{display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px dashed #1a2231;}
+.wm-bench-row:last-child{border-bottom:none;}
+.wm-bench-ord{font-family:'JetBrains Mono';font-size:9px;color:var(--mut);width:18px;flex:none;}
+.wm-bench-nm{flex:1;min-width:0;font-size:12px;font-weight:600;}
+.wm-bench-nm .sub{font-size:10px;color:var(--mut);font-weight:500;}
+.wm-bench-actions{display:flex;gap:2px;flex:none;}
+.wm-iconbtn{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--mut);cursor:pointer;}
+.wm-iconbtn:hover{color:var(--txt);border-color:var(--turf);}
+.wm-iconbtn:disabled{opacity:.3;cursor:default;}
 `;
 
 /* ---------------- COMPONENT ---------------- */
@@ -485,6 +682,10 @@ export default function SimulatoreMondiale() {
   const [rosaSearch, setRosaSearch] = useState("");
   const [rosaSorts, setRosaSorts] = useState([]);
   const [rosaSavedMsg, setRosaSavedMsg] = useState("");
+  const [formStore, setFormStore] = useState(emptyFormazioniStore);
+  const [formMd, setFormMd] = useState(1);
+  const [formSavedMsg, setFormSavedMsg] = useState("");
+  const [formPickerOpen, setFormPickerOpen] = useState(null);
   const [piazzatiSearch, setPiazzatiSearch] = useState("");
   const [piazzatiGroup, setPiazzatiGroup] = useState("A");
   const [piazzatiTeam, setPiazzatiTeam] = useState(null);
@@ -659,7 +860,7 @@ export default function SimulatoreMondiale() {
   }, [listonePlayers]);
 
   useEffect(() => {
-    if (tab !== "rosa" || !listonePlayers.length) return;
+    if ((tab !== "rosa" && tab !== "form") || !listonePlayers.length) return;
     let cancelled = false;
     loadRosaFromFile(playerByKey).then((data) => {
       if (!cancelled) setRosa(data);
@@ -668,6 +869,21 @@ export default function SimulatoreMondiale() {
       cancelled = true;
     };
   }, [tab, listonePlayers, playerByKey]);
+
+  useEffect(() => {
+    if (tab !== "form" || !listonePlayers.length) return;
+    let cancelled = false;
+    loadFormazioniFromFile(playerByKey).then((data) => {
+      if (!cancelled) setFormStore(data);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [tab, listonePlayers, playerByKey]);
+
+  useEffect(() => {
+    setFormPickerOpen(null);
+  }, [formMd, formStore.giornate[String(formMd)]?.modulo]);
 
   const pkey = (p) => `${p.ruolo}|${p.nome}|${p.nazione}`;
   const rosaKeys = useMemo(() => {
@@ -718,6 +934,79 @@ export default function SimulatoreMondiale() {
       .catch(() => {
         setRosaSavedMsg("Errore: impossibile aggiornare rosa.json.");
         setTimeout(() => setRosaSavedMsg(""), 4000);
+      });
+  };
+
+  const rosaFlat = useMemo(() => Object.values(rosa).flat(), [rosa]);
+  const formDayKey = String(formMd);
+  const formDay = formStore.giornate[formDayKey] || emptyFormDay();
+  const formSlots = SLOT_POSITIONS[formDay.modulo] || SLOT_POSITIONS["4-3-3"];
+
+  const setFormModulo = (modulo) => {
+    setFormStore((prev) => ({
+      ...prev,
+      giornate: {
+        ...prev.giornate,
+        [formDayKey]: { ...prev.giornate[formDayKey], modulo, titolari: Array(11).fill(null) },
+      },
+    }));
+  };
+
+  const setFormTitolare = (slot, key) => {
+    const player = key ? rosaFlat.find((p) => pkey(p) === key) : null;
+    setFormStore((prev) => {
+      const day = prev.giornate[formDayKey];
+      const titolari = [...day.titolari];
+      titolari[slot] = player;
+      return { ...prev, giornate: { ...prev.giornate, [formDayKey]: { ...day, titolari } } };
+    });
+  };
+
+  const addToPanchina = (p) => {
+    setFormStore((prev) => {
+      const day = prev.giornate[formDayKey];
+      if (day.panchina.some((x) => pkey(x) === pkey(p))) return prev;
+      if (day.titolari.some((x) => x && pkey(x) === pkey(p))) return prev;
+      return {
+        ...prev,
+        giornate: { ...prev.giornate, [formDayKey]: { ...day, panchina: [...day.panchina, p] } },
+      };
+    });
+  };
+
+  const removeFromPanchina = (p) => {
+    setFormStore((prev) => {
+      const day = prev.giornate[formDayKey];
+      return {
+        ...prev,
+        giornate: {
+          ...prev.giornate,
+          [formDayKey]: { ...day, panchina: day.panchina.filter((x) => pkey(x) !== pkey(p)) },
+        },
+      };
+    });
+  };
+
+  const movePanchina = (idx, dir) => {
+    setFormStore((prev) => {
+      const day = prev.giornate[formDayKey];
+      const panchina = [...day.panchina];
+      const j = idx + dir;
+      if (j < 0 || j >= panchina.length) return prev;
+      [panchina[idx], panchina[j]] = [panchina[j], panchina[idx]];
+      return { ...prev, giornate: { ...prev.giornate, [formDayKey]: { ...day, panchina } } };
+    });
+  };
+
+  const saveFormazione = () => {
+    saveFormazioniToFile(formStore)
+      .then(() => {
+        setFormSavedMsg(`Formazione G${formMd} salvata in formazioni_giornate.json.`);
+        setTimeout(() => setFormSavedMsg(""), 2500);
+      })
+      .catch(() => {
+        setFormSavedMsg("Errore: impossibile scrivere formazioni_giornate.json. Avvia con npm run dev.");
+        setTimeout(() => setFormSavedMsg(""), 4000);
       });
   };
 
@@ -1243,6 +1532,124 @@ export default function SimulatoreMondiale() {
     </div>
   );
 
+  /* ---- RENDER: simulatore formazione ---- */
+  const formView = (
+    <div>
+      <div className="wm-panel">
+        <div className="wm-ph"><LayoutGrid size={15} color="var(--turf)" /> Simulatore formazione · titolari + panchina per giornata girone</div>
+        {rosaCount === 0 && (
+          <div className="wm-note" style={{ marginBottom: 10 }}>Compila prima la rosa nel tab Simulatore rosa.</div>
+        )}
+        <div className="wm-form-controls">
+          <div className="wm-form-ctrl">
+            <label>Giornata</label>
+            <select value={formMd} onChange={(e) => setFormMd(Number(e.target.value))}>
+              {FORM_GIORNATE.map((g) => (
+                <option key={g} value={g}>G{g} girone</option>
+              ))}
+            </select>
+          </div>
+          <div className="wm-form-ctrl">
+            <label>Modulo</label>
+            <select value={formDay.modulo} onChange={(e) => setFormModulo(e.target.value)}>
+              {FORM_MODULES.map((m) => (
+                <option key={m} value={m}>{m}</option>
+              ))}
+            </select>
+          </div>
+          <button className="wm-btn turf" onClick={saveFormazione}><Save size={14} /> Salva formazione</button>
+        </div>
+        {formSavedMsg && (
+          <div className="wm-note" style={{ color: "var(--turf)", marginBottom: 10 }}>{formSavedMsg}</div>
+        )}
+        <div className="wm-form-grid">
+          <div className="wm-form-col">
+            <h4>Titolari ({formDay.modulo})</h4>
+            {formSlots.map((pos, i) => {
+              const current = formDay.titolari[i];
+              const roleLetter = slotRoleLetter(pos);
+              const roleRuolo = slotRosaRuolo(pos);
+              const usedElsewhere = new Set(
+                formDay.titolari.filter(Boolean).filter((_, j) => j !== i).map(pkey)
+              );
+              const options = rosaFlat.filter(
+                (p) => p.ruolo === roleRuolo && !usedElsewhere.has(pkey(p))
+              );
+              return (
+                <div className={"wm-form-slot role-" + roleLetter.toLowerCase()} key={i}>
+                  <span className={"wm-form-pos " + roleLetter.toLowerCase()}>{roleLetter}</span>
+                  <div className="wm-form-pick">
+                    <FormPlayerSelect
+                      value={current ? pkey(current) : ""}
+                      options={options}
+                      placeholder={`— scegli ${roleLetter} —`}
+                      md={formMd}
+                      open={formPickerOpen === i}
+                      onToggle={() => setFormPickerOpen(formPickerOpen === i ? null : i)}
+                      onClose={() => setFormPickerOpen(null)}
+                      onChange={(key) => setFormTitolare(i, key)}
+                      keyFn={pkey}
+                    />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="wm-form-col">
+            <h4>Panchina ({formDay.panchina.length})</h4>
+            {formDay.panchina.map((p, i) => (
+              <div className="wm-bench-row" key={pkey(p)}>
+                <span className="wm-bench-ord">{i + 1}</span>
+                <div className="wm-bench-main">
+                  <span className={"wm-form-role " + (ROSA_TO_ROLE_LETTER[p.ruolo] || "c").toLowerCase()}>
+                    {ROSA_TO_ROLE_LETTER[p.ruolo] || "?"}
+                  </span>
+                  <TeamBadge nazione={p.nazione} team={p.team} compact />
+                  <div className="wm-bench-nm">{p.nome}</div>
+                  <PlayerGiornataDots p={p} md={formMd} />
+                </div>
+                <div className="wm-bench-actions">
+                  <button type="button" className="wm-iconbtn" disabled={i === 0} onClick={() => movePanchina(i, -1)}><ChevronUp size={14} /></button>
+                  <button type="button" className="wm-iconbtn" disabled={i === formDay.panchina.length - 1} onClick={() => movePanchina(i, 1)}><ChevronDown size={14} /></button>
+                  <button type="button" className="wm-iconbtn" onClick={() => removeFromPanchina(p)}><Trash2 size={13} /></button>
+                </div>
+              </div>
+            ))}
+            {formDay.panchina.length === 0 && (
+              <div className="wm-sp-empty">Nessun giocatore in panchina</div>
+            )}
+            <h4 style={{ marginTop: 16 }}>Aggiungi alla panchina</h4>
+            {(() => {
+              const used = new Set([
+                ...formDay.titolari.filter(Boolean).map(pkey),
+                ...formDay.panchina.map(pkey),
+              ]);
+              const avail = rosaFlat.filter((p) => !used.has(pkey(p)));
+              if (!avail.length) {
+                return <div className="wm-sp-empty">Tutti i giocatori della rosa sono già schierati</div>;
+              }
+              return avail.map((p) => (
+                <div className="wm-bench-row" key={pkey(p)}>
+                  <div className="wm-bench-main">
+                    <span className={"wm-form-role " + (ROSA_TO_ROLE_LETTER[p.ruolo] || "c").toLowerCase()}>
+                      {ROSA_TO_ROLE_LETTER[p.ruolo] || "?"}
+                    </span>
+                    <TeamBadge nazione={p.nazione} team={p.team} compact />
+                    <div className="wm-bench-nm">{p.nome}</div>
+                    <PlayerGiornataDots p={p} md={formMd} />
+                  </div>
+                  <button type="button" className="wm-btn" style={{ padding: "4px 8px", fontSize: 11 }} onClick={() => addToPanchina(p)}>
+                    <Plus size={12} /> Aggiungi
+                  </button>
+                </div>
+              ));
+            })()}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
   /* ---- RENDER: bracket ---- */
   const ordinal = ["1º", "2º", "3º", "4º"];
   const bracketView = (
@@ -1394,6 +1801,9 @@ export default function SimulatoreMondiale() {
         <div className={"wm-tab" + (tab === "rosa" ? " on" : "")} onClick={() => setTab("rosa")}>
           <Users size={15} /> Simulatore rosa
         </div>
+        <div className={"wm-tab" + (tab === "form" ? " on" : "")} onClick={() => setTab("form")}>
+          <LayoutGrid size={15} /> Simulatore formazione
+        </div>
         <div className={"wm-tab" + (tab === "piaz" ? " on" : "")} onClick={() => setTab("piaz")}>
           <Crosshair size={15} /> Piazzati
         </div>
@@ -1403,6 +1813,7 @@ export default function SimulatoreMondiale() {
           : tab === "bra" ? bracketView
           : tab === "fan" ? fantamondialeView
           : tab === "rosa" ? rosaView
+          : tab === "form" ? formView
           : tab === "piaz" ? piazzatiView
           : calendarView}
       </div>
