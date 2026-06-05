@@ -74,12 +74,146 @@
     },
     "2": {
       "modulo": "4-3-3",
-      "titolari": [],
+      "titolari": [
+        {
+          "slot": 0,
+          "nome": "CREPEAU",
+          "nazione": "CAN",
+          "ruolo": "portieri"
+        },
+        {
+          "slot": 1,
+          "nome": "LAPORTE",
+          "nazione": "SPA",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 2,
+          "nome": "COUFAL",
+          "nazione": "CEC",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 3,
+          "nome": "SALAH-EDDINE",
+          "nazione": "MAR",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 4,
+          "nome": "DE CUYPER",
+          "nazione": "BEL",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 5,
+          "nome": "RUIZ",
+          "nazione": "SPA",
+          "ruolo": "centrocampisti"
+        },
+        {
+          "slot": 6,
+          "nome": "RODRIGUEZ JA.",
+          "nazione": "COL",
+          "ruolo": "centrocampisti"
+        },
+        {
+          "slot": 7,
+          "nome": "DE KETELAERE",
+          "nazione": "BEL",
+          "ruolo": "centrocampisti"
+        },
+        {
+          "slot": 8,
+          "nome": "OYARZABAL",
+          "nazione": "SPA",
+          "ruolo": "attaccanti"
+        },
+        {
+          "slot": 9,
+          "nome": "KANE",
+          "nazione": "ING",
+          "ruolo": "attaccanti"
+        },
+        {
+          "slot": 10,
+          "nome": "MESSI",
+          "nazione": "ARG",
+          "ruolo": "attaccanti"
+        }
+      ],
       "panchina": []
     },
     "3": {
       "modulo": "4-3-3",
-      "titolari": [],
+      "titolari": [
+        {
+          "slot": 0,
+          "nome": "RAUL RANGEL",
+          "nazione": "MES",
+          "ruolo": "portieri"
+        },
+        {
+          "slot": 1,
+          "nome": "SALAH-EDDINE",
+          "nazione": "MAR",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 2,
+          "nome": "O'REILLY",
+          "nazione": "ING",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 3,
+          "nome": "DE CUYPER",
+          "nazione": "BEL",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 4,
+          "nome": "DEBAST",
+          "nazione": "BEL",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 5,
+          "nome": "DE KETELAERE",
+          "nazione": "BEL",
+          "ruolo": "centrocampisti"
+        },
+        {
+          "slot": 6,
+          "nome": "SAIBARI",
+          "nazione": "MAR",
+          "ruolo": "centrocampisti"
+        },
+        {
+          "slot": 7,
+          "nome": "KESSIE",
+          "nazione": "COS",
+          "ruolo": "centrocampisti"
+        },
+        {
+          "slot": 8,
+          "nome": "KANE",
+          "nazione": "ING",
+          "ruolo": "attaccanti"
+        },
+        {
+          "slot": 9,
+          "nome": "OYARZABAL",
+          "nazione": "SPA",
+          "ruolo": "attaccanti"
+        },
+        {
+          "slot": 10,
+          "nome": "MESSI",
+          "nazione": "ARG",
+          "ruolo": "attaccanti"
+        }
+      ],
       "panchina": []
     }
   }

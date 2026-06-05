@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
-import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown } from "lucide-react";
+import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown, BarChart3 } from "lucide-react";
+import ProiezioniTab from "./ProiezioniTab.jsx";
 import { buildListone, FASCE, FASCIA_ORDER, ROSA_LIMITS, ROSA_BUDGET, NAT_TO_TEAM, natFlagUrl, teamName } from "./fantamondialeLogic.js";
 import { SLOT_POSITIONS, slotRoleLetter, slotRosaRuolo, ROSA_TO_ROLE_LETTER } from "./formationPositions.js";
 import { SET_PIECES } from "./setPiecesData.js";
@@ -657,6 +658,18 @@ const CSS = `
 .wm-bench-nm{flex:1;min-width:0;font-size:12px;font-weight:600;}
 .wm-bench-nm .sub{font-size:10px;color:var(--mut);font-weight:500;}
 .wm-bench-actions{display:flex;gap:2px;flex:none;}
+.wm-proj-intro{color:var(--mut);font-size:12.5px;line-height:1.55;margin:0 0 14px;}
+.wm-proj-gr{font-family:'Anton';font-size:13px;color:var(--gold);letter-spacing:.5px;}
+.wm-proj-gironi{display:flex;flex-direction:column;gap:20px;}
+.wm-proj-gblock{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:12px;}
+.wm-proj-gtit{margin:0 0 10px;font-family:'Anton';font-size:14px;letter-spacing:.5px;color:var(--turf);text-transform:uppercase;}
+.wm-proj-nota{margin:10px 0 0;color:var(--mut);font-size:12px;line-height:1.55;}
+.wm-proj-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:14px;}
+.wm-proj-gcell{display:flex;flex-direction:column;gap:2px;line-height:1.3;}
+.wm-proj-avv{color:var(--mut);font-size:10px;}
+.wm-proj-val{font-size:12px;}
+.wm-proj-sub{color:var(--mut);font-size:9px;font-family:'JetBrains Mono';}
+.wm-table-compact td,.wm-table-compact th{padding:5px 8px;}
 .wm-iconbtn{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--mut);cursor:pointer;}
 .wm-iconbtn:hover{color:var(--txt);border-color:var(--turf);}
 .wm-iconbtn:disabled{opacity:.3;cursor:default;}
@@ -1807,6 +1820,9 @@ export default function SimulatoreMondiale() {
         <div className={"wm-tab" + (tab === "piaz" ? " on" : "")} onClick={() => setTab("piaz")}>
           <Crosshair size={15} /> Piazzati
         </div>
+        <div className={"wm-tab" + (tab === "proj" ? " on" : "")} onClick={() => setTab("proj")}>
+          <BarChart3 size={15} /> Proiezioni
+        </div>
       </div>
       <div className="wm-body">
         {tab === "cal" ? calendarView
@@ -1815,6 +1831,7 @@ export default function SimulatoreMondiale() {
           : tab === "rosa" ? rosaView
           : tab === "form" ? formView
           : tab === "piaz" ? piazzatiView
+          : tab === "proj" ? <ProiezioniTab />
           : calendarView}
       </div>
     </div>
