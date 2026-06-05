@@ -1,0 +1,3277 @@
+[
+  {
+    "nome": "RAUL RANGEL",
+    "nazione": "MES",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "REYES",
+    "nazione": "MES",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MONTES",
+    "nazione": "MES",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "VASQUEZ",
+    "nazione": "MES",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GALLARDO",
+    "nazione": "MES",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PINEDA",
+    "nazione": "MES",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ALVAREZ ED.",
+    "nazione": "MES",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ALVARADO",
+    "nazione": "MES",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "JIMENEZ",
+    "nazione": "MES",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GIMENEZ",
+    "nazione": "MES",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "QUINONES",
+    "nazione": "MES",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MUDAU",
+    "nazione": "SUD",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "OKON",
+    "nazione": "SUD",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MBOKAZI",
+    "nazione": "SUD",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MOKOENA",
+    "nazione": "SUD",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SITHOLE",
+    "nazione": "SUD",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "APPOLLIS",
+    "nazione": "SUD",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MOREMI",
+    "nazione": "SUD",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "FOSTER",
+    "nazione": "SUD",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KOVAR",
+    "nazione": "CEC",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "COUFAL",
+    "nazione": "CEC",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "HRANAC",
+    "nazione": "CEC",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KREJCI",
+    "nazione": "CEC",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "JURASEK",
+    "nazione": "CEC",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SOUCEK",
+    "nazione": "CEC",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DARIDA",
+    "nazione": "CEC",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PROVOD",
+    "nazione": "CEC",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SULC",
+    "nazione": "CEC",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SCHICK",
+    "nazione": "CEC",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KIM S.",
+    "nazione": "COR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "KIM MJ.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KIM MO.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KIM TH.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KIM JG.",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CHO H.",
+    "nazione": "COR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "CHO WI.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CHO GS.",
+    "nazione": "COR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "LEE HB.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LEE GH.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LEE TS.",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LEE KI.",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "LEE JS.",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "LEE DG.",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PAIK",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CASTROP",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BAE JH.",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SON",
+    "nazione": "COR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KOBEL",
+    "nazione": "SVI",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "ZAKARIA D.",
+    "nazione": "SVI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AKANJI",
+    "nazione": "SVI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ELVEDI",
+    "nazione": "SVI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "NDOYE",
+    "nazione": "SVI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "FREULER",
+    "nazione": "SVI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "VARGAS",
+    "nazione": "SVI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MANZAMBI",
+    "nazione": "SVI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AEBISCHER",
+    "nazione": "SVI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "EMBOLO",
+    "nazione": "SVI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VASILJ",
+    "nazione": "BOS",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "DEDIC",
+    "nazione": "BOS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KATIC",
+    "nazione": "BOS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MUHAREMOVIC",
+    "nazione": "BOS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KOLASINAC",
+    "nazione": "BOS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BAJRAKTAREVIC",
+    "nazione": "BOS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BASIC",
+    "nazione": "BOS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SUNJIC",
+    "nazione": "BOS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ALAJBEGOVIC",
+    "nazione": "BOS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DEMIROVIC",
+    "nazione": "BOS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DZEKO",
+    "nazione": "BOS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CREPEAU",
+    "nazione": "CAN",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "CORNELIUS",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DAVIES",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BUCHANAN",
+    "nazione": "CAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KONE",
+    "nazione": "CAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AHMED",
+    "nazione": "CAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DAVID",
+    "nazione": "CAN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "OLUWASEYI",
+    "nazione": "CAN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BARSHAM",
+    "nazione": "QAT",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "AL OUI",
+    "nazione": "QAT",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KHOUKHI",
+    "nazione": "QAT",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BOUDIAF",
+    "nazione": "QAT",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "LAYE",
+    "nazione": "QAT",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AFIF",
+    "nazione": "QAT",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "WESLEY",
+    "nazione": "BRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MARQUINHOS",
+    "nazione": "BRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ALEX SANDRO",
+    "nazione": "BRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SANTOS",
+    "nazione": "BRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CASEMIRO",
+    "nazione": "BRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MARTINELLI",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NEYMAR",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VINICIUS",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "THIAGO",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CUNHA",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BOUNOU",
+    "nazione": "MAR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "HAKIMI",
+    "nazione": "MAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DIOP I.",
+    "nazione": "MAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AGUERD",
+    "nazione": "MAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MAZRAOUI",
+    "nazione": "MAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "OUNAHI",
+    "nazione": "MAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BOUADDI",
+    "nazione": "MAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DIAZ B.",
+    "nazione": "MAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SAIBARI",
+    "nazione": "MAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "EZZALZOULI",
+    "nazione": "MAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "EL KAABI",
+    "nazione": "MAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GORDON C.",
+    "nazione": "SCO",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "HICKEY",
+    "nazione": "SCO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "HANLEY",
+    "nazione": "SCO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MCKENNA",
+    "nazione": "SCO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ROBERTSON A.",
+    "nazione": "SCO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "FERGUSON",
+    "nazione": "SCO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DOAK",
+    "nazione": "SCO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CHRISTIE",
+    "nazione": "SCO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MCTOMINAY",
+    "nazione": "SCO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MCGINN",
+    "nazione": "SCO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ADAMS",
+    "nazione": "SCO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "PLACIDE",
+    "nazione": "HAI",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "ARCUS",
+    "nazione": "HAI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ADE",
+    "nazione": "HAI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DUVERNE",
+    "nazione": "HAI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "EXPERIENCE",
+    "nazione": "HAI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DEEDSON",
+    "nazione": "HAI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BELLEGARDE",
+    "nazione": "HAI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PIERRE AL.",
+    "nazione": "HAI",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "PIERRE LE.",
+    "nazione": "HAI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PIERRE",
+    "nazione": "HAI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ISIDOR",
+    "nazione": "HAI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NAZON",
+    "nazione": "HAI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "PROVIDENCE",
+    "nazione": "HAI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CAKIR",
+    "nazione": "TUR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "CELIK ME.",
+    "nazione": "TUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BARDAKCI",
+    "nazione": "TUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DEMIRAL",
+    "nazione": "TUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KADIOGLU",
+    "nazione": "TUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "YUKSEK",
+    "nazione": "TUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CALHANOGLU",
+    "nazione": "TUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "YILMAZ",
+    "nazione": "TUR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GULER",
+    "nazione": "TUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "YILDIZ",
+    "nazione": "TUR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AKTURKOGLU",
+    "nazione": "TUR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "TURNER",
+    "nazione": "STA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "FREEMAN",
+    "nazione": "STA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DEST",
+    "nazione": "STA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "RICHARDS",
+    "nazione": "STA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TRUSTY",
+    "nazione": "STA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ROBINSON",
+    "nazione": "STA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ROBINSON M.",
+    "nazione": "STA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MCKENNIE",
+    "nazione": "STA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BERHALTER",
+    "nazione": "STA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ADAMS T.",
+    "nazione": "STA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "WEAH",
+    "nazione": "STA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "REYNA",
+    "nazione": "STA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BALOGUN",
+    "nazione": "STA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "PULISIC",
+    "nazione": "STA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GILL",
+    "nazione": "PAR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "CACERES",
+    "nazione": "PAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GOMEZ GU.",
+    "nazione": "PAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GOMEZ DI.",
+    "nazione": "PAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ALDERETE",
+    "nazione": "PAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ALONSO",
+    "nazione": "PAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CUBAS",
+    "nazione": "PAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SOSA",
+    "nazione": "PAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ENCISO",
+    "nazione": "PAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ALMIRON",
+    "nazione": "PAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SANABRIA AN.",
+    "nazione": "PAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "RYAN",
+    "nazione": "AUS",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "CIRCATI",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SOUTTAR HA.",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BURGESS",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "IRVINE",
+    "nazione": "AUS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "O'NEILL",
+    "nazione": "AUS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BOS",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "VOLPATO",
+    "nazione": "AUS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "METCALFE",
+    "nazione": "AUS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "IRANKUNDA",
+    "nazione": "AUS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NEUER",
+    "nazione": "GER",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "KIMMICH",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "TAH",
+    "nazione": "GER",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SCHLOTTERBECK",
+    "nazione": "GER",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BROWN",
+    "nazione": "GER",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "NMECHA",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PAVLOVIC",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "HAVERTZ",
+    "nazione": "GER",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KARL",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MUSIALA",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "WIRTZ",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "UNDAV",
+    "nazione": "GER",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "WOLTEMADE",
+    "nazione": "GER",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VALLE",
+    "nazione": "ECU",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "ORDONEZ JO.",
+    "nazione": "ECU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TORRES FEL.",
+    "nazione": "ECU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "FRANCO",
+    "nazione": "ECU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "VITE UCA",
+    "nazione": "ECU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CAICEDO MO.",
+    "nazione": "ECU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CAICEDO JO.",
+    "nazione": "ECU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ESTUPINAN",
+    "nazione": "ECU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "YEBOAH",
+    "nazione": "ECU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "PLATA",
+    "nazione": "ECU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VALENCIA EN.",
+    "nazione": "ECU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VALENCIA AN.",
+    "nazione": "ECU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "LAFONT",
+    "nazione": "COS",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SINGO",
+    "nazione": "COS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DIOMANDE",
+    "nazione": "COS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DIOMANDE YA.",
+    "nazione": "COS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KONAN",
+    "nazione": "COS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PEPE",
+    "nazione": "COS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "INAO OULAI",
+    "nazione": "COS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KESSIE",
+    "nazione": "COS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "TOURE",
+    "nazione": "COS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "WAHI",
+    "nazione": "COS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BONNY",
+    "nazione": "COS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ROOM",
+    "nazione": "CUR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "FLORANUS",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GAARI",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BAZOER",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "OBISPO",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "FONVILLE",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CHONG",
+    "nazione": "CUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "COMENENCIA",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BACUNA",
+    "nazione": "CUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BACUNA LE.",
+    "nazione": "CUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "LOCADIA",
+    "nazione": "CUR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VERBRUGGEN",
+    "nazione": "OLA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "DUMFRIES",
+    "nazione": "OLA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "VAN DIJK",
+    "nazione": "OLA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "VAN DE VEN",
+    "nazione": "OLA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AKE",
+    "nazione": "OLA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DE JONG",
+    "nazione": "OLA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GRAVENBERCH",
+    "nazione": "OLA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KOOPMEINERS",
+    "nazione": "OLA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MALEN",
+    "nazione": "OLA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "REIJNDERS",
+    "nazione": "OLA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GAKPO",
+    "nazione": "OLA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DEPAY",
+    "nazione": "OLA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SUZUKI Z.",
+    "nazione": "GIA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SUZUKI J.",
+    "nazione": "GIA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SUZUKI Y.",
+    "nazione": "GIA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "TOMIYASU",
+    "nazione": "GIA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TANIGUCHI",
+    "nazione": "GIA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ITAKURA",
+    "nazione": "GIA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DOAN",
+    "nazione": "GIA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ENDO",
+    "nazione": "GIA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "TANAKA A.",
+    "nazione": "GIA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "NAKAMURA",
+    "nazione": "GIA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KUBO",
+    "nazione": "GIA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ITO H.",
+    "nazione": "GIA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ITO J.",
+    "nazione": "GIA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "UEDA",
+    "nazione": "GIA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DAHMEN",
+    "nazione": "TUN",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "VALERY",
+    "nazione": "TUN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BRONN",
+    "nazione": "TUN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TALBI MO.",
+    "nazione": "TUN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ABDI",
+    "nazione": "TUN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GHARBI",
+    "nazione": "TUN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SKHIRI",
+    "nazione": "TUN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ACHOURI",
+    "nazione": "TUN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MASTOURI",
+    "nazione": "TUN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "TOUNEKTI",
+    "nazione": "TUN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NORDFELDT",
+    "nazione": "SVE",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "STARFELT",
+    "nazione": "SVE",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LAGERBIELKE",
+    "nazione": "SVE",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LINDELOF",
+    "nazione": "SVE",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SVENSSON",
+    "nazione": "SVE",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KARLSTROM",
+    "nazione": "SVE",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AYARI",
+    "nazione": "SVE",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GUDMUNDSSON",
+    "nazione": "SVE",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "NYGREN",
+    "nazione": "SVE",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ELANGA",
+    "nazione": "SVE",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GYOKERES",
+    "nazione": "SVE",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "COURTOIS",
+    "nazione": "BEL",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MEUNIER",
+    "nazione": "BEL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DEBAST",
+    "nazione": "BEL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "THEATE",
+    "nazione": "BEL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DE CUYPER",
+    "nazione": "BEL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ONANA",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "TIELEMANS",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DOKU",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DE BRUYNE",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "TROSSARD",
+    "nazione": "BEL",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DE KETELAERE",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "EL SHENAWY",
+    "nazione": "EGI",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "HANY",
+    "nazione": "EGI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "RABIA",
+    "nazione": "EGI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ABDELMONEM",
+    "nazione": "EGI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ZIZO",
+    "nazione": "EGI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ASHOUR",
+    "nazione": "EGI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "LASHEEN",
+    "nazione": "EGI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SALAH",
+    "nazione": "EGI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MARMOUSH",
+    "nazione": "EGI",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CROCOMBE",
+    "nazione": "NUO",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "PAYNE",
+    "nazione": "NUO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BINDON",
+    "nazione": "NUO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BOXALL",
+    "nazione": "NUO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CACACE",
+    "nazione": "NUO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BELL",
+    "nazione": "NUO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MCCOWATT",
+    "nazione": "NUO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SINGH",
+    "nazione": "NUO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GARBETT",
+    "nazione": "NUO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "WOOD",
+    "nazione": "NUO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "YOUSEFI",
+    "nazione": "IRN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KHALILZADEH",
+    "nazione": "IRN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MOHAMMADI",
+    "nazione": "IRN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "EZATOLAHI",
+    "nazione": "IRN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GHODDOS",
+    "nazione": "IRN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "JAHANBAKHSH",
+    "nazione": "IRN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MOHEBI",
+    "nazione": "IRN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "TAREMI",
+    "nazione": "IRN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SIMON UN.",
+    "nazione": "SPA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "RAYA",
+    "nazione": "SPA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "LLORENTE",
+    "nazione": "SPA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CUBARSI",
+    "nazione": "SPA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LAPORTE",
+    "nazione": "SPA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GRIMALDO GARCIA",
+    "nazione": "SPA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PEDRI",
+    "nazione": "SPA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RODRI",
+    "nazione": "SPA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RUIZ",
+    "nazione": "SPA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "YAMAL",
+    "nazione": "SPA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "OLMO",
+    "nazione": "SPA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "OYARZABAL",
+    "nazione": "SPA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "WILLIAMS NI.",
+    "nazione": "SPA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VOZINHA",
+    "nazione": "CAP",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MOREIRA",
+    "nazione": "CAP",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LOPES",
+    "nazione": "CAP",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PAULO",
+    "nazione": "CAP",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PINA",
+    "nazione": "CAP",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MONTEIRO J.",
+    "nazione": "CAP",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MENDES R.",
+    "nazione": "CAP",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CABRAL",
+    "nazione": "CAP",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CABRAL J.",
+    "nazione": "CAP",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "RODRIGUES",
+    "nazione": "CAP",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "LIVRAMENTO",
+    "nazione": "CAP",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MUSLERA MICOL",
+    "nazione": "URU",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "GIMENEZ JM.",
+    "nazione": "URU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ARAUJO RO.",
+    "nazione": "URU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ARAUJO MA.",
+    "nazione": "URU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "OLIVERA",
+    "nazione": "URU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "VALVERDE",
+    "nazione": "URU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "UGARTE",
+    "nazione": "URU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BENTANCUR",
+    "nazione": "URU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CANOBBIO",
+    "nazione": "URU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NUNEZ",
+    "nazione": "URU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "RODRIGUEZ BR.",
+    "nazione": "URU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BRIAN RODRIGUEZ",
+    "nazione": "URU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ABDULHAMID",
+    "nazione": "ARA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL-AMRI",
+    "nazione": "ARA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL-HARBI",
+    "nazione": "ARA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL-SHAMAT",
+    "nazione": "ARA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KANNO",
+    "nazione": "ARA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AL KHAIBARI",
+    "nazione": "ARA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AL-DAWSARI S.",
+    "nazione": "ARA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AL DAWSARI SA.",
+    "nazione": "ARA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AL-JUWAYR",
+    "nazione": "ARA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AL-BURAIKAN",
+    "nazione": "ARA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MAIGNAN",
+    "nazione": "FRA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "KOUNDE",
+    "nazione": "FRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SALIBA W.",
+    "nazione": "FRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KONATE",
+    "nazione": "FRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "UPAMECANO",
+    "nazione": "FRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "HERNANDEZ TH.",
+    "nazione": "FRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "HERNANDEZ LU.",
+    "nazione": "FRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TCHOUAMENI",
+    "nazione": "FRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KANTE",
+    "nazione": "FRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RABIOT",
+    "nazione": "FRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "OLISE",
+    "nazione": "FRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DOUE DE.",
+    "nazione": "FRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DEMBELE",
+    "nazione": "FRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CHERKI",
+    "nazione": "FRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AKLIOUCHE",
+    "nazione": "FRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MBAPPE",
+    "nazione": "FRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MENDY E.",
+    "nazione": "SEN",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MENDY",
+    "nazione": "SEN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DIATTA",
+    "nazione": "SEN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KOULIBALY",
+    "nazione": "SEN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "NIAKHATE",
+    "nazione": "SEN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "JAKOBS",
+    "nazione": "SEN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GUEYE",
+    "nazione": "SEN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GUEYE I.",
+    "nazione": "SEN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SARR",
+    "nazione": "SEN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SARR P.",
+    "nazione": "SEN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SARR I.",
+    "nazione": "SEN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NDIAYE B.",
+    "nazione": "SEN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "NDIAYE I.",
+    "nazione": "SEN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NDIAYE",
+    "nazione": "SEN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MANE",
+    "nazione": "SEN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "JACKSON",
+    "nazione": "SEN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "TANGVIK",
+    "nazione": "NOR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "RYERSON",
+    "nazione": "NOR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "HEGGEM",
+    "nazione": "NOR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "OSTIGARD",
+    "nazione": "NOR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "WOLFE",
+    "nazione": "NOR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "THORSTVEDT",
+    "nazione": "NOR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BERG",
+    "nazione": "NOR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BERGE",
+    "nazione": "NOR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "NUSA",
+    "nazione": "NOR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "HAALAND",
+    "nazione": "NOR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ALI H.",
+    "nazione": "IRQ",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "HUSSEIN A.",
+    "nazione": "IRQ",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ALI M.",
+    "nazione": "IRQ",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SULAKA",
+    "nazione": "IRQ",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TAHSEEN",
+    "nazione": "IRQ",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DOSKI",
+    "nazione": "IRQ",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL-AMMARI",
+    "nazione": "IRQ",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BAYESH",
+    "nazione": "IRQ",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "JASIM",
+    "nazione": "IRQ",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "IQBAL",
+    "nazione": "IRQ",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AMYN",
+    "nazione": "IRQ",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MARTINEZ",
+    "nazione": "ARG",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MARTINEZ LI.",
+    "nazione": "ARG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MARTINEZ LA.",
+    "nazione": "ARG",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MOLINA",
+    "nazione": "ARG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MONTIEL",
+    "nazione": "ARG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "OTAMENDI",
+    "nazione": "ARG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ROMERO",
+    "nazione": "ARG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TAGLIAFICO",
+    "nazione": "ARG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DE PAUL",
+    "nazione": "ARG",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MAC ALLISTER",
+    "nazione": "ARG",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "FERNANDEZ",
+    "nazione": "ARG",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MESSI",
+    "nazione": "ARG",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ALVAREZ",
+    "nazione": "ARG",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MANDI",
+    "nazione": "ALG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BENSEBAINI",
+    "nazione": "ALG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AIT NOURI",
+    "nazione": "ALG",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ZERROUKI",
+    "nazione": "ALG",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AOUAR",
+    "nazione": "ALG",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MAHREZ",
+    "nazione": "ALG",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GOUIRI",
+    "nazione": "ALG",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AMOURA",
+    "nazione": "ALG",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SCHLAGER",
+    "nazione": "UNB",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SCHLAGER X.",
+    "nazione": "UNB",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "LAIMER",
+    "nazione": "UNB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LIENHART",
+    "nazione": "UNB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DANSO",
+    "nazione": "UNB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MWENE",
+    "nazione": "UNB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SEIWALD",
+    "nazione": "UNB",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "WIMMER",
+    "nazione": "UNB",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BAUMGARTNER",
+    "nazione": "UNB",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SABITZER",
+    "nazione": "UNB",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ARNAUTOVIC",
+    "nazione": "UNB",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NASIB A.",
+    "nazione": "GIO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ABUALNADI",
+    "nazione": "GIO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL-ARAB",
+    "nazione": "GIO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL RAWABDEH",
+    "nazione": "GIO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AL-RASHDAN",
+    "nazione": "GIO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ABU TAHA",
+    "nazione": "GIO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL TAMARI",
+    "nazione": "GIO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "OLWAN",
+    "nazione": "GIO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AL MARDI",
+    "nazione": "GIO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "COSTA DI.",
+    "nazione": "POR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "COSTA SA.",
+    "nazione": "POR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "CANCELO",
+    "nazione": "POR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DIAS",
+    "nazione": "POR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "INACIO",
+    "nazione": "POR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MENDES",
+    "nazione": "POR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "NEVES JO.",
+    "nazione": "POR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "NEVES RU.",
+    "nazione": "POR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "VITINHA",
+    "nazione": "POR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "FERNANDES",
+    "nazione": "POR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SILVA RU.",
+    "nazione": "POR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SILVA BE.",
+    "nazione": "POR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RONALDO",
+    "nazione": "POR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "JOAO FELIX",
+    "nazione": "POR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "LEAO",
+    "nazione": "POR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "OSPINA",
+    "nazione": "COL",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MUNOZ DA.",
+    "nazione": "COL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SANCHEZ DA.",
+    "nazione": "COL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LUCUMI",
+    "nazione": "COL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MOJICA",
+    "nazione": "COL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LERMA",
+    "nazione": "COL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RIOS",
+    "nazione": "COL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ARIAS SA.",
+    "nazione": "COL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ARIAS JH.",
+    "nazione": "COL",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "RODRIGUEZ JA.",
+    "nazione": "COL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DIAZ LU.",
+    "nazione": "COL",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CORDOBA JH.",
+    "nazione": "COL",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MPASI-NZAU",
+    "nazione": "CON",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "WAN-BISSAKA",
+    "nazione": "CON",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MBEMBA",
+    "nazione": "CON",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TUANZEBE",
+    "nazione": "CON",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MASUAKU",
+    "nazione": "CON",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PICKEL",
+    "nazione": "CON",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MOUTOUSSAMY",
+    "nazione": "CON",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BONGONDA",
+    "nazione": "CON",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KAKUTA",
+    "nazione": "CON",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "WISSA",
+    "nazione": "CON",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BAKAMBU",
+    "nazione": "CON",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "NEMATOV",
+    "nazione": "UZB",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "ASHURMATOV",
+    "nazione": "UZB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KHUSANOV",
+    "nazione": "UZB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SHUKUROV",
+    "nazione": "UZB",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KHAMROBEKOV",
+    "nazione": "UZB",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "URUNOV",
+    "nazione": "UZB",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SHOMURODOV",
+    "nazione": "UZB",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "PICKFORD",
+    "nazione": "ING",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "JAMES",
+    "nazione": "ING",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KONSA",
+    "nazione": "ING",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GUEHI",
+    "nazione": "ING",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "STONES",
+    "nazione": "ING",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "O'REILLY",
+    "nazione": "ING",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ANDERSON",
+    "nazione": "ING",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RICE",
+    "nazione": "ING",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SAKA",
+    "nazione": "ING",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "BELLINGHAM",
+    "nazione": "ING",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "EZE",
+    "nazione": "ING",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RASHFORD",
+    "nazione": "ING",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KANE",
+    "nazione": "ING",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "LIVAKOVIC",
+    "nazione": "CRO",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "STANISIC",
+    "nazione": "CRO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SUTALO",
+    "nazione": "CRO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CALETA-CAR",
+    "nazione": "CRO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ERLIC",
+    "nazione": "CRO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GVARDIOL",
+    "nazione": "CRO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PASALIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PASALIC M.",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KOVACIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MODRIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SUCIC L.",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SUCIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PERISIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BUDIMIR",
+    "nazione": "CRO",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KRAMARIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BATURINA",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "VLASIC",
+    "nazione": "CRO",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MOSQUERA",
+    "nazione": "PAN",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "FARINA",
+    "nazione": "PAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ANDRADE",
+    "nazione": "PAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CORDOBA JO.",
+    "nazione": "PAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MURILLO",
+    "nazione": "PAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CARRASQUILLA",
+    "nazione": "PAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GODOY",
+    "nazione": "PAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ERIC DAVIS",
+    "nazione": "PAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BARCENAS",
+    "nazione": "PAN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "DIAZ IS.",
+    "nazione": "PAN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "FAJARDO",
+    "nazione": "PAN",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ASARE",
+    "nazione": "GHA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SEIDU",
+    "nazione": "GHA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "YIRENKYI",
+    "nazione": "GHA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SIBO",
+    "nazione": "GHA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "PARTEY",
+    "nazione": "GHA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MENSAH",
+    "nazione": "GHA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SULEMANA",
+    "nazione": "GHA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SEMENYO",
+    "nazione": "GHA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AYEW",
+    "nazione": "GHA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AL OWAIS",
+    "nazione": "ARA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "AL TAMBAKTI",
+    "nazione": "ARA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "AL-JOHANI",
+    "nazione": "ARA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MANDASH",
+    "nazione": "ARA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ITALIANO",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DEGENEK",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "BEHICH",
+    "nazione": "AUS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LECKIE",
+    "nazione": "AUS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "TOURE MO.",
+    "nazione": "AUS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "MAGALHAES",
+    "nazione": "BRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GUIMARAES",
+    "nazione": "BRA",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RAPHINHA",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "JOHNSTON",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DE FOUGEROLLES",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CHOINIERE",
+    "nazione": "CAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SEOL",
+    "nazione": "COR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "FOFANA",
+    "nazione": "COS",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "FOFANA SE.",
+    "nazione": "COS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DOUE",
+    "nazione": "COS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KOSSOUNOU",
+    "nazione": "COS",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SANGARE",
+    "nazione": "COS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DIALLO AM.",
+    "nazione": "COS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "GORRE",
+    "nazione": "CUR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GALINDEZ",
+    "nazione": "ECU",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "PRECIADO",
+    "nazione": "ECU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PIERO HINCAPIE",
+    "nazione": "ECU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ANGULO",
+    "nazione": "ECU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "RUDIGER",
+    "nazione": "GER",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "RAUM",
+    "nazione": "GER",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "GORETZKA",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SANE",
+    "nazione": "GER",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "HADDAD",
+    "nazione": "GIO",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SALAH-EDDINE",
+    "nazione": "MAR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "EL AYNAOUI",
+    "nazione": "MAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "TALBI",
+    "nazione": "MAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SANCHEZ JO.",
+    "nazione": "MES",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "FIDALGO",
+    "nazione": "MES",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "VEGA",
+    "nazione": "MES",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SORLOTH",
+    "nazione": "NOR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "OJEDA",
+    "nazione": "PAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BOBADILLA",
+    "nazione": "PAR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AVALOS",
+    "nazione": "PAR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "HORNICEK",
+    "nazione": "CEC",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "CHALOUPEK",
+    "nazione": "CEC",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ZELENY",
+    "nazione": "CEC",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CUCURELLA",
+    "nazione": "SPA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "WILLIAMS R.",
+    "nazione": "SUD",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SIBISI",
+    "nazione": "SUD",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MODIBA",
+    "nazione": "SUD",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ZWANE",
+    "nazione": "SUD",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "WIDMER",
+    "nazione": "SVI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "RODRIGUEZ ARAYA",
+    "nazione": "SVI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "XHAKA",
+    "nazione": "SVI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RIEDER",
+    "nazione": "SVI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "KABAK",
+    "nazione": "TUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "KOKCU",
+    "nazione": "TUR",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DEVLIN",
+    "nazione": "AUS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ALABA",
+    "nazione": "UNB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CASTAGNE",
+    "nazione": "BEL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "TAHIROVIC",
+    "nazione": "BOS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MEMIC",
+    "nazione": "BOS",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "HENRIQUE",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SIGUR",
+    "nazione": "CAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BOMBITO",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "JONES",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LARYEA",
+    "nazione": "CAN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "EUSTAQUIO",
+    "nazione": "CAN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BORGES",
+    "nazione": "CAP",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "LENINI",
+    "nazione": "CAP",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DUARTE DE.",
+    "nazione": "CAP",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "DUARTE",
+    "nazione": "CAP",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MONTERO",
+    "nazione": "COL",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MINA YE.",
+    "nazione": "COL",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SUAREZ",
+    "nazione": "COL",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "GUESSAND",
+    "nazione": "COS",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "SAMBO",
+    "nazione": "CUR",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CASTILLO",
+    "nazione": "ECU",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "IBRAHIM Y.",
+    "nazione": "EGI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "FATOUH",
+    "nazione": "EGI",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "NYLAND",
+    "nazione": "NOR",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "ROCHET",
+    "nazione": "URU",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "MADIBO",
+    "nazione": "QAT",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "FATHI AH.",
+    "nazione": "QAT",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BREMER",
+    "nazione": "BRA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "ENDRICK",
+    "nazione": "BRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ANTONISSE",
+    "nazione": "CUR",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "KHEDIRA",
+    "nazione": "TUN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "MEJBRI",
+    "nazione": "TUN",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "RASKIN",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "SAELEMAEKERS",
+    "nazione": "BEL",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ATTIA",
+    "nazione": "EGI",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "BEIRANVAND",
+    "nazione": "IRN",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "HARDANI",
+    "nazione": "IRN",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "COSTA",
+    "nazione": "CAP",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "DA COSTA",
+    "nazione": "CAP",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ARCANJO",
+    "nazione": "CAP",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "VARELA",
+    "nazione": "URU",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "PELLISTRI",
+    "nazione": "URU",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "AL-AQIDI",
+    "nazione": "ARA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "LAJAMI",
+    "nazione": "ARA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "THURAM",
+    "nazione": "FRA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "FADHIL",
+    "nazione": "IRQ",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "SHER",
+    "nazione": "IRQ",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "AL-HAMADI",
+    "nazione": "IRQ",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "YUSUPOV",
+    "nazione": "UZB",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "ALIJONOV",
+    "nazione": "UZB",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "MASHARIPOV",
+    "nazione": "UZB",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ATI-ZIGI",
+    "nazione": "GHA",
+    "ruolo": "portieri"
+  },
+  {
+    "nome": "OPOKU",
+    "nazione": "GHA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "SENAYA",
+    "nazione": "GHA",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "WILLIAMS",
+    "nazione": "GHA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "ADU",
+    "nazione": "GHA",
+    "ruolo": "attaccanti"
+  },
+  {
+    "nome": "CHAVEZ MA.",
+    "nazione": "MES",
+    "ruolo": "difensori"
+  },
+  {
+    "nome": "CHAVEZ LU.",
+    "nazione": "MES",
+    "ruolo": "centrocampisti"
+  },
+  {
+    "nome": "ROMO",
+    "nazione": "MES",
+    "ruolo": "centrocampisti"
+  }
+]

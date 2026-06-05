@@ -1,0 +1,135 @@
+{
+  "portieri": [
+    {
+      "nome": "CREPEAU",
+      "nazione": "CAN",
+      "ruolo": "portieri"
+    },
+    {
+      "nome": "RAUL RANGEL",
+      "nazione": "MES",
+      "ruolo": "portieri"
+    },
+    {
+      "nome": "EL SHENAWY",
+      "nazione": "EGI",
+      "ruolo": "portieri"
+    }
+  ],
+  "difensori": [
+    {
+      "nome": "DE CUYPER",
+      "nazione": "BEL",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "SALAH-EDDINE",
+      "nazione": "MAR",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "O'REILLY",
+      "nazione": "ING",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "COUFAL",
+      "nazione": "CEC",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "DEBAST",
+      "nazione": "BEL",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "REYES",
+      "nazione": "MES",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "GALLARDO",
+      "nazione": "MES",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "LAPORTE",
+      "nazione": "SPA",
+      "ruolo": "difensori"
+    }
+  ],
+  "centrocampisti": [
+    {
+      "nome": "DE KETELAERE",
+      "nazione": "BEL",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "PIERRE",
+      "nazione": "HAI",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "RODRIGUEZ JA.",
+      "nazione": "COL",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "KHAMROBEKOV",
+      "nazione": "UZB",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "LEE DG.",
+      "nazione": "COR",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "RUIZ",
+      "nazione": "SPA",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "SAIBARI",
+      "nazione": "MAR",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "KESSIE",
+      "nazione": "COS",
+      "ruolo": "centrocampisti"
+    }
+  ],
+  "attaccanti": [
+    {
+      "nome": "OYARZABAL",
+      "nazione": "SPA",
+      "ruolo": "attaccanti"
+    },
+    {
+      "nome": "KANE",
+      "nazione": "ING",
+      "ruolo": "attaccanti"
+    },
+    {
+      "nome": "OLUWASEYI",
+      "nazione": "CAN",
+      "ruolo": "attaccanti"
+    },
+    {
+      "nome": "JOAO FELIX",
+      "nazione": "POR",
+      "ruolo": "attaccanti"
+    },
+    {
+      "nome": "AKLIOUCHE",
+      "nazione": "FRA",
+      "ruolo": "attaccanti"
+    },
+    {
+      "nome": "MESSI",
+      "nazione": "ARG",
+      "ruolo": "attaccanti"
+    }
+  ]
+}

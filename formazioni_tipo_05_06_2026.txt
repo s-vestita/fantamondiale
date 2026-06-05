@@ -1,0 +1,751 @@
+Probabili Formazioni Fantamaster:
+
+GRUPPO A 
+MESSICO (4-3-3): Rangel; Reyes, Montes, Vasquez, Gallardo; Pineda, Alvarez, Vargas; Alvarado, Raul Jimenez/Gimenez, Quinones. 
+
+SUDAFRICA (4-2-3-1): Wiliams; Mudau, Okon, Mbokazi, Mobida; Mokoena, Sithole; Appollis, Mofokeng, Moremi; Foster. 
+
+REPUBBLICA CECA (4-2-3-1): Kovar; Coufal, Hranac, Krejci, Jurasek; Soucek, Darida; Provod, Sulc, Hzolek; Schick. 
+
+COREA DEL SUD (3-4-2-1): Kim Seung-Gyu; Yu-min Cho, Kim Min-Jae, Lee Han-Beom; Kim Moon-Hwan, Kim Jin-Gyu, Seung Ho Paik, Castrop; Bae Jun-Ho, Lee Kang-in; Heung-min Son. 
+
+GRUPPO B
+SVIZZERA (3-4-2-1): Kobel; Zakaria, Akanji, Elvedi; Ndoye, Freuler, Xhaxa, Vargas; Manzambi, Aebischer; Embolo.
+
+BOSNIA (4-4-2): Vasilj; Dedic, Katic, Muharemovic, Kolasinac; Bajraktarevic, Basic, Sunjic, Alajbegovic; Demirovic, Dzeko.
+
+CANADA (4-4-2): Crepeau; Larryea, Miller, Cornelius, Davies; Buchanan, Eustaquid, Koné, Ahmed; David, Oluwaseyi.
+
+QATAR (4-3-3): Barsham; Al-Oui, Khoukhi, Pedro Miguel, Al-Amin; Boudiaf, Fathy, Laye; Edmilson Junior, Almoez Ali, Afif
+
+GRUPPO C
+
+BRASILE (4-2-3-1): Alisson; Wesley, Marquinhos, Gabriel, Alex Sandro/Douglas Santos; Casemiro, Bruno Guimares; Rapinha, Martinelli/Neymar, Vinicius Jr.; Igor Thiago/Cunha.
+
+MAROCCO (4-2-3-1): Bounou; Hakimi, Diop, Aguerd, Mazraoui; El Ayanoui, Ounahi/Bouaddi; Brahim Diaz, Saibari, Ezzalzouli; El Kaabi.
+
+SCOZIA (4-1-4-1): Gordon; Hickey, Hanley, McKenna, Robertson; Ferguson; Gannon-Doak, Christie, McTominay, McGinn; Adams.
+
+HAITI (4-3-3): Placide; Arcus, Adé, Duverne, Expérience; Deedson, Bellegarde, Pierre; Isidor, Nazon, Providence.
+
+GRUPPO D
+TURCHIA (4-2-3-1): Cakir; Celik, Bardakci, Demiral, Kadioglu; Yuksek, Calhanoglu; Yilmaz, Arda Guler, Yildiz; Akturkoglu.
+
+USA (4-3-3): Turner; Freeman/Dest, Richards, Trusty, Robinson; McKennie, Berhalter, Adams/Tilman; Weah/Reyna, Balogun, Pulisic.
+
+PARAGUAY (4-2-3-1): Gill; Caceres, G. Gomez, Alderete, Alonso; D. Gomez, Cubas; Sosa, Enciso, Almiron; Sanabria. 
+
+AUSTRALIA (3-4-2-1): Ryan; Circati, Souttar, Burgess; Miller, Irvine, O’Neill, Bos; Volpato, Metcalfe; Irankunda.
+
+GRUPPO E
+GERMANIA (4-2-3-1): Neuer; Kimmich, Tah, Schlotterbeck, Brown; Nmecha, Pavlovic; Havertz/Karl; Musiala, Wirtz; Undav/Woltemade.
+
+ECUADOR (3-4-2-1): Valle; Ordonez, Torres, Pacho; Franco, Vite, Caicedo, Estupinan; Yeboah, Plata; Valencia.
+
+COSTA D’AVORIO (4-4-2): Lafont; Singo, Koussonou, Diomande, Konan; Pepè, Oulai, Kessie, Touré, Wahi, Bonny/Traorè.
+
+CURACAO (5-4-1): Room; Floranus, Gaari, Bazoer, Obispo, Fonville; Chong, Comenencia, L. Bacuna, J. Bacuna; Locadia.
+
+GRUPPO F
+OLANDA (4-2-3-1): Verbruggen; Dumfries, Van Dijk, Aké, Van de Ven; De Jong, Gravenberch/Koopmeiners; Malen, Reijnders, Gakpo; Depay.
+
+GIAPPONE (3-4-2-1): Suzuki; Tomiyasu, Taniguchi, Itakura; Doan, Endo, Tanaka, Nakamura; Kubo, Ito; Ueda. 
+
+TUNISIA (4-3-3): Dahmen; Valery, Bronn, Talbi, Abdi; Gharbi, Skhiri, Hannibal; Achouri, Mastouri, Tounekti.
+
+SVEZIA (3-4-2-1): Nordfeldt; Starfelt, Lagerbielke, Lindelof; Svensson, Karlstrom, Ayari, Gudmundsson; Nygren, Elanga; Gyokeres.
+
+GRUPPO G
+BELGIO (4-2-3-1): Courtois; Meunier, Debast, Theate, De Cuyper; Onana, Tielemans; Doku, De Bruyne, Trossard; De Ketelaere.
+
+EGITTO (4-3-3): El Shenawy; Hany, Rabia, Fathy, Abdelmonem; Zizo, Ashour, Lasheen; Salah, Marmoush, Trezeguet.
+
+NUOVA ZELANDA (4-2-3-1): Crocombe; Payne, Bindon, Boxall, Cacace; Samenic, Bell; McCowatt, Singh, Garbett; Wood.
+
+IRAN (4-2-3-1): Beyranvand; Yousefi, Kanaani, Khalilzadeh, Mohammadi; Ezatolahi, Ghoddos; Jahanbakhsh, Ghayedi, Mohebi; Taremi
+
+GRUPPO H
+SPAGNA (4-3-3): Unai Simon/Raya; Llorente, Cubarsi, Laporte, Cuccurella/Grimaldo; Pedri, Rodri, Fabian Ruiz; Yamal, Olmo/Oyarzabal, Nico Williams.
+
+CAPO VERDE (4-2-3-1): Vozinha; Moreira, Lopes, Diney, Joao Paulo; Pina, Monteiro; Mendes, Jovane Cabral, G. Rodrigues; Livramento.
+
+URUGUAY (4-3-3): Muslera; Valera, Gimenez, R. Araujo, Olivera; Valverde, Ugarte, Bentancur; Canobbio, Nunez, B. Rodriguez.
+
+ARABIA SAUDITA (4-4-2): Al-Owasi; Abdulhamid, Al-Amri, Altambakti, Al-Harbi; Al-Shamat, Kanno, Al-Khaibari, Al-Dawsari; Juwayr, Al-Buraikan.
+
+GRUPPO I
+
+FRANCIA (4-2-3-1): Maignan; Koundé, Saliba/Konatè, Upamecano, Theo Hernandez; Tchouaméni/Kante, Rabiot; Olise/Douè, Dembélé, Cherki/Akliouche; Mbappé.
+
+SENEGAL (4-2-3-1): Mendy; Diatta, Koulibaly, Niakhaté, Jakobs; Idrissa Gueye, Pape Gueye; Ismaila Sarr, Iliman Ndiaye, Mané; Jackson.
+
+NOVERGIA (4-3-1-2): Tangvik; Ryerson, Heggem, Ostigard, Wolfe; Thorstvedt, Berg, Berge; Nusa; Haaland, Nusa.
+
+IRAQ (4-2-3-1): Hassan; Hussein Ali, Sulaka, Tahseen, Doski; Al-Ammari, Bayesh; Ali Jasim, Iqbal, Amyn; Aymen Hussein
+
+GRUPPO J
+ARGENTINA (4-3-1-2): E. Martinez; Molina/Montiel, Otamendi/Lisandro Martinez, Romero, Tagliafico; De Paul, Mac Allister, Enzo Fernandez; Messi; J. Alvarez, L. Martinez.
+
+ALGERIA (4-3-3): Mandréa; Atal, Mandi, Bensebaini, Ait-Nouri; Zerrouki, Tritaoui, Aouar; Mahrez, Gouiri, Amoura.
+
+AUSTRIA (4-2-3-1): A. Schlager; Laimer, Lienhart, Danso, Mwene; X. Schlager, Seiwald; Wimmer, Baumgartner, Sabitzer; Arnautovic.
+
+GIORDANIA: (3-4-3): Abulaila, Nasib, Abualnadi, Arab, Sadeh, Al-Rawabdeh, Al-Rashdan, Abu Taha, Al-Tamari, Olwan, Al-Mardi.
+
+GRUPPO K
+
+PORTOGALLO (4-3-3): Costa; Cancelo, Ruben Dias, Inacio, Nuno Mendes; Joao Neves, Vitinha, Bruno Fernandes; Bernardo Silva, Cristiano Ronaldo, Joao Felix/Leao.
+
+COLOMBIA (4-2-3-1): Ospina; Munoz, D. Sanchez, Lucumì, Mojica; Lerma, Rios; J. Arias, James Rodriguez, Luis Diaz; Cordoba.
+
+CONGO (4-2-3-1): Mpasi; Wan-Bissaka, Mbemba, Tuanzebe, Masuaku; Pickel, Moutoussamy; Bongonda, Kakuta, Wissa; Bakambu.
+
+UZBEKISTAN (3-4-2-1): Nematov; Abdullaev, Ashurmatov, Khusanov; Sayfiev, Shukurov, Khamrobekov, Nasrullaev; Ganiev, Urunov; Shomurodov
+
+GRUPPO L
+
+INGHILTERRA (4-2-3-1): Pickford; James, Konsa/Guehi, Stones, O’Reilly; Anderson, Rice; Saka, Bellingham, Eze/Rashford; Kane.
+
+CROAZIA (4-3-3): Livakovic; Stanisic, Sutalo, Caleta-Car/Erlic, Gvardiol; Pasalic/Kovacic, Modric, P. Sucic; Perisic, Budimir/Kramaric, Baturina/Vlasic.
+
+PANAMA (3-4-2-1): Mosquera; Farina, Andrade, Cordoba; Murillo, Carrasquilla, Godoy, Davis; Barcenas, Diaz; Fajardo.
+
+GHANA (3-4-3): Asare; Adjetei, Seidu, Oppong; Yirenkyi, Sibo, Partey, Mensah; Sulemana, Semenyo, Ayew
+
+
+________________________________________
+
+probabili formazioni https://www.calciomercato.com/
+
+ALGERIA
+(4-3-3): Mandréa; Atal, Mandi, Bensebaini, Ait-Nouri; Zerrouki, Tritaoui, Aouar; Mahrez, Gouiri, Amoura. Ct. Petkovic.
+
+ARABIA SAUDITA
+(4-3-3): Al-Owais; Abdulhamid, Al-Tambakti, Al-Amri, Kadish; Kanno, Al-Johani, Al-Khaibari; Mandash, Al-Juwayr, S. Al-Dawsari. Ct. Donis.
+
+ARGENTINA
+(4-3-1-2): E. Martinez; Molina, Otamendi, Romero, Tagliafico; De Paul, Mac Allister, Enzo Fernandez; Messi; J. Alvarez, L. Martinez. Ct. Scaloni.
+
+AUSTRALIA
+(5-4-1): Ryan; Italiano, Circati, Degenek, Burgess, Behich; Leckie, O'Neill, Irvine, Metcalfe; Touré. Ct. Popovic.
+
+AUSTRIA
+(4-2-3-1): A. Schlager; Laimer, Lienhart, Danso, Mwene; X. Schlager, Seiwald; Wimmer, Baumgartner, Sabitzer; Arnautovic. Ct. Rangnick.
+
+BELGIO
+(4-2-3-1): Courtois; Meunier, Debast, Theate, De Cuyper; Onana, Tielemans; Doku, De Bruyne, Trossard; De Ketelaere. Ct. R. Garcia.
+
+BOSNIA
+(4-4-2): Vasilj; Dedic, Katic, Muharemovic, Kolasinac; Bajraktarevic, Basic, Sunjic, Alajbegovic; Demirovic, Dzeko. Ct. Barbarez.
+
+BRASILE
+(4-2-3-1): Alisson; Wesley, Marquinhos, Gabriel Magalhaes, Douglas Santos; Casemiro, Bruno Guimaraes; Raphinha, Neymar, Vinicius Jr; Cunha. Ct. Ancelotti.
+
+CANADA
+(4-4-2): Crépeau; Johnston, De Fougerolles, Cornelius, Davies; Buchanan, Choinière, Koné, Ahmed; David, Oluwaseyi. Ct. Marsch.
+
+CAPO VERDE
+(4-2-3-1): Vozinha; Moreira, Lopes, Diney, Joao Paulo; Pina, Monteiro; Mendes, Jovane Cabral, G. Rodrigues; Livramento. Ct. Leitao.
+
+COLOMBIA
+(4-2-3-1): Ospina; Munoz, D. Sanchez, Lucumì, Mojica; Lerma, Rios; J. Arias, James Rodriguez, Luis Diaz; Cordoba. Ct. Lorenzo.
+
+COREA DEL SUD
+(3-4-2-1): Seung-gyu Kim; Yu-min ChoHan-beom Lee, Min-jae Kim; Young-woo Seol, Seung-ho Paik, Jin-gyu Kim, Tae-seok Lee; Jae-sung Lee, Kang-in Lee; Heung-min Son. Ct. Myung-bo Hong.
+
+COSTA D'AVORIO
+(4-3-3): Fofana; Doué, Kossounou, Ndicka, Konan; Kessie, Sangaré, Oulai; Diallo, Bonny, Y. Diomandé. Ct. Faé.
+
+CURACAO
+(4-3-3): Room; Floranus, Gaari, Obispo, Fonville; J. Bacuna, Comenencia, L. Bacuna; Chong, Locadia, Gorré. Ct. Gorré.
+
+CROAZIA
+(4-3-3): Livakovic; Stanisic, Sutalo, Caleta-Car, Gvardiol; Pasalic, Modric, P. Sucic; Kramaric, Budimir, Perisic. Ct. Dalic.
+
+ECUADOR
+(4-3-3): Galindez; Preciado, Ordonez, Pacho, Hincapié; Vite, Caicedo, Franco; Angulo, Valencia, Plata. Ct. Beccacece.
+
+EGITTO
+(4-3-3): El Shenawy; Hany, Rabia, Fathy, Abdelmonem; Zizo, Ashour, Lasheen; Salah, Marmoush, Trezeguet. Ct. Hassan.
+
+FRANCIA
+(4-2-3-1): Maignan; Koundé, Saliba, Upamecano, Theo Hernandez; Tchouaméni, Rabiot; Olise, Dembélé, Cherki; Mbappé. Ct. Deschamps.
+
+GERMANIA
+(4-2-3-1): Neuer; Kimmich, Rudiger, Tah, Raum; Goretzka, Pavlovic; Sané, Wirtz, Musiala; Havertz. Ct. Nagelsmann.
+
+GHANA
+(3-4-3): Asare; Adjetei, Seidu, Oppong; Yirenkyi, Sibo, Partey, Mensah; Sulemana, Semenyo, Ayew. Ct. Queiroz.
+
+GIAPPONE
+(3-4-2-1): Suzuki; Tomiyasu, Taniguchi, Itakura; Doan, Endo, Tanaka, Nakamura; Kubo, Ito; Ueda. Ct. Moriyasu.
+
+GIORDANIA
+(3-4-3): Abulaila; Abu Dahab, Nasib, Al-Arab; Haddad, Al-Rawahbdeh, Al-Rashdan; Abu Taha; Tamari, Olwan, Al-Mardi. Ct. Sellami.
+
+HAITI
+(4-3-3): Placide; Arcus, Adé, Duverne, Expérience; Deedson, Bellegarde, Pierre; Isidor, Nazon, Providence. Ct. Migné.
+
+INGHILTERRA
+(4-2-3-1): Pickford; James, Konsa, Stones, O'Reilly; Anderson, Rice; Saka, Bellingham, Eze; Kane. Ct. Tuchel.
+
+IRAN
+(4-2-3-1): Beyranvand; Yousefi, Kanaani, Khalilzadeh, Mohammadi; Ezatolahi, Ghoddos; Jahanbakhsh, Ghayedi, Mohebi; Taremi. Ct. Ghalenoei.
+
+IRAQ
+(4-2-3-1): Hassan; Hussein Ali, Sulaka, Tahseen, Doski; Al-Ammari, Bayesh; Ali Jasim, Iqbal, Amyn; Aymen Hussein. Ct. Arnold.
+
+MAROCCO
+(4-2-3-1): Bounou; Hakimi, Diop, Aguerd, Salah-Eddine; Ounahi, El Aynaoui; Brahim Diaz, Saibari, Talbi; El Kaabi. Ct. Ouahbi.
+
+MESSICO
+(4-3-3): Rangel; J. Sanchez, C. Montes, J. Vasquez, J. Gallardo; O. Pineda, E. Alvarez, A. fidalgo; A. Vega, R. Jimenez, J. Quinones. Ct. Aguirre.
+
+NORVEGIA
+(4-3-3): Tangvik; Ryerson, Heggem, Ostigard, Wolfe; Thorstvedt, Berg, Berge; Sorloth, Haaland, Nusa. Ct. Solbakken.
+
+NUOVA ZELANDA
+(4-2-3-1): Crocombe; Payne, Bindon, Boxall, Cacace; Samenic, Bell; McCowatt, Singh, Garbett; Wood. Ct. Bazeley.
+
+PAESI BASSI
+(4-2-3-1): Verbruggen; Dumfries, Van Dijk, Aké, Van de Ven; De Jong, Gravenberch; Malen, Reijnders, Gakpo; Depay. Ct. Koeman.
+
+PANAMA
+(3-4-2-1): Mosquera; Farina, Andrade, Cordoba; Murillo, Carrasquilla, Godoy, Davis; Barcenas, Diaz; Fajardo. Ct. Christiansen.
+
+PARAGUAY
+(4-4-2): Gill; Caceres, G. Gomez, Alderete, Alonso; D. Gomez, Ojeda, Bobadilla, Almiron; Enciso, Avalos. Ct. Alfaro.
+
+PORTOGALLO
+(4-3-3): Costa; Cancelo, Ruben Dias, Inacio, Nuno Mendes; Joao Neves, Vitinha, Bruno Fernandes; Bernardo Silva, Cristiano Ronaldo, Joao Felix. Ct. Martinez.
+
+QATAR
+(4-3-3): Barsham; Al-Oui, Khoukhi, Pedro Miguel, Al-Amin; Boudiaf, Fathy, Laye; Edmilson Junior, Almoez Ali, Afif. Ct. Lopetegui.
+
+REPUBBLICA CECA
+(3-4-2-1): Hornicek; Chaloupek, Hranac, Krejci; Zeleny, Soucek, Darida, Coufal; Provod, Sulc; Schick. Ct. Koubek.
+
+REPUBBLICA DEMOCRATICA DEL CONGO
+(4-2-3-1): Mpasi; Wan-Bissaka, Mbemba, Tuanzebe, Masuaku; Pickel, Moutoussamy; Bongonda, Kakuta, Wissa; Bakambu. Ct. Desabre.
+
+SCOZIA
+(4-1-4-1): Godron; Hickey, Hanley, McKenna, Robertson; Ferguson; Gannon-Doak, Christie, McTominay, McGinn; Adams. Ct. Clarke.
+
+SENEGAL
+(4-2-3-1): Mendy; Diatta, Koulibaly, Niakhaté, Jakobs; Idrissa Gueye, Pape Gueye; Ismaila Sarr, Iliman Ndiaye, Mané; Jackson. Ct. Thiaw.
+
+SPAGNA
+(4-3-3): U. Simon; Llorente, Cubarsì, Laporte, Cucurella; Pedri, Rodri, Fabian Ruiz; Lamine Yamal, Oyarzabal, N. Williams. Ct. De La Fuente.
+
+STATI UNITI
+(4-3-3): Freese; Freeman, Richards, Trusty, Antonee Robinson; McKennie, Berhalter, Adams; Weah, Balogun, Pulisic. Ct. Pochettino.
+
+SUDAFRICA
+(4-2-3-1): Williams; Mudau, Sibisi, Ndamane, Modiba; Sithole, Mokoena; Apollis, Zwane, Mofokeng; Foster. Ct. Bross.
+
+SVEZIA
+(3-4-2-1): Nordfeldt; Starfelt, Lagerbielke, Lindelof; Svensson, Karlstrom, Ayari, Gudmundsson; Nygren, Elanga; Gyokeres. Ct. Potter.
+
+SVIZZERA
+(4-3-3): Kobel; Widmer, Akanji, Elvedi, Rodriguez; Freuler, Xhaka, Rieder; Ndoye, Embolo, Vargas. Ct. Yakin.
+
+TUNISIA
+(4-3-3): Dahmen; Valery, Bronn, Talbi, Abdi; Gharbi, Skhiri, Hannibal; Achouri, Mastouri, Tounekti. Ct. Lamouchi.
+
+TURCHIA
+(3-4-2-1): Cakir; Demiral, Kabak, Bardakci; Celik, Calhanoglu, Kokcu, Ozer; Guler, Yildiz; Akturkoglu. Ct. Montella.
+
+URUGUAY
+(4-3-3): Muslera; Valera, Gimenez, R. Araujo, Olivera; Valverde, Ugarte, Bentancur; Canobbio, Nunez, B. Rodriguez. Ct. Bielsa.
+
+UZBEKISTAN
+(3-4-2-1): Nematov; Abdullaev, Ashurmatov, Khusanov; Sayfiev, Shukurov, Khamrobekov, Nasrullaev; Ganiev, Urunov; Shomurodov. Ct. Cannavaro.
+
+________________________________________
+
+
+Fonte https://www.goal.com/
+
+
+PROBABILE FORMAZIONE AUSTRALIA
+(5-4-1): Ryan; Italiano, Degenek, Souttar, Circati, Bos; Metcalfe, Devlin, O'Neill, Irankunda; Touré
+
+Allenatore: Popovic
+
+PROBABILE FORMAZIONE AUSTRIA
+(4-2-3-1): A. Schlager; Laimer, Lienhart, Alaba, Mwene; X. Schlager, Seiwald; Wimmer, Baumgartner, Sabitzer; Arnautovic
+
+Allenatore: Rangnick
+
+PROBABILE FORMAZIONE BELGIO
+(4-2-3-1): Courtois; Castagne, Debast, Theate, De Cuyper; Tielemans, Onana; Doku, De Bruyne, Trossard; De Ketelaere
+
+Allenatore: Garcia
+
+PROBABILE FORMAZIONE BOSNIA
+(4-4-2): Vasilj; Dedic, Katic, Muharemovic, Kolasinac; Bajraktarevic, Sunjic, Tahirovic, Memic; Demirovic, Dzeko
+
+Allenatore: Barbarez
+
+PROBABILE FORMAZIONE BRASILE
+(4-4-2): Alisson; Wesley, Marquinhos, Gabriel, Douglas Santos; Luis Henrique, Casemiro, Bruno Guimaraes, Raphinha; Vinicius, Cunha
+
+Allenatore: Ancelotti
+
+PROBABILE FORMAZIONE CANADA
+(4-4-2): Crepeau; Sigur, Bombito, Jones, Laryea; Buchanan, Koné, Eustaquio, Davies; Oluwaseyi, David
+
+Allenatore: Marsch
+
+PROBABILE FORMAZIONE CAPO VERDE
+(4-2-3-1): Vozinha; Moreira, Lopes, Borges, Lopes Cabral; Lenini, Duarte; Rodrigues, Monteiro, Cabral; Livramento
+
+Allenatore: Bubista
+
+PROBABILE FORMAZIONE COLOMBIA
+(4-2-3-1): Montero; Munoz, Sanchez, Mina, Mojica; Lerma, Rios; Arias, James, Diaz, Suarez
+
+Allenatore: Lorenzo
+
+PROBABILE FORMAZIONE COREA DEL SUD
+(4-2-3-1): Seung-gyu Kim; Seol, Min-jae Kim, Han-beom Lee, Tae-seok Lee; Wang, Castrop; Kang-in Lee, Jae-sung Lee, Bae; Son
+
+Allenatore: Hong
+
+PROBABILE FORMAZIONE COSTA D'AVORIO
+(4-3-3): Fofana; Doué, Koussonou, Ndicka, Konan; Kessié, Sangaré, Oulai; Pepé, Guessand, Diomandé
+
+Allenatore: Faé
+
+PROBABILE FORMAZIONE CURACAO
+(4-3-3): Room; Sambo, Van Ejma, Obispo, Floranus; J. Bacuna, Comenancia, L. Bacuna; Chong, Locadia, Gorré
+
+Allenatore: Advocaat
+
+PROBABILE FORMAZIONE CROAZIA
+(4-2-3-1): Livakovic; Stanisic, Sutalo, Caleta-Car, Gvardiol; Sucic, Modric; Pasalic, Kramaric, Perisic, Budimir
+
+Allenatore: Dalic
+
+PROBABILE FORMAZIONE ECUADOR
+(4-3-3): Galindez; Preciado, Ordonez, Pacho, HIncapié; Vite, Caicedo, Castillo; Yeboah, Valencia, Angulo
+
+Allenatore: Beccacece
+
+PROBABILE FORMAZIONE EGITTO
+(3-4-1-2): El Shenawy; Ibrahim, Abdelmaguif, Rabia; Hany, Ateya, Lasheen, Fatouh; Ashour; Salah, Marmoush
+
+Allenatore: Hassan
+
+PROBABILE FORMAZIONE FRANCIA
+(4-2-3-1): Maignan; Koundé, Saliba, Upamecano, Hernandez; Rabiot, Tchouameni; Dembelé, Olise, Doué; Mbappé
+
+Allenatore: Deschamps
+
+PROBABILE FORMAZIONE GERMANIA
+(4-2-3-1): Neuer; Kimmich, Tah, Schlotterbeck, Raum; Pavlovic, Goreztka; Sané, Musiala, Wirtz; Havertz
+
+Allenatore: Tuchel
+
+PROBABILE FORMAZIONE GHANA
+(3-4-3): Asare; Adjetei, Seidu, Oppong; Yirenkyi, Sibo, Partey, Mensah; Sulemana, Semenyo, Ayew
+
+Allenatore: Queiroz
+
+PROBABILE FORMAZIONE GIAPPONE
+(3-4-2-1): Suzuki; Tomiyasu, Taniguchi, Itakura; Doan, Endo, Tanaka, Nakamura; Kubo, Ito; Ueda
+
+Allenatore: Moriyasu
+
+PROBABILE FORMAZIONE GIORDANIA
+(3-4-3): Abulaila; Abu Dahab, Nasib, Al-Arab; Haddad, Al-Rawahbdeh, Al-Rashdan; Abu Taha; Tamari, Olwan, Al-Mardi
+
+Allenatore: Sellami
+
+PROBABILE FORMAZIONE HAITI
+(4-3-3): Placide; Arcus, Adé, Duverne, Expérience; Deedson, Bellegarde, Pierre; Isidor, Nazon, Providence
+
+Allenatore: Migné.
+
+
+
+PROBABILE FORMAZIONE INGHILTERRA
+(4-2-3-1): Pickford; James, Guehi, Konsa, O'Reilly; Anderson, Rice; Saka, Bellingham, Eze; Kane
+
+Allenatore: Tuchel
+
+
+
+PROBABILE FORMAZIONE IRAN
+(4-2-3-1): Beyranvand; Yousefi, Kanaani, Khalilzadeh, Mohammadi; Ezatolahi, Ghoddos; Jahanbakhsh, Ghayedi, Mohebi; Taremi
+
+Allenatore: Ghalenoei
+
+
+
+PROBABILE FORMAZIONE IRAQ
+(4-2-3-1): Hassan; Hussein Ali, Sulaka, Tahseen, Doski; Al-Ammari, Bayesh; Ali Jasim, Iqbal, Amyn; Aymen Hussein
+
+Allenatore: Arnold
+
+
+
+PROBABILE FORMAZIONE MAROCCO
+(4-2-3-1): Bono; Hakimi, Diop, Aguerd, Salah-Eddine; Ounahi, El Aynaoui; Brahim Diaz, Saibari, Talbi; El Kaabi
+
+Allenatore: Ouahbi
+
+
+
+PROBABILE FORMAZIONE MESSICO
+(4-3-3): Rangel; Sanchez, Montes, Vasquez, Gallardo; Pineda, Alvarez, Fidalgo; Vega, Jimenez, Quinones
+
+Allenatore: Aguirre
+
+PROBABILE FORMAZIONE NORVEGIA
+(4-3-3): Nyland; Ryerson, Heggem, Ostigard, Wolfe; Thorstvedt, Berg, Berge; Sorloth, Haaland, Nusa
+
+Allenatore: Solbakken
+
+
+
+PROBABILE FORMAZIONE NUOVA ZELANDA
+(4-2-3-1): Crocombe; Payne, Bindon, Boxall, Cacace; Samenic, Bell; McCowatt, Singh, Garbett; Wood
+
+Allenatore: Bazele
+
+
+
+PROBABILE FORMAZIONE OLANDA
+(4-2-3-1): Verbruggen; Dumfries, Van Dijk, Aké, Van de Ven; De Jong, Gravenberch; Malen, Reijnders, Gakpo; Depay
+
+Allenatore: Koeman
+
+
+
+PROBABILE FORMAZIONE PANAMA
+(3-4-2-1): Mosquera; Farina, Andrade, Cordoba; Murillo, Carrasquilla, Godoy, Davis; Barcenas, Diaz; Fajardo
+
+Allenatore: Christiansen
+
+
+
+PROBABILE FORMAZIONE PARAGUAY
+(4-4-2): Gill; Caceres, G. Gomez, Alderete, Alonso; D. Gomez, Ojeda, Bobadilla, Almiron; Enciso, Avalos
+
+Allenatore: Alfaro
+
+
+
+PROBABILE FORMAZIONE PORTOGALLO
+(4-3-3): Costa; Cancelo, Ruben Dias, Inacio, Nuno Mendes; Joao Neves, Vitinha, Bruno Fernandes; Bernardo Silva, Cristiano Ronaldo, Joao Felix
+
+Allenatore: Martinez
+
+
+
+PROBABILE FORMAZIONE QATAR
+(4-3-3): Barsham; Al-Oui, Khoukhi, Pedro Miguel, Al-Amin; Boudiaf, Fathy, Laye; Edmilson Junior, Almoez Ali, Afif
+
+Allenatore: Lopetegui
+
+
+
+PROBABILE FORMAZIONE REPUBBLICA CECA
+(3-4-2-1): Kovar; Chaloupek, Hranac, Krejci; Zeleny, Soucek, Darida, Coufal; Provod, Sulc; Schick
+
+Allenatore: Koubek
+
+
+
+PROBABILE FORMAZIONE REPUBBLICA DEMOCRATICA DEL CONGO
+(4-2-3-1): Mpasi; Wan-Bissaka, Mbemba, Tuanzebe, Masuaku; Pickel, Moutoussamy; Bongonda, Kakuta, Wissa; Bakambu
+
+Allenatore: Desabre
+
+
+
+PROBABILE FORMAZIONE SCOZIA
+(4-1-4-1): Gordon; Hickey, Hanley, McKenna, Robertson; Ferguson; Gannon-Doak, Christie, McTominay, McGinn; Adams
+
+Allenatore: Clarke
+
+
+
+PROBABILE FORMAZIONE SENEGAL
+(4-2-3-1): Mendy; Diatta, Koulibaly, Niakhaté, Jakobs; Idrissa Gueye, Pape Gueye; Ismaila Sarr, Iliman Ndiaye, Mané; Jackson
+
+Allenatore: Thiaw
+
+
+
+PROBABILE FORMAZIONE SPAGNA
+(4-3-3): Simon; Llorente, Cubarsì, Laporte, Cucurella; Pedri, Rodri, Fabian Ruiz; Yamal, Oyarzabal, N. Williams
+
+Allenatore: De La Fuente
+
+
+
+PROBABILE FORMAZIONE STATI UNITI
+(4-3-3): Freese; Freeman, Richards, Trusty, Antonee Robinson; McKennie, Berhalter, Adams; Weah, Balogun, Pulisic
+
+Allenatore: Pochettino
+
+
+
+PROBABILE FORMAZIONE SUDAFRICA
+(4-2-3-1): Williams; Mudau, Sibisi, Ndamane, Modiba; Sithole, Mokoena; Apollis, Zwane, Mofokeng; Foster
+
+Allenatore: Bross
+
+
+
+PROBABILE FORMAZIONE SVEZIA
+(3-4-2-1): Nordfeldt; Starfelt, Lagerbielke, Lindelof; Svensson, Karlstrom, Ayari, Gudmundsson; Nygren, Elanga; Gyokeres
+
+Allenatore: Potter
+
+
+
+PROBABILE FORMAZIONE SVIZZERA
+(4-3-3): Kobel; Widmer, Akanji, Elvedi, Rodriguez; Freuler, Xhaka, Rieder; Ndoye, Embolo, Vargas
+
+Allenatore: Yakin
+
+
+
+PROBABILE FORMAZIONE TUNISIA
+(4-3-3): Dahmen; Valery, Bronn, Talbi, Abdi; Gharbi, Skhiri, Hannibal; Achouri, Mastouri, Tounekti
+
+Allenatore: Lamouchi
+
+
+
+PROBABILE FORMAZIONE TURCHIA
+(3-4-2-1): Cakir; Demiral, Kabak, Bardakci; Celik, Calhanoglu, Kokcu, Ozer; Guler, Yildiz; Akturkoglu
+
+Allenatore: Montella
+
+PROBABILE FORMAZIONE URUGUAY
+(4-3-3): Rochet; Valera, Gimenez, Araujo, Olivera; Valverde, Ugarte, Bentancur; Canobbio, Nunez, Rodriguez
+
+Allenatore: Bielsa
+
+
+
+PROBABILE FORMAZIONE UZBEKISTAN
+(3-4-2-1): Nematov; Abdullaev, Ashurmatov, Khusanov; Sayfiev, Shukurov, Khamrobekov, Nasrullaev; Ganiev, Urunov; Shomurodov
+
+Allenatore: Cannavaro
+
+________________________________________
+
+Fonte pazzidifanta.com
+
+GRUPPO A 
+
+MESSICO (4-3-3): Rangel; Reyes, Montes, Vasquez, Gallardo; Pineda, Alvarez, Vargas; Alvarado, Raul Jimenez/Gimenez, Quinones. 
+
+SUDAFRICA (4-2-3-1): Wiliams; Mudau, Okon, Mbokazi, Mobida; Mokoena, Sithole; Appollis, Mofokeng, Moremi; Foster. 
+
+REPUBBLICA CECA (4-2-3-1): Kovar; Coufal, Hranac, Krejci, Jurasek; Soucek, Darida; Provod, Sulc, Hzolek; Schick. 
+
+COREA DEL SUD (3-4-2-1): Kim Seung-Gyu; Yu-min Cho, Kim Min-Jae, Lee Han-Beom; Kim Moon-Hwan, Kim Jin-Gyu, Seung Ho Paik, Castrop; Bae Jun-Ho, Lee Kang-in; Heung-min Son. 
+
+GRUPPO B
+
+SVIZZERA (3-4-2-1): Kobel; Zakaria, Akanji, Elvedi; Ndoye, Freuler, Xhaxa, Vargas; Manzambi, Aebischer; Embolo.
+
+BOSNIA (4-4-2): Vasilj; Dedic, Katic, Muharemovic, Kolasinac; Bajraktarevic, Basic, Sunjic, Alajbegovic; Demirovic, Dzeko.
+
+CANADA (4-4-2): Crepeau; Larryea, Miller, Cornelius, Davies; Buchanan, Eustaquid, Koné, Ahmed; David, Oluwaseyi.
+
+QATAR (4-2-3-1): Barsham; Al Oui, Pedro Miguel, Khoukhi, Al Brake; Madibo, Fathi; Edmilson Jr., Al Mannai, Afif; Almoez Ali. 
+
+GRUPPO C
+
+BRASILE (4-2-3-1): Alisson; Wesley, Marquinhos/Bremer, Gabriel, Alex Sandro/Douglas Santos; Casemiro, Bruno Guimares; Rapinha, Martinelli/Endrick, Vinicius Jr./Neymar; Cunha.
+
+MAROCCO (4-3-3): Bounou; Hakimi, Diop, Aguerd, Mazraoui; El Ayanoui, Ounahi/Bouaddi; Brahim Diaz, Saibari, Ezzalzouli; El Kaabi.
+
+SCOZIA (4-1-4-1): Godron; Hickey, Hanley, McKenna, Robertson; Ferguson; Gannon-Doak, Christie, McTominay, McGinn; Adams.
+
+HAITI (4-3-3): Placide; Arcus, Adé, Duverne, Expérience; Deedson, Bellegarde, Pierre; Isidor, Nazon, Providence.
+
+GRUPPO D
+
+TURCHIA (4-2-3-1): Cakir; Celik, Bardakci, Demiral, Kadioglu; Yuksek, Calhanoglu; Yilmaz, Arda Guler, Yildiz; Akturkoglu.
+
+USA (4-3-3): Turner; Freeman/Dest, Richards, Trusty, Robinson; McKennie, Berhalter, Adams/Tilman; Weah/Reyna, Balogun, Pulisic.
+
+PARAGUAY (4-2-3-1): Gill; Caceres, G. Gomez, Alderete, Alonso; D. Gomez, Cubas; Sosa, Enciso, Almiron; Sanabria. 
+
+AUSTRALIA (3-4-2-1): Ryan; Circati, Souttar, Burgess; Miller, Irvine, O'Neill, Bos; Volpato, Metcalfe; Irankunda.
+
+GRUPPO E
+
+GERMANIA (4-2-3-1): Neuer; Kimmich, Tah, Rudiger/Schlotterbeck, Raum/Brown; Nmecha, Pavlovic/Goretzka; Sanè/Karl; Musiala, Wirtz; Havertz/Undav/Woltemade.
+
+ECUADOR (3-4-2-1): Galindez; Ordonez, Pacho, Hincapie; Franco, Caicedo, Pedro Vite, Angulo; Yeboah, Plata; Valencia.
+
+COSTA D'AVORIO (4-3-3): Lafont/Fofana; Singo, Koussonou, Ndicka, Konan; Sangarè, Fofana, Kessie; Diallo, Bonny/Guessand, Diomande.
+
+CURACAO (5-4-1): Room; Floranus, Sambo, Bazoer, Obispo, Antonisse; Chong, Comenencia, L. Bacuna, J. Bacuna; Locadia.
+
+GRUPPO F
+
+OLANDA (4-2-3-1): Verbruggen; Dumfries, Van Dijk, Aké, Van de Ven; De Jong, Gravenberch; Malen, Reijnders, Gakpo; Depay.
+
+GIAPPONE (3-4-2-1): Suzuki; Tomiyasu, Taniguchi, Itakura; Doan, Endo, Tanaka, Nakamura; Kubo, Ito; Ueda. 
+
+TUNISIA (4-3-3): Dahmen; Valery, Bronn, Talbi, Abdi; Khedira, Skhiri, Mejbri; Achouri, Mastouri, Gharbi.
+
+SVEZIA (3-4-2-1): Nordfeldt; Starfelt, Lagerbielke, Lindelof; Svensson, Karlstrom, Ayari, Gudmundsson; Nygren, Elanga; Gyokeres.
+
+GRUPPO G
+
+BELGIO (4-2-3-1): Courtois; Meunier/Castagne, Debast, Theate, De Cuyper; Onana/Raskin, Tielemans; Doku, De Bruyne, Trossard/Saelemaekers; De Ketelaere.
+
+EGITTO (4-3-3): El Shenawy; Hany, Rabia, Fathy, Fatouh; Zizo, Ashour, Attia; Salah, Marmoush, Trezeguet.
+
+NUOVA ZELANDA (4-2-3-1): Crocombe; Payne, Bindon, Boxall, Cacace; Samenic, Bell; McCowatt, Singh, Garbett; Wood.
+
+IRAN (4-2-3-1): Beiranvand; Hardani, Khalilzadeh, Kanaani, Mohmmadi; Ghoddos, Ezatolahi; Jahanbakhsn, Ghayedii, Mohebi; Taremi.
+
+GRUPPO H
+
+SPAGNA (4-3-3): Unai Simon/Raya; Llorente, Cubarsi, Laporte, Cuccurella/Grimaldo; Pedri, Rodri, Fabian Ruiz; Yamal, Olmo/Oyarzabal, Nico Williams.
+
+CAPO VERDE (4-3-3): Vozinha; Moreira, Lopes, Costa, L. Cabral; Arcanjo, Pina, Monteiro; Mendes, Livramento, Jovane Cabral.
+
+URUGUAY (4-3-3): Muslera; Varela, Gimenez, R. Araujo, Olivera; Valverde, Ugarte, Bentancur; Pellistri, Nunez, B. Rodriguez/ M. Araujo.
+
+ARABIA SAUDITA (4-2-3-1): Al-Aqidi; Abdulhamid,Lajami, Tambakti, Al Harbi; N. Al-Dawsari, Kanno; Abu Al-Shamat, Al-Juwayr, S. Al-Dawsari; Al-Buraikan.
+
+GRUPPO I
+
+FRANCIA (4-2-3-1): Maignan; Koundé, Saliba/Konatè, Upamecano, Theo Hernandez; Tchouaméni/Kante, Rabiot; Olise/Douè, Dembélé, Cherki/Akliouche; Mbappé/Thuram.
+
+SENEGAL (4-2-3-1): Mendy; Diatta, Koulibaly, Niakhaté, Jakobs; Idrissa Gueye, Pape Gueye; Ismaila Sarr, Iliman Ndiaye, Mané; Jackson.
+
+NOVERGIA (4-3-3): Tangvik; Ryerson, Heggem, Ostigard, Wolfe; Thorstvedt, Berg, Berge; Sorloth, Haaland, Nusa.
+
+IRAQ (4-4-2): Fadhil, Ali, Tahseen, Hashem, Doski, Amyn, Al-Ammari, Sher, Bayesh, Hussein, Al-Hamadi. 
+
+GRUPPO J
+
+ARGENTINA (4-3-1-2): E. Martinez; Molina/Montiel, Otamendi/Lisandro Martinez, Romero, Tagliafico; De Paul, Mac Allister, Enzo Fernandez; Messi; J. Alvarez, L. Martinez.
+
+ALGERIA (4-3-3): Mandréa; Atal, Mandi, Bensebaini, Ait-Nouri; Zerrouki, Tritaoui, Aouar; Mahrez, Gouiri, Amoura.
+
+AUSTRIA (4-2-3-1): A. Schlager; Laimer, Lienhart, Danso, Mwene; X. Schlager, Seiwald; Wimmer, Baumgartner, Sabitzer; Arnautovic.
+
+GIORDANIA: (3-4-3): Abulaila, Nasib, Abualnadi, Arab, Sadeh, Al-Rawabdeh, Al-Rashdan, Abu Taha, Al-Tamari, Olwan, Al-Mardi.
+
+GRUPPO K
+
+PORTOGALLO (4-3-3): Costa; Cancelo, Ruben Dias, Inacio, Nuno Mendes; Joao Neves, Vitinha, Bruno Fernandes; Bernardo Silva, Cristiano Ronaldo, Joao Felix/Leao.
+
+COLOMBIA (4-2-3-1): Ospina; Munoz, D. Sanchez, Lucumì, Mojica; Lerma, Rios; J. Arias, James Rodriguez, Luis Diaz; Cordoba.
+
+CONGO DR (4-2-3-1): Mpasi; Wan-Bissaka, Mbemba, Tuanzebe, Masuaku; Pickel, Moutoussamy; Bongonda, Kakuta, Wissa; Bakambu.
+
+UZBEKISTAN (3-4-2-1): Yusupov, Aliqulov, Khusanov, Ashurmatov, Alijonov, Hamrobekov, Shukurov, Nasrullaev, Fayzullaev, Masharipov, Shomurodov. 
+
+GRUPPO L
+
+INGHILTERRA (4-2-3-1): Pickford; James, Konsa/Guehi, Stones, O'Reilly; Anderson, Rice; Saka, Bellingham, Eze/Rashford; Kane.
+
+CROAZIA (4-3-3): Livakovic; Stanisic, Sutalo, Caleta-Car/Erlic, Gvardiol; Pasalic/Kovacic, Modric, P. Sucic; Perisic, Budimir/Kramaric, Baturina/Vlasic.
+
+PANAMA (3-4-2-1): Mosquera; Farina, Andrade, Cordoba; Murillo, Carrasquilla, Godoy, Davis; Barcenas, Diaz; Fajardo.
+
+GHANA (4-3-3): Ati-Zigi; Oppong, Opoku, Djiku, Senaya; Partey, Sibo, Yirenkyi; Sulemana, Semenyo, Inaki Williams/Adu.
+
+________________________________________
+
+fonte tag24.it
+
+Austria (4-2-3-1): A. Schlager; Laimer, Lienhart, Danso, Mwene; X. Schlager, Seiwald; Wimmer, Baumgartner, Sabitzer; Arnautovic. Ct. Rangnick.
+
+Belgio (4-2-3-1): Courtois; Meunier, Debast, Theate, De Cuyper; Onana, Tielemans; Doku, De Bruyne, Trossard; De Ketelaere. Ct. R. Garcia.
+
+Bosnia (4-4-2): Vasilj; Dedic, Katic, Muharemovic, Kolasinac; Bajraktarevic, Basic, Sunjic, Alajbegovic; Demirovic, Dzeko. Ct. Barbarez.
+
+Croazia (4-3-3): Livakovic; Stanisic, Sutalo, Caleta-Car, Gvardiol; Pasalic, Modric, P. Sucic; Kramaric, Budimir, Perisic. Ct. Dalic.
+
+Francia (4-2-3-1): Maignan; Koundé, Saliba, Upamecano, Theo Hernandez; Tchouaméni, Rabiot; Olise, Dembélé, Cherki; Mbappé. Ct. Deschamps.
+
+Germania (4-2-3-1): Neuer; Kimmich, Rudiger, Tah, Raum; Goretzka, Pavlovic; Sané, Wirtz, Musiala; Havertz. Ct. Nagelsmann.
+
+Inghilterra (4-2-3-1): Pickford; James, Konsa, Stones, O'Reilly; Anderson, Rice; Saka, Bellingham, Eze; Kane. Ct. Tuchel.
+
+Olanda (4-2-3-1): Verbruggen; Dumfries, Van Dijk, Aké, Van de Ven; De Jong, Gravenberch; Malen, Reijnders, Gakpo; Depay. Ct. Koeman.
+
+Norvegia (4-3-3): Tangvik; Ryerson, Heggem, Ostigard, Wolfe; Thorstvedt, Berg, Berge; Sorloth, Haaland, Nusa. Ct. Solbakken.
+
+Portogallo (4-3-3): Costa; Cancelo, Ruben Dias, Inacio, Nuno Mendes; Joao Neves, Vitinha, Bruno Fernandes; Bernardo Silva, Cristiano Ronaldo, Joao Felix. Ct. Martinez.
+
+Repubblica Ceca (3-4-2-1): Hornicek; Chaloupek, Hranac, Krejci; Zeleny, Soucek, Darida, Coufal; Provod, Sulc; Schick. Ct. Koubek.
+
+Scozia (4-1-4-1): Gordon; Hickey, Hanley, McKenna, Robertson; Ferguson; Gannon-Doak, Christie, McTominay, McGinn; Adams. Ct. Clarke.
+
+Spagna (4-3-3): Simon; Llorente, Cubarsì, Laporte, Cucurella; Pedri, Rodri, Fabian Ruiz; Lamine Yamal, Oyarzabal, N. Williams. Ct. De La Fuente.
+
+Svezia (3-4-2-1): Nordfeldt; Starfelt, Lagerbielke, Lindelof; Svensson, Karlstrom, Ayari, Gudmundsson; Nygren, Elanga; Gyokeres. Ct. Potter.
+
+Svizzera (4-3-3): Kobel; Widmer, Akanji, Elvedi, Rodriguez; Freuler, Xhaka, Rieder; Ndoye, Embolo, Vargas. Ct. Yakin.
+
+Turchia (3-4-2-1): Cakir; Demiral, Kabak, Bardakci; Celik, Calhanoglu, Kokcu, Ozer; Guler, Yildiz; Akturkoglu. Ct. Montella.
+
+Australia (5-4-1): Ryan; Italiano, Circati, Degenek, Burgess, Behich; Leckie, O'Neill, Irvine, Metcalfe; Touré. Ct. Popovic.
+
+Corea del Sud (3-4-2-1): Seung-gyu Kim; Yu-min Cho, Han-beom Lee, Min-jae Kim; Young-woo Seol, Seung-ho Paik, Jin-gyu Kim, Tae-seok Lee; Jae-sung Lee, Kang-in Lee; Heung-min Son. Ct. Myung-bo Hong.
+
+Giappone (3-4-2-1): Suzuki; Tomiyasu, Taniguchi, Itakura; Doan, Endo, Tanaka, Nakamura; Kubo, Ito; Ueda. Ct. Moriyasu.
+
+Argentina (4-3-1-2): E. Martinez; Molina, Otamendi, Romero, Tagliafico; De Paul, Mac Allister, Enzo Fernandez; Messi; J. Alvarez, L. Martinez. Ct. Scaloni.
+
+Brasile (4-2-3-1): Alisson; Wesley, Marquinhos, Gabriel Magalhaes, Douglas Santos; Casemiro, Bruno Guimaraes; Raphinha, Neymar, Vinicius Jr; Cunha. Ct. Ancelotti.
+
+Canada (4-4-2): Crépeau; Johnston, De Fougerolles, Cornelius, Davies; Buchanan, Choinière, Koné, Ahmed; David, Oluwaseyi. Ct. Marsch.
+
+Colombia (4-2-3-1): Ospina; Munoz, D. Sanchez, Lucumì, Mojica; Lerma, Rios; J. Arias, James Rodriguez, Luis Diaz; Cordoba. Ct. Lorenzo.
+
+Curacao (4-3-3): Room; Floranus, Gaari, Obispo, Fonville; J. Bacuna, Comenencia, L. Bacuna; Chong, Locadia, Gorré. Ct. Gorré.
+
+Ecuador (3-4-3): Valle; Ordonez, Hincapié, Pacho; Franco, Vite, Caicedo, Estupinan; Anthony, Valencia, Yeboah.
+
+Haiti (4-3-3): Placide; Arcus, Adé, Duverne, Expérience; Deedson, Bellegarde, Pierre; Isidor, Nazon, Providence. Ct. Migné.
+
+Messico (4-2-3-1): Rangel; Sanchez, Alvarez, Vasquez, Gallardo; Chavez, Fidalgo; Pineda, Romo, Vega; Gimenez.
+
+Panama (3-4-2-1): Mosquera; Fariña, Andrade, Cordoba; Murillo, Carrasquilla, Godoy, Davis; Barcenas, Diaz; Fajardo. Ct. Christiansen.
+
+Paraguay: in attesa dei convocati.
+
+Stati Uniti (4-3-3): Freese; Freeman, Richards, Trusty, Antonee Robinson; McKennie, Berhalter, Adams; Weah, Balogun, Pulisic. Ct. Pochettino.
+
+Uruguay (4-3-3): Muslera; Valera, Gimenez, R. Araujo, Olivera; Valverde, Ugarte, Bentancur; Canobbio, Nunez, B. Rodriguez. Ct. Bielsa.
+
+Nuova Zelanda (4-2-3-1): Crocombe; Payne, Bindon, Boxall, Cacace; Samenic, Bell; McCowatt, Singh, Garbett; Wood. Ct. Bazeley.
+
+Algeria (4-3-3): Mandréa; Atal, Mandi, Bensebaini, Ait-Nouri; Zerrouki, Tritaoui, Aouar; Mahrez, Gouiri, Amoura. Ct. Petkovic.
+
+Capo Verde (4-2-3-1): Vozinha; Moreira, Lopes, Diney, Joao Paulo; Pina, Monteiro; Mendes, Jovane Cabral, G. Rodrigues; Livramento. Ct. Leitao.
+
+Costa d'Avorio (4-3-3): Fofana; Doué, Kossounou, Ndicka, Konan; Kessie, Sangaré, Oulai; Diallo, Bonny, Y. Diomandé. Ct. Faé.
+
+Egitto (4-3-3): El Shenawy; Hany, Rabia, Fathy, Abdelmonem; Zizo, Ashour, Lasheen; Salah, Marmoush, Trezeguet. Ct. Hassan.
+
+Ghana: in attesa dei convocati.
+
+Marocco (4-2-3-1): Bounou; Hakimi, Diop, Aguerd, Salah-Eddine; Ounahi, El Aynaoui; Brahim Diaz, Saibari, Talbi; El Kaabi. Ct. Ouahbi.
+
+Repubblica Democratica del Congo (4-2-3-1): Mpasi; Wan-Bissaka, Mbemba, Tuanzebe, Masuaku; Pickel, Moutoussamy; Bongonda, Kakuta, Wissa; Bakambu. Ct. Desabre.
+
+Senegal (4-2-3-1): Mendy; Diatta, Koulibaly, Niakhaté, Jakobs; Idrissa Gueye, Pape Gueye; Ismaila Sarr, Iliman Ndiaye, Mané; Jackson. Ct. Thiaw.
+
+Sudafrica (4-2-3-1): Williams; Mudau, Sibisi, Ndamane, Modiba; Sithole, Mokoena; Apollis, Zwane, Mofokeng; Foster. Ct. Bross.
+
+Tunisia (4-3-3): Dahmen; Valery, Bronn, Talbi, Abdi; Gharbi, Skhiri, Hannibal; Achouri, Mastouri, Tounekti. Ct. Lamouchi.
