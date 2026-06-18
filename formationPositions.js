@@ -92,3 +92,13 @@ export function slotRoleLetter(pos) {
 export function slotRosaRuolo(pos) {
   return ROLE_LETTER_TO_ROSA[slotRoleLetter(pos)] || "centrocampisti";
 }
+
+/** Lettera ruolo dal listone (P/D/C/A), non dalla posizione tattica. */
+export function rosaRoleLetter(ruolo) {
+  return ROSA_TO_ROLE_LETTER[ruolo] || "C";
+}
+
+export function playerFitsSlot(player, pos) {
+  if (!player) return true;
+  return player.ruolo === slotRosaRuolo(pos);
+}

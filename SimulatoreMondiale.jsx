@@ -1,8 +1,12 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
-import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown, BarChart3 } from "lucide-react";
+import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown, BarChart3, Shield, TrendingUp } from "lucide-react";
 import ProiezioniTab from "./ProiezioniTab.jsx";
-import { buildListone, FASCE, FASCIA_ORDER, ROSA_LIMITS, ROSA_BUDGET, NAT_TO_TEAM, natFlagUrl, teamName } from "./fantamondialeLogic.js";
-import { SLOT_POSITIONS, slotRoleLetter, slotRosaRuolo, ROSA_TO_ROLE_LETTER } from "./formationPositions.js";
+import SquadreTab from "./SquadreTab.jsx";
+import QuotazioniConfrontoTab from "./QuotazioniConfrontoTab.jsx";
+import { buildListone, buildListoneIniziale, buildQuotazioniConfronto, FASCE, FASCIA_ORDER, ROSA_LIMITS, ROSA_BUDGET, NAT_TO_TEAM, natFlagUrl, teamName, TEAM_STRENGTH } from "./fantamondialeLogic.js";
+import { GROUPS, FIXTURES, ABBR, MD_DATES } from "./tournamentData.js";
+import { getMatchCells, diffColor, WIN_ODD_GREEN_MAX, WIN_ODD_YELLOW_MAX } from "./matchOddsLogic.js";
+import { SLOT_POSITIONS, slotRoleLetter, slotRosaRuolo, rosaRoleLetter } from "./formationPositions.js";
 import { SET_PIECES } from "./setPiecesData.js";
 import { simulateGroupStandings, pickThirdSlots } from "./bookmakerOdds.js";
 
@@ -56,6 +60,25 @@ const setPieceLegend = (
 );
 
 const ROSA_STORAGE_KEY = "fantamondiale_rosa";
+const ROSA_META_KEY = "fantamondiale_rosa_meta";
+
+function loadRosaMeta() {
+  try {
+    const raw = localStorage.getItem(ROSA_META_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch {
+    /* ignore */
+  }
+  return { budgetRimanente: 2, rosaMode: "successiva" };
+}
+
+function saveRosaMeta(meta) {
+  try {
+    localStorage.setItem(ROSA_META_KEY, JSON.stringify(meta));
+  } catch {
+    /* ignore */
+  }
+}
 
 function emptyRosa() {
   return { portieri: [], difensori: [], centrocampisti: [], attaccanti: [] };
@@ -83,35 +106,49 @@ function hasRosaPlayers(rosa) {
   return Object.values(rosa).some((arr) => arr.length > 0);
 }
 
-async function loadRosaFromFile(lookup) {
+async function fetchRosaRaw(route) {
   try {
-    const res = await fetch("/api/rosa");
-    if (res.ok) {
-      const data = await res.json();
-      const result = hydrateRosa(data, lookup);
-      if (hasRosaPlayers(result)) return result;
-    }
+    const res = await fetch(route);
+    if (res.ok) return await res.json();
   } catch {
     /* file non disponibile */
   }
-  try {
-    const raw = localStorage.getItem(ROSA_STORAGE_KEY);
-    if (raw) {
-      const result = hydrateRosa(JSON.parse(raw), lookup);
-      if (hasRosaPlayers(result)) {
-        await saveRosaToFile(result);
-        localStorage.removeItem(ROSA_STORAGE_KEY);
-        return result;
+  return null;
+}
+
+async function loadRosaFromFile(lookup, route = "/api/rosa", { fallbackRaw = null } = {}) {
+  const data = await fetchRosaRaw(route);
+  if (data) {
+    const result = hydrateRosa(data, lookup);
+    if (hasRosaPlayers(result)) return result;
+  }
+  if (route === "/api/rosa") {
+    try {
+      const raw = localStorage.getItem(ROSA_STORAGE_KEY);
+      if (raw) {
+        const result = hydrateRosa(JSON.parse(raw), lookup);
+        if (hasRosaPlayers(result)) {
+          await saveRosaToFile(result, route);
+          localStorage.removeItem(ROSA_STORAGE_KEY);
+          return result;
+        }
       }
+    } catch {
+      /* migrazione fallita */
     }
-  } catch {
-    /* migrazione fallita */
+  }
+  if (fallbackRaw) {
+    const result = hydrateRosa(fallbackRaw, lookup);
+    if (hasRosaPlayers(result)) {
+      await saveRosaToFile(result, route);
+      return result;
+    }
   }
   return emptyRosa();
 }
 
-async function saveRosaToFile(rosa) {
-  const res = await fetch("/api/rosa", {
+async function saveRosaToFile(rosa, route = "/api/rosa") {
+  const res = await fetch(route, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(serializeRosa(rosa), null, 2),
@@ -185,73 +222,6 @@ async function saveFormazioniToFile(store) {
 }
 
 /* ---------------- DATA ---------------- */
-// Ordine array = piazzamento previsto di default (1º,2º,3º,4º)
-const GROUPS = {
-  A: ["Messico", "Corea del Sud", "Cechia", "Sudafrica"],
-  B: ["Svizzera", "Canada", "Bosnia", "Qatar"],
-  C: ["Brasile", "Marocco", "Scozia", "Haiti"],
-  D: ["USA", "Turchia", "Paraguay", "Australia"],
-  E: ["Germania", "Ecuador", "Costa d'Avorio", "Curaçao"],
-  F: ["Olanda", "Giappone", "Svezia", "Tunisia"],
-  G: ["Belgio", "Egitto", "Iran", "Nuova Zelanda"],
-  H: ["Spagna", "Uruguay", "Capo Verde", "Arabia Saudita"],
-  I: ["Francia", "Senegal", "Norvegia", "Iraq"],
-  J: ["Argentina", "Austria", "Algeria", "Giordania"],
-  K: ["Portogallo", "Colombia", "Congo DR", "Uzbekistan"],
-  L: ["Inghilterra", "Croazia", "Ghana", "Panama"],
-};
-
-const STR = {
-  Messico: 73, "Corea del Sud": 68, Cechia: 64, Sudafrica: 56,
-  Svizzera: 75, Canada: 67, Bosnia: 62, Qatar: 55,
-  Brasile: 91, Marocco: 80, Scozia: 64, Haiti: 47,
-  USA: 72, Turchia: 73, Paraguay: 63, Australia: 60,
-  Germania: 86, Ecuador: 70, "Costa d'Avorio": 69, "Curaçao": 45,
-  Olanda: 85, Giappone: 72, Svezia: 71, Tunisia: 60,
-  Belgio: 83, Egitto: 68, Iran: 65, "Nuova Zelanda": 50,
-  Spagna: 92, Uruguay: 80, "Capo Verde": 52, "Arabia Saudita": 56,
-  Francia: 94, Senegal: 76, Norvegia: 75, Iraq: 54,
-  Argentina: 92, Austria: 70, Algeria: 64, Giordania: 52,
-  Portogallo: 86, Colombia: 77, "Congo DR": 61, Uzbekistan: 55,
-  Inghilterra: 89, Croazia: 80, Ghana: 64, Panama: 55,
-};
-
-const ABBR = {
-  Messico: "MEX", "Corea del Sud": "KOR", Cechia: "CZE", Sudafrica: "RSA",
-  Svizzera: "SUI", Canada: "CAN", Bosnia: "BIH", Qatar: "QAT",
-  Brasile: "BRA", Marocco: "MAR", Scozia: "SCO", Haiti: "HAI",
-  USA: "USA", Turchia: "TUR", Paraguay: "PAR", Australia: "AUS",
-  Germania: "GER", Ecuador: "ECU", "Costa d'Avorio": "CIV", "Curaçao": "CUW",
-  Olanda: "NED", Giappone: "JPN", Svezia: "SWE", Tunisia: "TUN",
-  Belgio: "BEL", Egitto: "EGY", Iran: "IRN", "Nuova Zelanda": "NZL",
-  Spagna: "ESP", Uruguay: "URU", "Capo Verde": "CPV", "Arabia Saudita": "KSA",
-  Francia: "FRA", Senegal: "SEN", Norvegia: "NOR", Iraq: "IRQ",
-  Argentina: "ARG", Austria: "AUT", Algeria: "ALG", Giordania: "JOR",
-  Portogallo: "POR", Colombia: "COL", "Congo DR": "COD", Uzbekistan: "UZB",
-  Inghilterra: "ENG", Croazia: "CRO", Ghana: "GHA", Panama: "PAN",
-};
-
-// [matchday, teamHome, teamAway] per girone
-const FIXTURES = {
-  A: [[1,"Messico","Sudafrica"],[1,"Corea del Sud","Cechia"],[2,"Cechia","Sudafrica"],[2,"Messico","Corea del Sud"],[3,"Cechia","Messico"],[3,"Sudafrica","Corea del Sud"]],
-  B: [[1,"Canada","Bosnia"],[1,"Qatar","Svizzera"],[2,"Svizzera","Bosnia"],[2,"Canada","Qatar"],[3,"Svizzera","Canada"],[3,"Bosnia","Qatar"]],
-  C: [[1,"Brasile","Marocco"],[1,"Haiti","Scozia"],[2,"Scozia","Marocco"],[2,"Brasile","Haiti"],[3,"Scozia","Brasile"],[3,"Marocco","Haiti"]],
-  D: [[1,"USA","Paraguay"],[1,"Australia","Turchia"],[2,"USA","Australia"],[2,"Turchia","Paraguay"],[3,"Turchia","USA"],[3,"Paraguay","Australia"]],
-  E: [[1,"Germania","Curaçao"],[1,"Costa d'Avorio","Ecuador"],[2,"Germania","Costa d'Avorio"],[2,"Ecuador","Curaçao"],[3,"Ecuador","Germania"],[3,"Curaçao","Costa d'Avorio"]],
-  F: [[1,"Olanda","Giappone"],[1,"Svezia","Tunisia"],[2,"Olanda","Svezia"],[2,"Tunisia","Giappone"],[3,"Giappone","Svezia"],[3,"Tunisia","Olanda"]],
-  G: [[1,"Belgio","Egitto"],[1,"Iran","Nuova Zelanda"],[2,"Belgio","Iran"],[2,"Nuova Zelanda","Egitto"],[3,"Egitto","Iran"],[3,"Nuova Zelanda","Belgio"]],
-  H: [[1,"Spagna","Capo Verde"],[1,"Arabia Saudita","Uruguay"],[2,"Spagna","Arabia Saudita"],[2,"Uruguay","Capo Verde"],[3,"Capo Verde","Arabia Saudita"],[3,"Uruguay","Spagna"]],
-  I: [[1,"Francia","Senegal"],[1,"Iraq","Norvegia"],[2,"Francia","Iraq"],[2,"Norvegia","Senegal"],[3,"Norvegia","Francia"],[3,"Senegal","Iraq"]],
-  J: [[1,"Argentina","Algeria"],[1,"Austria","Giordania"],[2,"Argentina","Austria"],[2,"Giordania","Algeria"],[3,"Algeria","Austria"],[3,"Giordania","Argentina"]],
-  K: [[1,"Portogallo","Congo DR"],[1,"Uzbekistan","Colombia"],[2,"Portogallo","Uzbekistan"],[2,"Colombia","Congo DR"],[3,"Colombia","Portogallo"],[3,"Congo DR","Uzbekistan"]],
-  L: [[1,"Inghilterra","Croazia"],[1,"Ghana","Panama"],[2,"Inghilterra","Ghana"],[2,"Panama","Croazia"],[3,"Panama","Inghilterra"],[3,"Croazia","Ghana"]],
-};
-const MD_DATES = {
-  A:["11 giu","18 giu","24 giu"], B:["12-13 giu","18 giu","24 giu"], C:["13 giu","19 giu","24 giu"],
-  D:["12-13 giu","19 giu","25 giu"], E:["14 giu","20 giu","25 giu"], F:["14 giu","20 giu","25 giu"],
-  G:["15 giu","21 giu","26 giu"], H:["15 giu","21 giu","26 giu"], I:["16 giu","22 giu","26 giu"],
-  J:["16 giu","22 giu","27 giu"], K:["17 giu","23 giu","27 giu"], L:["17 giu","23 giu","27 giu"],
-};
 
 // Sedicesimi (slot ufficiali FIFA). t: 'w'=1º, 'ru'=2º, '3'=miglior terza (elig=gironi ammessi)
 const R32 = [
@@ -287,11 +257,6 @@ const DEFAULT_THIRDS = { 74:"A", 77:"G", 79:"C", 80:"I", 81:"E", 82:"J", 85:"F",
 const feedsInto = {};
 Object.entries(LATER).forEach(([parent, kids]) => kids.forEach(k => (feedsInto[k] = +parent)));
 
-function diffColor(oppStr) {
-  if (oppStr >= 79) return "#ef4444";
-  if (oppStr >= 61) return "#f5a524";
-  return "#22c55e";
-}
 
 function giornataStr(cells, md) {
   const c = cells.find((x) => x.md === md);
@@ -370,7 +335,7 @@ function renderGCell(cells, md) {
   const c = cells.find((x) => x.md === md);
   if (!c) return <span style={{ color: "var(--mut)", fontSize: 10 }}>—</span>;
   return (
-    <span className="wm-dot" title={`G${c.md}: vs ${c.opp} (${c.str})`} style={{ background: diffColor(c.str) }}>
+    <span className="wm-dot" title={c.win != null ? `G${c.md}: vs ${c.opp} · quota vittoria ${c.win}` : `G${c.md}: vs ${c.opp}`} style={{ background: diffColor(c.str) }}>
       {c.abbr}
     </span>
   );
@@ -386,7 +351,7 @@ function PlayerGiornataDots({ p, md, size = 16 }) {
         <span
           key={c.md}
           className="wm-dot"
-          title={`G${c.md}: vs ${c.opp} (${c.str})`}
+          title={c.win != null ? `G${c.md}: vs ${c.opp} · 1 ${c.win?.toFixed?.(2) ?? c.win}` : `G${c.md}: vs ${c.opp}`}
           style={{ background: diffColor(c.str), width: size, height: size, fontSize: size <= 16 ? 7 : 8 }}
         >
           {c.abbr}
@@ -567,6 +532,12 @@ const CSS = `
 .wm-bnum span{font-size:10px;color:var(--mut);letter-spacing:1px;text-transform:uppercase;font-family:'JetBrains Mono';}
 .wm-bar{flex:1;min-width:160px;height:10px;background:var(--panel2);border:1px solid var(--line);border-radius:999px;overflow:hidden;}
 .wm-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--turf),var(--gold));transition:width .25s;}
+.wm-rosa-mode{background:#0a0f1a;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:12px;font-family:'Archivo',sans-serif;cursor:pointer;}
+.wm-rosa-mode:focus{outline:1px solid var(--turf);}
+.wm-budget-inp{display:flex;flex-direction:column;gap:4px;}
+.wm-budget-inp label{font-size:10px;color:var(--mut);letter-spacing:1px;text-transform:uppercase;font-family:'JetBrains Mono';}
+.wm-budget-inp input{width:88px;background:#0a0f1a;color:var(--gold);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-family:'JetBrains Mono';font-size:18px;font-weight:700;}
+.wm-budget-inp input:focus{outline:1px solid var(--turf);}
 .wm-roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-bottom:16px;}
 .wm-rcol{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:10px;}
 .wm-rh{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;}
@@ -670,6 +641,47 @@ const CSS = `
 .wm-proj-val{font-size:12px;}
 .wm-proj-sub{color:var(--mut);font-size:9px;font-family:'JetBrains Mono';}
 .wm-table-compact td,.wm-table-compact th{padding:5px 8px;}
+.wm-squad-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:14px;}
+.wm-squad-head{display:flex;align-items:center;gap:12px;margin-bottom:16px;}
+.wm-squad-title{font-family:'Anton';font-size:22px;letter-spacing:.5px;text-transform:uppercase;}
+.wm-squad-meta{font-size:12.5px;color:var(--mut);margin-top:2px;}
+.wm-squad-meta b{color:var(--gold);}
+.wm-pitch-wrap{overflow-x:auto;margin-bottom:18px;}
+.wm-pitch{min-width:520px;background:linear-gradient(180deg,#0d3d1f 0%,#0a3020 50%,#0d3d1f 100%);border:2px solid #1a5c32;border-radius:14px;padding:20px 12px 16px;position:relative;
+  background-image:repeating-linear-gradient(0deg,transparent,transparent 49px,rgba(255,255,255,.04) 49px,rgba(255,255,255,.04) 50px);}
+.wm-pitch-row{display:flex;justify-content:center;gap:10px;margin-bottom:14px;flex-wrap:wrap;}
+.wm-pitch-row:last-child{margin-bottom:0;}
+.wm-pitch-slot{position:relative;min-width:88px;max-width:110px;flex:1;background:rgba(10,15,26,.75);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:6px 6px 8px;text-align:center;}
+.wm-pitch-slot.role-p{border-color:rgba(252,211,77,.35);}
+.wm-pitch-slot.role-d{border-color:rgba(59,130,246,.35);}
+.wm-pitch-slot.role-c{border-color:rgba(34,197,94,.35);}
+.wm-pitch-slot.role-a{border-color:rgba(239,68,68,.35);}
+.wm-pitch-pos{font-family:'Anton';font-size:13px;display:block;margin-bottom:4px;}
+.wm-pitch-pos.p{color:#fcd34d;}.wm-pitch-pos.d{color:#3b82f6;}.wm-pitch-pos.c{color:#22c55e;}.wm-pitch-pos.a{color:#ef4444;}
+.wm-pitch-pick{width:100%;background:transparent;border:none;color:var(--txt);cursor:pointer;padding:2px 0;text-align:center;}
+.wm-pitch-nm{display:block;font-size:10px;font-weight:700;line-height:1.2;word-break:break-word;}
+.wm-pitch-cr{display:block;font-family:'JetBrains Mono';font-size:10px;color:var(--gold);margin-top:2px;}
+.wm-pitch-ph{font-size:10px;color:var(--mut);font-style:italic;}
+.wm-pitch-menu{position:absolute;z-index:40;left:50%;transform:translateX(-50%);top:calc(100% + 4px);min-width:160px;max-height:200px;overflow-y:auto;background:#0a0f1a;border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.5);}
+.wm-pitch-opt{width:100%;display:flex;justify-content:space-between;gap:8px;padding:7px 10px;border:none;background:transparent;color:var(--txt);font-size:11px;cursor:pointer;text-align:left;}
+.wm-pitch-opt:hover,.wm-pitch-opt.on{background:rgba(34,197,94,.15);}
+.wm-pitch-opt.empty{color:var(--mut);font-style:italic;cursor:default;}
+.wm-pitch-opt .cr{font-family:'JetBrains Mono';color:var(--gold);flex:none;}
+.wm-squad-note-wrap{margin-top:8px;}
+.wm-squad-note-lbl{display:block;font-family:'JetBrains Mono';font-size:9px;letter-spacing:1px;color:var(--mut);text-transform:uppercase;margin-bottom:6px;}
+.wm-squad-note{width:100%;background:#0a0f1a;color:var(--txt);border:1px solid var(--line);border-radius:10px;padding:12px;font-size:13px;line-height:1.55;resize:vertical;font-family:'Archivo',sans-serif;}
+.wm-squad-note:focus{outline:1px solid var(--turf);}
+.wm-squad-odds-wrap{margin:0 0 18px;padding:12px 14px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;}
+.wm-squad-odds-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px;font-weight:700;font-size:13px;}
+.wm-squad-odds-src{font-family:'JetBrains Mono';font-size:9px;font-weight:500;color:var(--mut);letter-spacing:.3px;}
+.wm-squad-odds-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;}
+.wm-squad-odds-card{background:#0a0f1a;border:1px solid var(--line);border-radius:10px;padding:10px 12px;}
+.wm-squad-odds-md{font-size:12.5px;margin-bottom:8px;display:flex;align-items:center;gap:6px;}
+.wm-squad-odds-est{font-size:10px;color:var(--mut);font-weight:400;}
+.wm-squad-odds-row{display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono';font-size:12px;}
+.wm-squad-odds-row .lbl{color:var(--mut);font-size:10px;min-width:12px;}
+.wm-squad-odds-row span.on{color:var(--gold);font-weight:700;}
+.wm-squad-odds-fix{font-size:10px;color:var(--mut);margin-top:6px;}
 .wm-iconbtn{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--mut);cursor:pointer;}
 .wm-iconbtn:hover{color:var(--txt);border-color:var(--turf);}
 .wm-iconbtn:disabled{opacity:.3;cursor:default;}
@@ -690,7 +702,10 @@ export default function SimulatoreMondiale() {
   const [fantaFascia, setFantaFascia] = useState("all");
   const [fantaSearch, setFantaSearch] = useState("");
   const [fantaSorts, setFantaSorts] = useState([]);
-  const [rosa, setRosa] = useState(emptyRosa);
+  const [rosaIniziale, setRosaIniziale] = useState(emptyRosa);
+  const [rosaSuccessiva, setRosaSuccessiva] = useState(emptyRosa);
+  const [rosaMode, setRosaMode] = useState(() => loadRosaMeta().rosaMode || "successiva");
+  const [rosaBudgetRimanente, setRosaBudgetRimanente] = useState(() => loadRosaMeta().budgetRimanente ?? 2);
   const [rosaRuolo, setRosaRuolo] = useState("portieri");
   const [rosaSearch, setRosaSearch] = useState("");
   const [rosaSorts, setRosaSorts] = useState([]);
@@ -796,7 +811,7 @@ export default function SimulatoreMondiale() {
         A = w[p] || null;
         B = w[q] || null;
       }
-      if (A && B) w[m] = (STR[A] || 0) >= (STR[B] || 0) ? A : B;
+      if (A && B) w[m] = (TEAM_STRENGTH[A] || 0) >= (TEAM_STRENGTH[B] || 0) ? A : B;
       else w[m] = A || B || null;
     });
     setWinners(w);
@@ -831,15 +846,33 @@ export default function SimulatoreMondiale() {
       // opp solo valido se 'focus' è effettivamente uno dei due
       if ((A === focus || B === focus) && opp) opps.push({ m, opp });
     });
-    const known = opps.filter((o) => STR[o.opp]);
-    const avg = known.length ? Math.round(known.reduce((s, o) => s + STR[o.opp], 0) / known.length) : null;
+    const known = opps.filter((o) => TEAM_STRENGTH[o.opp]);
+    const avg = known.length ? Math.round(known.reduce((s, o) => s + TEAM_STRENGTH[o.opp], 0) / known.length) : null;
     return { opps, avg };
   }, [focus, pathMatches, matchTeams]);
 
+  const rosa = rosaMode === "iniziale" ? rosaIniziale : rosaSuccessiva;
+  const rosaApiRoute = rosaMode === "iniziale" ? "/api/rosa-iniziale" : "/api/rosa";
+  const rosaFileLabel = rosaMode === "iniziale" ? "rosa_iniziale.json" : "rosa.json";
+  const isRosaIniziale = rosaMode === "iniziale";
+
+  useEffect(() => {
+    saveRosaMeta({ budgetRimanente: rosaBudgetRimanente, rosaMode });
+  }, [rosaBudgetRimanente, rosaMode]);
+
   const listonePlayers = useMemo(
-    () => buildListone(GROUPS, FIXTURES, STR, ABBR),
+    () => buildListone(GROUPS, FIXTURES, ABBR),
     []
   );
+
+  const listonePlayersIniziale = useMemo(
+    () => buildListoneIniziale(GROUPS, FIXTURES, ABBR),
+    []
+  );
+
+  const listoneForRosa = isRosaIniziale ? listonePlayersIniziale : listonePlayers;
+
+  const quotazioniConfronto = useMemo(() => buildQuotazioniConfronto(), []);
 
   const fantaFiltered = useMemo(() => {
     const q = fantaSearch.trim().toLowerCase();
@@ -872,16 +905,36 @@ export default function SimulatoreMondiale() {
     return m;
   }, [listonePlayers]);
 
+  const playerByKeyIniziale = useMemo(() => {
+    const m = new Map();
+    listonePlayersIniziale.forEach((p) => m.set(`${p.ruolo}|${p.nome}|${p.nazione}`, p));
+    return m;
+  }, [listonePlayersIniziale]);
+
   useEffect(() => {
-    if ((tab !== "rosa" && tab !== "form") || !listonePlayers.length) return;
+    if ((tab !== "rosa" && tab !== "form") || !listonePlayers.length || !listonePlayersIniziale.length) return;
     let cancelled = false;
-    loadRosaFromFile(playerByKey).then((data) => {
-      if (!cancelled) setRosa(data);
+    if (tab === "form") {
+      loadRosaFromFile(playerByKey, "/api/rosa").then((data) => {
+        if (!cancelled) setRosaSuccessiva(data);
+      });
+      return () => {
+        cancelled = true;
+      };
+    }
+    fetchRosaRaw("/api/rosa").then(async (succRaw) => {
+      if (cancelled) return;
+      const succ = await loadRosaFromFile(playerByKey, "/api/rosa", { fallbackRaw: succRaw });
+      const ini = await loadRosaFromFile(playerByKeyIniziale, "/api/rosa-iniziale", { fallbackRaw: succRaw });
+      if (!cancelled) {
+        setRosaSuccessiva(succ);
+        setRosaIniziale(ini);
+      }
     });
     return () => {
       cancelled = true;
     };
-  }, [tab, listonePlayers, playerByKey]);
+  }, [tab, listonePlayers, listonePlayersIniziale, playerByKey, playerByKeyIniziale]);
 
   useEffect(() => {
     if (tab !== "form" || !listonePlayers.length) return;
@@ -913,44 +966,57 @@ export default function SimulatoreMondiale() {
     () => Object.values(rosa).reduce((s, arr) => s + arr.length, 0),
     [rosa]
   );
-  const rosaRemaining = ROSA_BUDGET - rosaSpent;
+  const rosaSuccessivaCount = useMemo(
+    () => Object.values(rosaSuccessiva).reduce((s, arr) => s + arr.length, 0),
+    [rosaSuccessiva]
+  );
+  const rosaRemaining = isRosaIniziale ? ROSA_BUDGET - rosaSpent : rosaBudgetRimanente;
+
+  const setActiveRosa = (updater) => {
+    if (isRosaIniziale) setRosaIniziale(updater);
+    else setRosaSuccessiva(updater);
+  };
 
   const addToRosa = (p) => {
-    setRosa((prev) => {
+    if (isRosaIniziale && rosaRemaining < p.valore) return;
+    if (!isRosaIniziale && rosaBudgetRimanente < p.valore) return;
+    setActiveRosa((prev) => {
       if (prev[p.ruolo].length >= ROSA_LIMITS[p.ruolo]) return prev;
       if (prev[p.ruolo].some((x) => pkey(x) === pkey(p))) return prev;
       return { ...prev, [p.ruolo]: [...prev[p.ruolo], p] };
     });
+    if (!isRosaIniziale) setRosaBudgetRimanente((b) => b - p.valore);
   };
   const removeFromRosa = (p) => {
-    setRosa((prev) => ({ ...prev, [p.ruolo]: prev[p.ruolo].filter((x) => pkey(x) !== pkey(p)) }));
+    setActiveRosa((prev) => ({ ...prev, [p.ruolo]: prev[p.ruolo].filter((x) => pkey(x) !== pkey(p)) }));
+    if (!isRosaIniziale) setRosaBudgetRimanente((b) => b + p.valore);
   };
   const saveRosa = () => {
-    saveRosaToFile(rosa)
+    saveRosaToFile(rosa, rosaApiRoute)
       .then(() => {
-        setRosaSavedMsg("Rosa salvata in rosa.json sul disco.");
+        setRosaSavedMsg(`Rosa salvata in ${rosaFileLabel} sul disco.`);
         setTimeout(() => setRosaSavedMsg(""), 2500);
       })
       .catch(() => {
-        setRosaSavedMsg("Errore: impossibile scrivere rosa.json. Avvia con npm run dev.");
+        setRosaSavedMsg(`Errore: impossibile scrivere ${rosaFileLabel}. Avvia con npm run dev.`);
         setTimeout(() => setRosaSavedMsg(""), 4000);
       });
   };
   const clearRosa = () => {
     const blank = emptyRosa();
-    setRosa(blank);
-    saveRosaToFile(blank)
+    setActiveRosa(blank);
+    saveRosaToFile(blank, rosaApiRoute)
       .then(() => {
-        setRosaSavedMsg("Rosa svuotata e rosa.json aggiornato.");
+        setRosaSavedMsg(`Rosa svuotata e ${rosaFileLabel} aggiornato.`);
         setTimeout(() => setRosaSavedMsg(""), 2500);
       })
       .catch(() => {
-        setRosaSavedMsg("Errore: impossibile aggiornare rosa.json.");
+        setRosaSavedMsg(`Errore: impossibile aggiornare ${rosaFileLabel}.`);
         setTimeout(() => setRosaSavedMsg(""), 4000);
       });
   };
 
-  const rosaFlat = useMemo(() => Object.values(rosa).flat(), [rosa]);
+  const rosaFlat = useMemo(() => Object.values(rosaSuccessiva).flat(), [rosaSuccessiva]);
   const formDayKey = String(formMd);
   const formDay = formStore.giornate[formDayKey] || emptyFormDay();
   const formSlots = SLOT_POSITIONS[formDay.modulo] || SLOT_POSITIONS["4-3-3"];
@@ -1059,7 +1125,7 @@ export default function SimulatoreMondiale() {
 
   const rosaPickList = useMemo(() => {
     const q = rosaSearch.trim().toLowerCase();
-    return listonePlayers
+    return listoneForRosa
       .filter((p) => p.ruolo === rosaRuolo)
       .filter((p) => !q || p.nome.toLowerCase().includes(q) || p.team.toLowerCase().includes(q))
       .sort((a, b) => {
@@ -1072,7 +1138,7 @@ export default function SimulatoreMondiale() {
         }
         return a.nome.localeCompare(b.nome);
       });
-  }, [listonePlayers, rosaRuolo, rosaSearch, rosaSorts]);
+  }, [listoneForRosa, rosaRuolo, rosaSearch, rosaSorts]);
 
   const fantaFiltersActive = fantaSearch.trim() !== "" || fantaRuolo !== "all" || fantaFascia !== "all" || fantaSorts.length > 0;
   const rosaFiltersActive = rosaSearch.trim() !== "" || rosaRuolo !== "portieri" || rosaSorts.length > 0;
@@ -1106,7 +1172,7 @@ export default function SimulatoreMondiale() {
         <span className="wm-leg"><span className="wm-pill" style={{ background: "#22c55e" }} /> facile</span>
         <span className="wm-leg"><span className="wm-pill" style={{ background: "#f5a524" }} /> media</span>
         <span className="wm-leg"><span className="wm-pill" style={{ background: "#ef4444" }} /> dura</span>
-        <span style={{ color: "var(--mut)" }}>· la sigla nel pallino è l'avversario di quella giornata (G1/G2/G3)</span>
+        <span style={{ color: "var(--mut)" }}>· quote vittoria: verde ≤ {WIN_ODD_GREEN_MAX.toFixed(2)}, giallo fino a {WIN_ODD_YELLOW_MAX.toFixed(2)}, rosso se sfavorita</span>
       </div>
       <div className="wm-grid">
         {Object.keys(GROUPS).map((g) => (
@@ -1119,11 +1185,7 @@ export default function SimulatoreMondiale() {
             </div>
             {GROUPS[g].map((team) => {
               const fx = FIXTURES[g];
-              const cells = [1, 2, 3].map((md) => {
-                const match = fx.find((f) => f[0] === md && (f[1] === team || f[2] === team));
-                const opp = match ? (match[1] === team ? match[2] : match[1]) : null;
-                return { md, opp, str: opp ? STR[opp] : 0 };
-              });
+              const cells = getMatchCells(team, g, FIXTURES, ABBR);
               return (
                 <div className="wm-row" key={team}>
                   <span className="wm-tname">{team}</span>
@@ -1263,7 +1325,7 @@ export default function SimulatoreMondiale() {
           </table>
         </div>
         <div className="wm-note" style={{ marginTop: 10 }}>
-          Fasce basate su quotazioni (listone.json), probabili formazioni, calendario gironi e strategia margine/plusvalenze.
+          Fasce basate su quotazioni aggiornate (listone_2g.json), probabili formazioni, calendario gironi e strategia margine/plusvalenze.
           Verde = partita facile · giallo = media · rosso = dura. I top conviene prenderli dai sedicesimi con il margine.
         </div>
       </div>
@@ -1391,20 +1453,60 @@ export default function SimulatoreMondiale() {
         {setPieceLegend}
       </div>
       <div className="wm-panel">
-        <div className="wm-ph"><Users size={15} color="var(--turf)" /> Simulatore rosa · 3 POR · 8 DIF · 8 CEN · 6 ATT · budget {ROSA_BUDGET} cr</div>
+        <div className="wm-ph" style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
+          <Users size={15} color="var(--turf)" />
+          <span>Rosa · 3 POR · 8 DIF · 8 CEN · 6 ATT</span>
+          <select
+            className="wm-rosa-mode"
+            value={rosaMode}
+            onChange={(e) => setRosaMode(e.target.value)}
+            title="Rosa iniziale = simulazione asta con 250 cr · Rosa successiva = rosa reale post-asta"
+          >
+            <option value="iniziale">Rosa iniziale</option>
+            <option value="successiva">Rosa successiva</option>
+          </select>
+        </div>
         <div className="wm-budget">
-          <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--turf)" }}>{rosaSpent}</b><span>Spesi</span></div>
-          <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--gold)" }}>{rosaRemaining}</b><span>Rimanenti</span></div>
+          {isRosaIniziale ? (
+            <>
+              <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--turf)" }}>{rosaSpent}</b><span>Spesi / {ROSA_BUDGET}</span></div>
+              <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--gold)" }}>{rosaRemaining}</b><span>Rimanenti</span></div>
+              <div className="wm-bar"><i style={{ width: `${Math.min(100, (rosaSpent / ROSA_BUDGET) * 100)}%`, background: rosaRemaining < 0 ? "#ef4444" : undefined }} /></div>
+            </>
+          ) : (
+            <>
+              <div className="wm-bnum"><b style={{ color: "var(--turf)" }}>{rosaSpent}</b><span>Patrimonio (quot. attuali)</span></div>
+              <div className="wm-budget-inp">
+                <label htmlFor="rosa-budget-rim">Budget rimanente (M)</label>
+                <input
+                  id="rosa-budget-rim"
+                  type="number"
+                  min={0}
+                  step={1}
+                  value={rosaBudgetRimanente}
+                  onChange={(e) => setRosaBudgetRimanente(Math.max(0, Number(e.target.value) || 0))}
+                  title="Milioni rimasti dopo l'asta + eventuali svincoli e plusvalenze"
+                />
+              </div>
+            </>
+          )}
           <div className="wm-bnum"><b>{rosaCount}/25</b><span>Giocatori</span></div>
-          <div className="wm-bar"><i style={{ width: `${Math.min(100, (rosaSpent / ROSA_BUDGET) * 100)}%`, background: rosaRemaining < 0 ? "#ef4444" : undefined }} /></div>
           <button className="wm-btn turf" onClick={saveRosa}><Save size={14} /> Salva</button>
           <button className="wm-btn" onClick={clearRosa}><RotateCcw size={14} /> Svuota</button>
         </div>
         {rosaSavedMsg && (
           <div className="wm-note" style={{ color: "var(--turf)", marginBottom: 10 }}>{rosaSavedMsg}</div>
         )}
-        {rosaRemaining < 0 && (
+        {isRosaIniziale && rosaRemaining < 0 && (
           <div className="wm-note" style={{ color: "#ef4444", marginBottom: 10 }}>Hai sforato il budget di {-rosaRemaining} crediti: togli qualche giocatore.</div>
+        )}
+        {!isRosaIniziale && rosaBudgetRimanente < 0 && (
+          <div className="wm-note" style={{ color: "#ef4444", marginBottom: 10 }}>Budget in negativo di {-rosaBudgetRimanente} M: vendi giocatori o aggiorna il budget (es. plusvalenze da svincoli).</div>
+        )}
+        {!isRosaIniziale && rosaSpent > ROSA_BUDGET && (
+          <div className="wm-note" style={{ color: "var(--gold)", marginBottom: 10 }}>
+            Patrimonio {rosaSpent} cr oltre i {ROSA_BUDGET} dell&apos;asta iniziale: normale se hai fatto plusvalenze sulle quotazioni.
+          </div>
         )}
 
         <div className="wm-roles">
@@ -1431,7 +1533,7 @@ export default function SimulatoreMondiale() {
                       </span>
                       <span className="wm-dots">
                         {p.cells.map((c) => (
-                          <span key={c.md} className="wm-dot" title={`G${c.md}: vs ${c.opp} (${c.str})`} style={{ background: diffColor(c.str), width: 16, height: 16, fontSize: 7 }}>{c.abbr}</span>
+                          <span key={c.md} className="wm-dot" title={c.win != null ? `G${c.md}: vs ${c.opp} · quota ${c.win}` : `G${c.md}: vs ${c.opp}`} style={{ background: diffColor(c.str), width: 16, height: 16, fontSize: 7 }}>{c.abbr}</span>
                         ))}
                       </span>
                       <span className="cr">{p.valore}</span>
@@ -1505,11 +1607,17 @@ export default function SimulatoreMondiale() {
                 const fm = fasciaMeta(p.fascia);
                 const inRosa = rosaKeys.has(pkey(p));
                 const roleFull = rosa[p.ruolo].length >= ROSA_LIMITS[p.ruolo];
+                const cantAfford = isRosaIniziale ? rosaRemaining < p.valore : rosaBudgetRimanente < p.valore;
                 return (
                   <tr key={pkey(p)} style={inRosa ? { opacity: 0.5 } : {}}>
                     <td>
-                      <button className="wm-addbtn" disabled={inRosa || roleFull} onClick={() => addToRosa(p)}>
-                        <Plus size={12} />{inRosa ? "In rosa" : "Aggiungi"}
+                      <button
+                        className="wm-addbtn"
+                        disabled={inRosa || roleFull || cantAfford}
+                        onClick={() => addToRosa(p)}
+                        title={cantAfford ? (isRosaIniziale ? "Budget insufficiente" : "Budget rimanente insufficiente") : undefined}
+                      >
+                        <Plus size={12} />{inRosa ? "In rosa" : cantAfford ? "No budget" : "Aggiungi"}
                       </button>
                     </td>
                     <td>
@@ -1539,7 +1647,12 @@ export default function SimulatoreMondiale() {
           </table>
         </div>
         <div className="wm-note" style={{ marginTop: 10 }}>
-          La rosa viene salvata nel file <b>rosa.json</b> nella cartella del progetto sul tuo PC. Ogni volta che apri questo tab viene letta da lì. Usa <b>Salva</b> per scriverla sul disco; <b>Svuota</b> cancella rosa e file.
+          {isRosaIniziale ? (
+            <>Rosa all&apos;asta con <b>quotazioni iniziali</b> (listone.json) e budget <b>{ROSA_BUDGET} cr</b>. Salvata in <b>rosa_iniziale.json</b> — precaricata da <b>rosa.json</b> se vuota.</>
+          ) : (
+            <>Rosa reale post-asta in <b>rosa.json</b> (usata anche dal simulatore formazione). Il patrimonio usa le quotazioni aggiornate; il <b>budget rimanente</b> sono i milioni liberi per acquisti (es. 2 M se hai speso 248 all&apos;asta) più eventuali plusvalenze da svincoli — modificalo manualmente quando vendi.</>
+          )}
+          {" "}Usa <b>Salva</b> per scrivere sul disco; <b>Svuota</b> cancella rosa e file.
         </div>
       </div>
     </div>
@@ -1550,8 +1663,8 @@ export default function SimulatoreMondiale() {
     <div>
       <div className="wm-panel">
         <div className="wm-ph"><LayoutGrid size={15} color="var(--turf)" /> Simulatore formazione · titolari + panchina per giornata girone</div>
-        {rosaCount === 0 && (
-          <div className="wm-note" style={{ marginBottom: 10 }}>Compila prima la rosa nel tab Simulatore rosa.</div>
+        {rosaSuccessivaCount === 0 && (
+          <div className="wm-note" style={{ marginBottom: 10 }}>Compila prima la rosa successiva nel tab Rosa.</div>
         )}
         <div className="wm-form-controls">
           <div className="wm-form-ctrl">
@@ -1580,7 +1693,7 @@ export default function SimulatoreMondiale() {
             <h4>Titolari ({formDay.modulo})</h4>
             {formSlots.map((pos, i) => {
               const current = formDay.titolari[i];
-              const roleLetter = slotRoleLetter(pos);
+              const slotLetter = slotRoleLetter(pos);
               const roleRuolo = slotRosaRuolo(pos);
               const usedElsewhere = new Set(
                 formDay.titolari.filter(Boolean).filter((_, j) => j !== i).map(pkey)
@@ -1588,14 +1701,15 @@ export default function SimulatoreMondiale() {
               const options = rosaFlat.filter(
                 (p) => p.ruolo === roleRuolo && !usedElsewhere.has(pkey(p))
               );
+              const displayLetter = current ? rosaRoleLetter(current.ruolo) : slotLetter;
               return (
-                <div className={"wm-form-slot role-" + roleLetter.toLowerCase()} key={i}>
-                  <span className={"wm-form-pos " + roleLetter.toLowerCase()}>{roleLetter}</span>
+                <div className={"wm-form-slot role-" + displayLetter.toLowerCase()} key={i}>
+                  <span className={"wm-form-pos " + displayLetter.toLowerCase()}>{displayLetter}</span>
                   <div className="wm-form-pick">
                     <FormPlayerSelect
                       value={current ? pkey(current) : ""}
                       options={options}
-                      placeholder={`— scegli ${roleLetter} —`}
+                      placeholder={`— scegli ${slotLetter} —`}
                       md={formMd}
                       open={formPickerOpen === i}
                       onToggle={() => setFormPickerOpen(formPickerOpen === i ? null : i)}
@@ -1614,8 +1728,8 @@ export default function SimulatoreMondiale() {
               <div className="wm-bench-row" key={pkey(p)}>
                 <span className="wm-bench-ord">{i + 1}</span>
                 <div className="wm-bench-main">
-                  <span className={"wm-form-role " + (ROSA_TO_ROLE_LETTER[p.ruolo] || "c").toLowerCase()}>
-                    {ROSA_TO_ROLE_LETTER[p.ruolo] || "?"}
+                  <span className={"wm-form-role " + rosaRoleLetter(p.ruolo).toLowerCase()}>
+                    {rosaRoleLetter(p.ruolo)}
                   </span>
                   <TeamBadge nazione={p.nazione} team={p.team} compact />
                   <div className="wm-bench-nm">{p.nome}</div>
@@ -1644,8 +1758,8 @@ export default function SimulatoreMondiale() {
               return avail.map((p) => (
                 <div className="wm-bench-row" key={pkey(p)}>
                   <div className="wm-bench-main">
-                    <span className={"wm-form-role " + (ROSA_TO_ROLE_LETTER[p.ruolo] || "c").toLowerCase()}>
-                      {ROSA_TO_ROLE_LETTER[p.ruolo] || "?"}
+                    <span className={"wm-form-role " + rosaRoleLetter(p.ruolo).toLowerCase()}>
+                      {rosaRoleLetter(p.ruolo)}
                     </span>
                     <TeamBadge nazione={p.nazione} team={p.team} compact />
                     <div className="wm-bench-nm">{p.nome}</div>
@@ -1679,7 +1793,7 @@ export default function SimulatoreMondiale() {
             <span style={{ fontSize: 12.5, color: "var(--mut)" }}>Evidenzia percorso di:</span>
             <select className="wm-sel" style={{ width: 160 }} value={focus} onChange={(e) => setFocus(e.target.value)}>
               <option value="">Nessuno</option>
-              {Object.keys(STR).sort().map((t) => <option key={t} value={t}>{t}</option>)}
+              {Object.keys(TEAM_STRENGTH).sort().map((t) => <option key={t} value={t}>{t}</option>)}
             </select>
           </span>
         </div>
@@ -1693,7 +1807,7 @@ export default function SimulatoreMondiale() {
             {pathInfo.opps.map((o, i) => (
               <span key={o.m}>
                 {i > 0 && " → "}
-                <b>{matchRoundName(o.m)}</b>: vs <b style={{ color: STR[o.opp] >= 79 ? "#ef4444" : STR[o.opp] >= 61 ? "#f5a524" : "#22c55e" }}>{o.opp}</b>
+                <b>{matchRoundName(o.m)}</b>: vs <b style={{ color: diffColor(TEAM_STRENGTH[o.opp] || 70) }}>{o.opp}</b>
               </span>
             ))}
           </div>
@@ -1769,7 +1883,7 @@ export default function SimulatoreMondiale() {
                     <div className={"wm-team" + (isW ? " win" : "") + (isF && !isW ? " focus" : "")}
                       onClick={() => pickWinner(m, team)}>
                       <span className="nm">
-                        <span className="wm-sdot" style={{ background: diffColor(STR[team] || 0) }} />
+                        <span className="wm-sdot" style={{ background: diffColor(TEAM_STRENGTH[team] || 0) }} />
                         {team}
                       </span>
                       <span className="ab">{ABBR[team] || ""}</span>
@@ -1812,7 +1926,7 @@ export default function SimulatoreMondiale() {
           <Star size={15} /> Fantamondiale
         </div>
         <div className={"wm-tab" + (tab === "rosa" ? " on" : "")} onClick={() => setTab("rosa")}>
-          <Users size={15} /> Simulatore rosa
+          <Users size={15} /> Rosa
         </div>
         <div className={"wm-tab" + (tab === "form" ? " on" : "")} onClick={() => setTab("form")}>
           <LayoutGrid size={15} /> Simulatore formazione
@@ -1823,6 +1937,12 @@ export default function SimulatoreMondiale() {
         <div className={"wm-tab" + (tab === "proj" ? " on" : "")} onClick={() => setTab("proj")}>
           <BarChart3 size={15} /> Proiezioni
         </div>
+        <div className={"wm-tab" + (tab === "squad" ? " on" : "")} onClick={() => setTab("squad")}>
+          <Shield size={15} /> Squadre
+        </div>
+        <div className={"wm-tab" + (tab === "quot" ? " on" : "")} onClick={() => setTab("quot")}>
+          <TrendingUp size={15} /> Confronto quotazioni
+        </div>
       </div>
       <div className="wm-body">
         {tab === "cal" ? calendarView
@@ -1832,6 +1952,8 @@ export default function SimulatoreMondiale() {
           : tab === "form" ? formView
           : tab === "piaz" ? piazzatiView
           : tab === "proj" ? <ProiezioniTab />
+          : tab === "squad" ? <SquadreTab listonePlayers={listonePlayers} playerByKey={playerByKey} />
+          : tab === "quot" ? <QuotazioniConfrontoTab rows={quotazioniConfronto} />
           : calendarView}
       </div>
     </div>

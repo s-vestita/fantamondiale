@@ -1,8 +1,10 @@
-import listone from "./listone.json" with { type: "json" };
+import listoneIniziale from "./listone.json" with { type: "json" };
+import listone from "./listone_2g.json" with { type: "json" };
 import startersData from "./starters.json" with { type: "json" };
 import positionsData from "./positions.json" with { type: "json" };
 import { getPlayerSetPieces } from "./setPiecesData.js";
 import { fallbackPosizione } from "./formationPositions.js";
+import { getMatchCells, TEAM_STRENGTH } from "./matchOddsLogic.js";
 
 export const NAT_TO_TEAM = {
   MES: "Messico", COR: "Corea del Sud", CEC: "Cechia", SUD: "Sudafrica",
@@ -109,14 +111,7 @@ export function getTeamForNat(nat, groups) {
   return null;
 }
 
-export function getMatchCells(team, group, fixtures, str, abbr) {
-  const fx = fixtures[group] || [];
-  return [1, 2, 3].map((md) => {
-    const match = fx.find((f) => f[0] === md && (f[1] === team || f[2] === team));
-    const opp = match ? (match[1] === team ? match[2] : match[1]) : null;
-    return { md, opp, str: opp ? str[opp] || 0 : 0, abbr: opp ? abbr[opp] || "?" : "?" };
-  });
-}
+export { getMatchCells, TEAM_STRENGTH, diffColor } from "./matchOddsLogic.js";
 
 function pathNote(team, easy, hard) {
   if (easy) return "percorso favorevole (da 1º: 16esimi vs una terza)";
@@ -277,14 +272,47 @@ export function autoBuildRosa(players, budget = ROSA_BUDGET, limits = ROSA_LIMIT
   return sel;
 }
 
-export function buildListone(groups, fixtures, str, abbr) {
+export function buildQuotazioniConfronto() {
   const out = [];
   for (const ruolo of ["portieri", "difensori", "centrocampisti", "attaccanti"]) {
+    const iniByKey = new Map(
+      listoneIniziale[ruolo].map((p) => [`${p.nome}|${p.nazione}`, p.valore])
+    );
     for (const p of listone[ruolo]) {
+      const key = `${p.nome}|${p.nazione}`;
+      const iniziale = iniByKey.get(key) ?? p.valore;
+      const attuale = p.valore;
+      out.push({
+        nome: p.nome,
+        nazione: p.nazione,
+        ruolo,
+        ruoloLabel: RUOLO_LABEL[ruolo],
+        team: NAT_TO_TEAM[p.nazione] || p.nazione,
+        iniziale,
+        attuale,
+        delta: attuale - iniziale,
+      });
+    }
+  }
+  return out;
+}
+
+export function buildListone(groups, fixtures, abbr) {
+  return buildListoneFrom(listone, groups, fixtures, abbr);
+}
+
+export function buildListoneIniziale(groups, fixtures, abbr) {
+  return buildListoneFrom(listoneIniziale, groups, fixtures, abbr);
+}
+
+function buildListoneFrom(listoneData, groups, fixtures, abbr) {
+  const out = [];
+  for (const ruolo of ["portieri", "difensori", "centrocampisti", "attaccanti"]) {
+    for (const p of listoneData[ruolo]) {
       const info = getTeamForNat(p.nazione, groups);
-      const cells = info ? getMatchCells(info.team, info.group, fixtures, str, abbr) : [];
+      const cells = info ? getMatchCells(info.team, info.group, fixtures, abbr) : [];
       const enriched = { ...p, ruolo, cells };
-      const { fascia, note } = classifyPlayer(enriched, groups, str);
+      const { fascia, note } = classifyPlayer(enriched, groups, TEAM_STRENGTH);
       const starter = isStarter(p.nome, p.nazione);
       const posKey = `${p.nome}|${p.nazione}`;
       const posizione = positionsData[posKey] || (starter ? fallbackPosizione(ruolo) : null);
@@ -296,7 +324,7 @@ export function buildListone(groups, fixtures, str, abbr) {
         posizione,
         team: info?.team || NAT_TO_TEAM[p.nazione] || "?",
         group: info?.group || "—",
-        teamStr: info ? str[info.team] || 0 : 0,
+        teamStr: info ? TEAM_STRENGTH[info.team] || 0 : 0,
         starter,
         fascia,
         note,

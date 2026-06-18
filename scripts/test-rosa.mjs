@@ -39,7 +39,7 @@ const FIXTURES = {
   L: [[1, "Inghilterra", "Croazia"], [1, "Ghana", "Panama"], [2, "Inghilterra", "Ghana"], [2, "Panama", "Croazia"], [3, "Panama", "Inghilterra"], [3, "Croazia", "Ghana"]],
 };
 
-const all = buildListone(GROUPS, FIXTURES, STR, ABBR);
+const all = buildListone(GROUPS, FIXTURES, ABBR);
 const sel = autoBuildRosa(all);
 let total = 0;
 for (const r of Object.keys(ROSA_LIMITS)) {

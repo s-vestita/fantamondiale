@@ -46,7 +46,7 @@ const FIXTURES = {
   L: [[1, "Inghilterra", "Croazia"], [1, "Ghana", "Panama"], [2, "Inghilterra", "Ghana"], [2, "Panama", "Croazia"], [3, "Panama", "Inghilterra"], [3, "Croazia", "Ghana"]],
 };
 
-const all = buildListone(GROUPS, FIXTURES, STR, ABBR);
+const all = buildListone(GROUPS, FIXTURES, ABBR);
 for (const n of ["MBAPPE", "SON", "OYARZABAL", "SIMON UN.", "RAUL RANGEL", "COUFAL", "OLUWASEYI", "YAMAL", "TANGVIK", "MESSI", "EL KAABI", "DE KETELAERE", "CALHANOGLU", "MODRIC", "HAKIMI", "RONALDO", "WOOD"]) {
   const p = all.find((x) => x.nome === n);
   if (p) console.log(`${n} [${p.team}/${p.ruoloLabel}] ${p.fascia} (${p.valore}cr, titolare=${p.starter})\n   ${p.note}`);

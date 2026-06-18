@@ -1,0 +1,940 @@
+{
+  "source": "Sofascore",
+  "fetchedAt": "2026-06-08T07:16:31.402Z",
+  "seasonId": 58210,
+  "tournamentId": 16,
+  "note": "Quote 1X2 Full-time (mercato principale Sofascore). 1=casa in tabella, 2=trasferta.",
+  "matches": [
+    {
+      "eventId": 15186731,
+      "group": "A",
+      "home": "Cechia",
+      "away": "Sudafrica",
+      "startTimestamp": 1781798400,
+      "odds": {
+        "1": 1.91,
+        "2": 4.2,
+        "X": 3.25,
+        "sourceId": 192256753
+      }
+    },
+    {
+      "eventId": 15186732,
+      "group": "A",
+      "home": "Cechia",
+      "away": "Messico",
+      "startTimestamp": 1782349200,
+      "odds": {
+        "1": 4.33,
+        "2": 1.75,
+        "X": 3.5,
+        "sourceId": 192256768
+      }
+    },
+    {
+      "eventId": 15186720,
+      "group": "A",
+      "home": "Corea del Sud",
+      "away": "Cechia",
+      "startTimestamp": 1781229600,
+      "odds": {
+        "1": 2.6,
+        "2": 2.75,
+        "X": 3.1,
+        "sourceId": 192256611
+      }
+    },
+    {
+      "eventId": 15186710,
+      "group": "A",
+      "home": "Messico",
+      "away": "Sudafrica",
+      "startTimestamp": 1781204400,
+      "odds": {
+        "1": 1.44,
+        "2": 7.5,
+        "X": 4.33,
+        "sourceId": 185942569
+      }
+    },
+    {
+      "eventId": 15186490,
+      "group": "A",
+      "home": "Messico",
+      "away": "Corea del Sud",
+      "startTimestamp": 1781830800,
+      "odds": {
+        "1": 1.8,
+        "2": 4.5,
+        "X": 3.4,
+        "sourceId": 194699766
+      }
+    },
+    {
+      "eventId": 15186744,
+      "group": "A",
+      "home": "Sudafrica",
+      "away": "Corea del Sud",
+      "startTimestamp": 1782349200,
+      "odds": {
+        "1": 3.9,
+        "2": 1.91,
+        "X": 3.4,
+        "sourceId": 194699857
+      }
+    },
+    {
+      "eventId": 15186829,
+      "group": "B",
+      "home": "Bosnia",
+      "away": "Qatar",
+      "startTimestamp": 1782327600,
+      "odds": {
+        "1": 1.53,
+        "2": 6,
+        "X": 3.8,
+        "sourceId": 192256765
+      }
+    },
+    {
+      "eventId": 15186836,
+      "group": "B",
+      "home": "Canada",
+      "away": "Bosnia",
+      "startTimestamp": 1781290800,
+      "odds": {
+        "1": 1.8,
+        "2": 4.5,
+        "X": 3.7,
+        "sourceId": 192256735
+      }
+    },
+    {
+      "eventId": 15186798,
+      "group": "B",
+      "home": "Canada",
+      "away": "Qatar",
+      "startTimestamp": 1781820000,
+      "odds": {
+        "1": 1.3,
+        "2": 9,
+        "X": 5,
+        "sourceId": 194699764
+      }
+    },
+    {
+      "eventId": 15186526,
+      "group": "B",
+      "home": "Qatar",
+      "away": "Svizzera",
+      "startTimestamp": 1781377200,
+      "odds": {
+        "1": 12,
+        "2": 1.22,
+        "X": 6.25,
+        "sourceId": 185942671
+      }
+    },
+    {
+      "eventId": 15186806,
+      "group": "B",
+      "home": "Svizzera",
+      "away": "Bosnia",
+      "startTimestamp": 1781809200,
+      "odds": {
+        "1": 1.62,
+        "2": 5,
+        "X": 3.9,
+        "sourceId": 192256763
+      }
+    },
+    {
+      "eventId": 15186821,
+      "group": "B",
+      "home": "Svizzera",
+      "away": "Canada",
+      "startTimestamp": 1782327600,
+      "odds": {
+        "1": 2.05,
+        "2": 3.4,
+        "X": 3.25,
+        "sourceId": 194699832
+      }
+    },
+    {
+      "eventId": 15186850,
+      "group": "C",
+      "home": "Brasile",
+      "away": "Marocco",
+      "startTimestamp": 1781388000,
+      "odds": {
+        "1": 1.65,
+        "2": 5.5,
+        "X": 3.75,
+        "sourceId": 185942576
+      }
+    },
+    {
+      "eventId": 15186856,
+      "group": "C",
+      "home": "Brasile",
+      "away": "Haiti",
+      "startTimestamp": 1781915400,
+      "odds": {
+        "1": 1.08,
+        "2": 21,
+        "X": 13,
+        "sourceId": 194699793
+      }
+    },
+    {
+      "eventId": 15186853,
+      "group": "C",
+      "home": "Haiti",
+      "away": "Scozia",
+      "startTimestamp": 1781398800,
+      "odds": {
+        "1": 5.5,
+        "2": 1.5,
+        "X": 4.75,
+        "sourceId": 185942620
+      }
+    },
+    {
+      "eventId": 15186864,
+      "group": "C",
+      "home": "Marocco",
+      "away": "Haiti",
+      "startTimestamp": 1782338400,
+      "odds": {
+        "1": 1.33,
+        "2": 7.5,
+        "X": 5,
+        "sourceId": 194699836
+      }
+    },
+    {
+      "eventId": 15186859,
+      "group": "C",
+      "home": "Scozia",
+      "away": "Marocco",
+      "startTimestamp": 1781906400,
+      "odds": {
+        "1": 3.9,
+        "2": 1.95,
+        "X": 3.2,
+        "sourceId": 194699784
+      }
+    },
+    {
+      "eventId": 15186861,
+      "group": "C",
+      "home": "Scozia",
+      "away": "Brasile",
+      "startTimestamp": 1782338400,
+      "odds": {
+        "1": 6.5,
+        "2": 1.45,
+        "X": 4.33,
+        "sourceId": 194699849
+      }
+    },
+    {
+      "eventId": 15186874,
+      "group": "D",
+      "home": "Australia",
+      "away": "Türkiye",
+      "startTimestamp": 1781409600,
+      "odds": {
+        "1": 4.75,
+        "2": 1.75,
+        "X": 3.6,
+        "sourceId": 195350662
+      }
+    },
+    {
+      "eventId": 15186891,
+      "group": "D",
+      "home": "Paraguay",
+      "away": "Australia",
+      "startTimestamp": 1782439200,
+      "odds": {
+        "1": 2.15,
+        "2": 3.4,
+        "X": 3.2,
+        "sourceId": 194699872
+      }
+    },
+    {
+      "eventId": 15186879,
+      "group": "D",
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "startTimestamp": 1781924400,
+      "odds": {
+        "1": 2.2,
+        "2": 3.4,
+        "X": 3.1,
+        "sourceId": 194907896
+      }
+    },
+    {
+      "eventId": 15186887,
+      "group": "D",
+      "home": "Türkiye",
+      "away": "USA",
+      "startTimestamp": 1782439200,
+      "odds": {
+        "1": 2.7,
+        "2": 2.5,
+        "X": 3.4,
+        "sourceId": 192256773
+      }
+    },
+    {
+      "eventId": 15186873,
+      "group": "D",
+      "home": "USA",
+      "away": "Paraguay",
+      "startTimestamp": 1781312400,
+      "odds": {
+        "1": 1.95,
+        "2": 4,
+        "X": 3.4,
+        "sourceId": 185942662
+      }
+    },
+    {
+      "eventId": 15186878,
+      "group": "D",
+      "home": "USA",
+      "away": "Australia",
+      "startTimestamp": 1781895600,
+      "odds": {
+        "1": 1.7,
+        "2": 4.75,
+        "X": 3.5,
+        "sourceId": 194699771
+      }
+    },
+    {
+      "eventId": 15186904,
+      "group": "E",
+      "home": "Costa d'Avorio",
+      "away": "Ecuador",
+      "startTimestamp": 1781478000,
+      "odds": {
+        "1": 3.5,
+        "2": 2.3,
+        "X": 2.9,
+        "sourceId": 185942622
+      }
+    },
+    {
+      "eventId": 15186908,
+      "group": "E",
+      "home": "Curaçao",
+      "away": "Costa d'Avorio",
+      "startTimestamp": 1782417600,
+      "odds": null
+    },
+    {
+      "eventId": 15186906,
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "startTimestamp": 1782000000,
+      "odds": {
+        "1": 1.2,
+        "2": 13,
+        "X": 6.25,
+        "sourceId": 194699800
+      }
+    },
+    {
+      "eventId": 15186907,
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Germania",
+      "startTimestamp": 1782417600,
+      "odds": {
+        "1": 5,
+        "2": 1.67,
+        "X": 3.7,
+        "sourceId": 194699864
+      }
+    },
+    {
+      "eventId": 15186899,
+      "group": "E",
+      "home": "Germania",
+      "away": "Curaçao",
+      "startTimestamp": 1781456400,
+      "odds": {
+        "1": 1.03,
+        "2": 41,
+        "X": 19,
+        "sourceId": 185942665
+      }
+    },
+    {
+      "eventId": 15186905,
+      "group": "E",
+      "home": "Germania",
+      "away": "Costa d'Avorio",
+      "startTimestamp": 1781985600,
+      "odds": null
+    },
+    {
+      "eventId": 15186972,
+      "group": "F",
+      "home": "Giappone",
+      "away": "Svezia",
+      "startTimestamp": 1782428400,
+      "odds": {
+        "1": 2.05,
+        "2": 3.5,
+        "X": 3.4,
+        "sourceId": 192256770
+      }
+    },
+    {
+      "eventId": 15186945,
+      "group": "F",
+      "home": "Olanda",
+      "away": "Giappone",
+      "startTimestamp": 1781467200,
+      "odds": {
+        "1": 1.95,
+        "2": 3.5,
+        "X": 3.8,
+        "sourceId": 185942617
+      }
+    },
+    {
+      "eventId": 15186957,
+      "group": "F",
+      "home": "Olanda",
+      "away": "Svezia",
+      "startTimestamp": 1781974800,
+      "odds": {
+        "1": 1.62,
+        "2": 4.75,
+        "X": 3.9,
+        "sourceId": 192256761
+      }
+    },
+    {
+      "eventId": 15186951,
+      "group": "F",
+      "home": "Svezia",
+      "away": "Tunisia",
+      "startTimestamp": 1781488800,
+      "odds": {
+        "1": 1.85,
+        "2": 4.33,
+        "X": 3.4,
+        "sourceId": 192256742
+      }
+    },
+    {
+      "eventId": 15186963,
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Giappone",
+      "startTimestamp": 1782014400,
+      "odds": {
+        "1": 4.75,
+        "2": 1.75,
+        "X": 3.4,
+        "sourceId": 194699803
+      }
+    },
+    {
+      "eventId": 15186973,
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Olanda",
+      "startTimestamp": 1782428400,
+      "odds": {
+        "1": 6,
+        "2": 1.48,
+        "X": 4.2,
+        "sourceId": 194699870
+      }
+    },
+    {
+      "eventId": 15186837,
+      "group": "G",
+      "home": "Belgio",
+      "away": "Egitto",
+      "startTimestamp": 1781550000,
+      "odds": {
+        "1": 1.65,
+        "2": 5,
+        "X": 3.8,
+        "sourceId": 185942667
+      }
+    },
+    {
+      "eventId": 15186499,
+      "group": "G",
+      "home": "Belgio",
+      "away": "Iran",
+      "startTimestamp": 1782068400,
+      "odds": {
+        "1": 1.38,
+        "2": 7,
+        "X": 4.5,
+        "sourceId": 194699808
+      }
+    },
+    {
+      "eventId": 15186828,
+      "group": "G",
+      "home": "Egitto",
+      "away": "Iran",
+      "startTimestamp": 1782529200,
+      "odds": {
+        "1": 2.25,
+        "2": 3.6,
+        "X": 2.9,
+        "sourceId": 194699884
+      }
+    },
+    {
+      "eventId": 15186832,
+      "group": "G",
+      "home": "Iran",
+      "away": "Nuova Zelanda",
+      "startTimestamp": 1781571600,
+      "odds": {
+        "1": 1.85,
+        "2": 4.33,
+        "X": 3.4,
+        "sourceId": 185942678
+      }
+    },
+    {
+      "eventId": 15186827,
+      "group": "G",
+      "home": "Nuova Zelanda",
+      "away": "Egitto",
+      "startTimestamp": 1782090000,
+      "odds": {
+        "1": 4.75,
+        "2": 1.73,
+        "X": 3.5,
+        "sourceId": 194699812
+      }
+    },
+    {
+      "eventId": 15186822,
+      "group": "G",
+      "home": "Nuova Zelanda",
+      "away": "Belgio",
+      "startTimestamp": 1782529200,
+      "odds": {
+        "1": 8,
+        "2": 1.3,
+        "X": 5.5,
+        "sourceId": 194699886
+      }
+    },
+    {
+      "eventId": 15186811,
+      "group": "H",
+      "home": "Arabia Saudita",
+      "away": "Uruguay",
+      "startTimestamp": 1781560800,
+      "odds": {
+        "1": 6.5,
+        "2": 1.45,
+        "X": 4.5,
+        "sourceId": 185942680
+      }
+    },
+    {
+      "eventId": 15186803,
+      "group": "H",
+      "home": "Cabo Verde",
+      "away": "Arabia Saudita",
+      "startTimestamp": 1782518400,
+      "odds": {
+        "1": 2.5,
+        "2": 2.7,
+        "X": 3.3,
+        "sourceId": 194699879
+      }
+    },
+    {
+      "eventId": 15186783,
+      "group": "H",
+      "home": "Spagna",
+      "away": "Cabo Verde",
+      "startTimestamp": 1781539200,
+      "odds": {
+        "1": 1.09,
+        "2": 23,
+        "X": 9.5,
+        "sourceId": 185942682
+      }
+    },
+    {
+      "eventId": 15186840,
+      "group": "H",
+      "home": "Spagna",
+      "away": "Arabia Saudita",
+      "startTimestamp": 1782057600,
+      "odds": {
+        "1": 1.11,
+        "2": 21,
+        "X": 9,
+        "sourceId": 194699805
+      }
+    },
+    {
+      "eventId": 15186800,
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Cabo Verde",
+      "startTimestamp": 1782079200,
+      "odds": {
+        "1": 1.42,
+        "2": 7,
+        "X": 4.5,
+        "sourceId": 194699810
+      }
+    },
+    {
+      "eventId": 15186841,
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Spagna",
+      "startTimestamp": 1782518400,
+      "odds": {
+        "1": 5,
+        "2": 1.62,
+        "X": 3.9,
+        "sourceId": 194699881
+      }
+    },
+    {
+      "eventId": 15186501,
+      "group": "I",
+      "home": "Francia",
+      "away": "Senegal",
+      "startTimestamp": 1781636400,
+      "odds": {
+        "1": 1.45,
+        "2": 6.25,
+        "X": 4.33,
+        "sourceId": 185942684
+      }
+    },
+    {
+      "eventId": 15186769,
+      "group": "I",
+      "home": "Francia",
+      "away": "Iraq",
+      "startTimestamp": 1782162000,
+      "odds": {
+        "1": 1.11,
+        "2": 19,
+        "X": 8.5,
+        "sourceId": 192268168
+      }
+    },
+    {
+      "eventId": 15186773,
+      "group": "I",
+      "home": "Iraq",
+      "away": "Norvegia",
+      "startTimestamp": 1781647200,
+      "odds": {
+        "1": 12,
+        "2": 1.2,
+        "X": 6.5,
+        "sourceId": 192268165
+      }
+    },
+    {
+      "eventId": 15186770,
+      "group": "I",
+      "home": "Norvegia",
+      "away": "Senegal",
+      "startTimestamp": 1782172800,
+      "odds": {
+        "1": 2.1,
+        "2": 3.4,
+        "X": 3.3,
+        "sourceId": 194699816
+      }
+    },
+    {
+      "eventId": 15186537,
+      "group": "I",
+      "home": "Norvegia",
+      "away": "Francia",
+      "startTimestamp": 1782500400,
+      "odds": {
+        "1": 4.2,
+        "2": 1.8,
+        "X": 3.5,
+        "sourceId": 194699874
+      }
+    },
+    {
+      "eventId": 15186771,
+      "group": "I",
+      "home": "Senegal",
+      "away": "Iraq",
+      "startTimestamp": 1782500400,
+      "odds": {
+        "1": 1.44,
+        "2": 6.5,
+        "X": 4.33,
+        "sourceId": 192268170
+      }
+    },
+    {
+      "eventId": 15186747,
+      "group": "J",
+      "home": "Algeria",
+      "away": "Austria",
+      "startTimestamp": 1782612000,
+      "odds": {
+        "1": 3.2,
+        "2": 2.25,
+        "X": 3.25,
+        "sourceId": 194699901
+      }
+    },
+    {
+      "eventId": 15186854,
+      "group": "J",
+      "home": "Argentina",
+      "away": "Algeria",
+      "startTimestamp": 1781658000,
+      "odds": {
+        "1": 1.38,
+        "2": 7.5,
+        "X": 4.75,
+        "sourceId": 185942686
+      }
+    },
+    {
+      "eventId": 15186502,
+      "group": "J",
+      "home": "Argentina",
+      "away": "Austria",
+      "startTimestamp": 1782147600,
+      "odds": {
+        "1": 1.62,
+        "2": 5.25,
+        "X": 3.75,
+        "sourceId": 194699814
+      }
+    },
+    {
+      "eventId": 15186751,
+      "group": "J",
+      "home": "Austria",
+      "away": "Giordania",
+      "startTimestamp": 1781668800,
+      "odds": {
+        "1": 1.3,
+        "2": 8.5,
+        "X": 5.5,
+        "sourceId": 185942688
+      }
+    },
+    {
+      "eventId": 15186740,
+      "group": "J",
+      "home": "Giordania",
+      "away": "Algeria",
+      "startTimestamp": 1782183600,
+      "odds": {
+        "1": 6.25,
+        "2": 1.5,
+        "X": 4,
+        "sourceId": 194699821
+      }
+    },
+    {
+      "eventId": 15186734,
+      "group": "J",
+      "home": "Giordania",
+      "away": "Argentina",
+      "startTimestamp": 1782612000,
+      "odds": {
+        "1": 11,
+        "2": 1.2,
+        "X": 6.5,
+        "sourceId": 194699908
+      }
+    },
+    {
+      "eventId": 15186713,
+      "group": "K",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "startTimestamp": 1782266400,
+      "odds": {
+        "1": 1.44,
+        "2": 7,
+        "X": 4,
+        "sourceId": 192258963
+      }
+    },
+    {
+      "eventId": 15186696,
+      "group": "K",
+      "home": "Colombia",
+      "away": "Portogallo",
+      "startTimestamp": 1782603000,
+      "odds": {
+        "1": 3.4,
+        "2": 2.15,
+        "X": 3.25,
+        "sourceId": 194699899
+      }
+    },
+    {
+      "eventId": 15186717,
+      "group": "K",
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "startTimestamp": 1782603000,
+      "odds": {
+        "1": 2.2,
+        "2": 3.1,
+        "X": 3.4,
+        "sourceId": 192258965
+      }
+    },
+    {
+      "eventId": 15186709,
+      "group": "K",
+      "home": "Portogallo",
+      "away": "Congo DR",
+      "startTimestamp": 1781715600,
+      "odds": {
+        "1": 1.25,
+        "2": 9.5,
+        "X": 6,
+        "sourceId": 192258960
+      }
+    },
+    {
+      "eventId": 15186858,
+      "group": "K",
+      "home": "Portogallo",
+      "away": "Uzbekistan",
+      "startTimestamp": 1782234000,
+      "odds": {
+        "1": 1.25,
+        "2": 9,
+        "X": 5.75,
+        "sourceId": 194699823
+      }
+    },
+    {
+      "eventId": 15186722,
+      "group": "K",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "startTimestamp": 1781748000,
+      "odds": {
+        "1": 7.5,
+        "2": 1.4,
+        "X": 4.5,
+        "sourceId": 185942633
+      }
+    },
+    {
+      "eventId": 15186624,
+      "group": "L",
+      "home": "Croazia",
+      "away": "Ghana",
+      "startTimestamp": 1782594000,
+      "odds": {
+        "1": 1.65,
+        "2": 5,
+        "X": 3.7,
+        "sourceId": 194699889
+      }
+    },
+    {
+      "eventId": 15186687,
+      "group": "L",
+      "home": "Ghana",
+      "away": "Panama",
+      "startTimestamp": 1781737200,
+      "odds": {
+        "1": 2,
+        "2": 3.6,
+        "X": 3.5,
+        "sourceId": 185942641
+      }
+    },
+    {
+      "eventId": 15186504,
+      "group": "L",
+      "home": "Inghilterra",
+      "away": "Croazia",
+      "startTimestamp": 1781726400,
+      "odds": {
+        "1": 1.73,
+        "2": 4.75,
+        "X": 3.7,
+        "sourceId": 185942637
+      }
+    },
+    {
+      "eventId": 15186672,
+      "group": "L",
+      "home": "Inghilterra",
+      "away": "Ghana",
+      "startTimestamp": 1782244800,
+      "odds": {
+        "1": 1.3,
+        "2": 9,
+        "X": 5,
+        "sourceId": 194699828
+      }
+    },
+    {
+      "eventId": 15186520,
+      "group": "L",
+      "home": "Panama",
+      "away": "Croazia",
+      "startTimestamp": 1782255600,
+      "odds": {
+        "1": 6.5,
+        "2": 1.45,
+        "X": 4,
+        "sourceId": 194699830
+      }
+    },
+    {
+      "eventId": 15186676,
+      "group": "L",
+      "home": "Panama",
+      "away": "Inghilterra",
+      "startTimestamp": 1782594000,
+      "odds": {
+        "1": 8.5,
+        "2": 1.29,
+        "X": 5.75,
+        "sourceId": 194699897
+      }
+    }
+  ],
+  "stats": {
+    "total": 72,
+    "withOdds": 70,
+    "missingOdds": 2
+  }
+}

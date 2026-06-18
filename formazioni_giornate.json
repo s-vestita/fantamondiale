@@ -11,26 +11,26 @@
         },
         {
           "slot": 1,
-          "nome": "REYES",
+          "nome": "VASQUEZ",
           "nazione": "MES",
           "ruolo": "difensori"
         },
         {
           "slot": 2,
-          "nome": "GALLARDO",
-          "nazione": "MES",
-          "ruolo": "difensori"
-        },
-        {
-          "slot": 3,
-          "nome": "LAPORTE",
+          "nome": "CUCURELLA",
           "nazione": "SPA",
           "ruolo": "difensori"
         },
         {
-          "slot": 4,
+          "slot": 3,
           "nome": "DE CUYPER",
           "nazione": "BEL",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 4,
+          "nome": "ARAUJO MA.",
+          "nazione": "URU",
           "ruolo": "difensori"
         },
         {
@@ -41,14 +41,14 @@
         },
         {
           "slot": 6,
-          "nome": "RODRIGUEZ JA.",
-          "nazione": "COL",
+          "nome": "FERNANDES",
+          "nazione": "POR",
           "ruolo": "centrocampisti"
         },
         {
           "slot": 7,
-          "nome": "RUIZ",
-          "nazione": "SPA",
+          "nome": "SAIBARI",
+          "nazione": "MAR",
           "ruolo": "centrocampisti"
         },
         {
@@ -65,8 +65,8 @@
         },
         {
           "slot": 10,
-          "nome": "MESSI",
-          "nazione": "ARG",
+          "nome": "HAALAND",
+          "nazione": "NOR",
           "ruolo": "attaccanti"
         }
       ],
@@ -83,44 +83,44 @@
         },
         {
           "slot": 1,
-          "nome": "LAPORTE",
-          "nazione": "SPA",
+          "nome": "ARAUJO MA.",
+          "nazione": "URU",
           "ruolo": "difensori"
         },
         {
           "slot": 2,
-          "nome": "COUFAL",
-          "nazione": "CEC",
-          "ruolo": "difensori"
-        },
-        {
-          "slot": 3,
-          "nome": "SALAH-EDDINE",
-          "nazione": "MAR",
-          "ruolo": "difensori"
-        },
-        {
-          "slot": 4,
           "nome": "DE CUYPER",
           "nazione": "BEL",
           "ruolo": "difensori"
         },
         {
-          "slot": 5,
-          "nome": "RUIZ",
+          "slot": 3,
+          "nome": "O'REILLY",
+          "nazione": "ING",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 4,
+          "nome": "CUCURELLA",
           "nazione": "SPA",
+          "ruolo": "difensori"
+        },
+        {
+          "slot": 5,
+          "nome": "SAIBARI",
+          "nazione": "MAR",
           "ruolo": "centrocampisti"
         },
         {
           "slot": 6,
-          "nome": "RODRIGUEZ JA.",
-          "nazione": "COL",
+          "nome": "DE KETELAERE",
+          "nazione": "BEL",
           "ruolo": "centrocampisti"
         },
         {
           "slot": 7,
-          "nome": "DE KETELAERE",
-          "nazione": "BEL",
+          "nome": "FERNANDES",
+          "nazione": "POR",
           "ruolo": "centrocampisti"
         },
         {
@@ -137,8 +137,8 @@
         },
         {
           "slot": 10,
-          "nome": "MESSI",
-          "nazione": "ARG",
+          "nome": "HAALAND",
+          "nazione": "NOR",
           "ruolo": "attaccanti"
         }
       ],
@@ -155,26 +155,26 @@
         },
         {
           "slot": 1,
-          "nome": "SALAH-EDDINE",
-          "nazione": "MAR",
+          "nome": "VASQUEZ",
+          "nazione": "MES",
           "ruolo": "difensori"
         },
         {
           "slot": 2,
-          "nome": "O'REILLY",
-          "nazione": "ING",
-          "ruolo": "difensori"
-        },
-        {
-          "slot": 3,
           "nome": "DE CUYPER",
           "nazione": "BEL",
           "ruolo": "difensori"
         },
         {
+          "slot": 3,
+          "nome": "CUCURELLA",
+          "nazione": "SPA",
+          "ruolo": "difensori"
+        },
+        {
           "slot": 4,
-          "nome": "DEBAST",
-          "nazione": "BEL",
+          "nome": "O'REILLY",
+          "nazione": "ING",
           "ruolo": "difensori"
         },
         {
@@ -191,8 +191,8 @@
         },
         {
           "slot": 7,
-          "nome": "KESSIE",
-          "nazione": "COS",
+          "nome": "FERNANDES",
+          "nazione": "POR",
           "ruolo": "centrocampisti"
         },
         {
@@ -209,8 +209,8 @@
         },
         {
           "slot": 10,
-          "nome": "MESSI",
-          "nazione": "ARG",
+          "nome": "HAALAND",
+          "nazione": "NOR",
           "ruolo": "attaccanti"
         }
       ],
