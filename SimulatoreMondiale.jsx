@@ -995,10 +995,17 @@ export default function SimulatoreMondiale() {
     return s;
   }, [rosa]);
 
-  const rosaSpent = useMemo(
-    () => Object.values(rosa).reduce((s, arr) => s + arr.reduce((x, p) => x + p.valore, 0), 0),
-    [rosa]
-  );
+  const rosaValoreAttuale = useMemo(() => {
+    const source = isRosaIniziale ? rosaIniziale : rosaSuccessiva;
+    const lookup = isRosaIniziale ? playerByKeyIniziale : playerByKey;
+    let sum = 0;
+    Object.values(source).forEach((arr) => {
+      arr.forEach((p) => {
+        sum += lookup.get(pkey(p))?.valore ?? p.valore;
+      });
+    });
+    return sum;
+  }, [isRosaIniziale, rosaIniziale, rosaSuccessiva, playerByKey, playerByKeyIniziale]);
   const rosaCount = useMemo(
     () => Object.values(rosa).reduce((s, arr) => s + arr.length, 0),
     [rosa]
@@ -1017,7 +1024,7 @@ export default function SimulatoreMondiale() {
     setRosaBudgetRimanente(computeBudgetRimanenteSuccessiva(rosaSuccessiva, playerByKeyIniziale));
   }, [rosaMode, rosaSuccessiva, rosaSuccessivaCount, rosaBudgetManual, playerByKeyIniziale]);
 
-  const rosaRemaining = isRosaIniziale ? ROSA_BUDGET - rosaSpent : rosaBudgetRimanente;
+  const rosaRemaining = isRosaIniziale ? ROSA_BUDGET - rosaValoreAttuale : rosaBudgetRimanente;
 
   const setActiveRosa = (updater) => {
     if (isRosaIniziale) setRosaIniziale(updater);
@@ -1514,31 +1521,31 @@ export default function SimulatoreMondiale() {
           </select>
         </div>
         <div className="wm-budget">
+          <div className="wm-bnum">
+            <b style={{ color: "var(--gold)" }}>{rosaValoreAttuale}</b>
+            <span>Valore rosa attuale {isRosaIniziale ? "(1G)" : "(2G)"}</span>
+          </div>
           {isRosaIniziale ? (
             <>
-              <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--turf)" }}>{rosaSpent}</b><span>Spesi / {ROSA_BUDGET}</span></div>
-              <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--gold)" }}>{rosaRemaining}</b><span>Rimanenti</span></div>
-              <div className="wm-bar"><i style={{ width: `${Math.min(100, (rosaSpent / ROSA_BUDGET) * 100)}%`, background: rosaRemaining < 0 ? "#ef4444" : undefined }} /></div>
+              <div className="wm-bnum"><b style={{ color: rosaRemaining < 0 ? "#ef4444" : "var(--gold)" }}>{rosaRemaining}</b><span>Rimanenti / {ROSA_BUDGET}</span></div>
+              <div className="wm-bar"><i style={{ width: `${Math.min(100, (rosaValoreAttuale / ROSA_BUDGET) * 100)}%`, background: rosaRemaining < 0 ? "#ef4444" : undefined }} /></div>
             </>
           ) : (
-            <>
-              <div className="wm-bnum"><b style={{ color: "var(--turf)" }}>{rosaSpent}</b><span>Patrimonio (quot. attuali)</span></div>
-              <div className="wm-budget-inp">
-                <label htmlFor="rosa-budget-rim">Budget rimanente (M)</label>
-                <input
-                  id="rosa-budget-rim"
-                  type="number"
-                  min={0}
-                  step={1}
-                  value={rosaBudgetRimanente}
-                  onChange={(e) => {
-                    setRosaBudgetManual(true);
-                    setRosaBudgetRimanente(Math.max(0, Number(e.target.value) || 0));
-                  }}
-                  title="Milioni messi da parte dopo l'asta (es. 2 se hai speso 248 su 250) + eventuali plusvalenze da svincoli"
-                />
-              </div>
-            </>
+            <div className="wm-budget-inp">
+              <label htmlFor="rosa-budget-rim">Budget rimanente (M)</label>
+              <input
+                id="rosa-budget-rim"
+                type="number"
+                min={0}
+                step={1}
+                value={rosaBudgetRimanente}
+                onChange={(e) => {
+                  setRosaBudgetManual(true);
+                  setRosaBudgetRimanente(Math.max(0, Number(e.target.value) || 0));
+                }}
+                title="Milioni messi da parte dopo l'asta (es. 2 se hai speso 248 su 250) + eventuali plusvalenze da svincoli"
+              />
+            </div>
           )}
           <div className="wm-bnum"><b>{rosaCount}/25</b><span>Giocatori</span></div>
           <button className="wm-btn turf" onClick={saveRosa}><Save size={14} /> Salva</button>
