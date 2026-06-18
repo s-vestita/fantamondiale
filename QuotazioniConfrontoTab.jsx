@@ -23,11 +23,77 @@ function deltaColor(delta) {
   return "var(--mut)";
 }
 
+const RUOLO_ORDER = { portieri: 0, difensori: 1, centrocampisti: 2, attaccanti: 3 };
+
+const SORT_DEFAULT_DIR = {
+  nome: "asc",
+  ruolo: "asc",
+  iniziale: "desc",
+  attuale: "desc",
+  delta: "desc",
+};
+
+function compareQuotRows(a, b, sortKey, sortDir) {
+  const mul = sortDir === "desc" ? -1 : 1;
+  let cmp = 0;
+  switch (sortKey) {
+    case "nome":
+      cmp = a.nome.localeCompare(b.nome, "it");
+      break;
+    case "ruolo":
+      cmp = (RUOLO_ORDER[a.ruolo] ?? 9) - (RUOLO_ORDER[b.ruolo] ?? 9);
+      if (cmp === 0) cmp = a.nome.localeCompare(b.nome, "it");
+      break;
+    case "iniziale":
+      cmp = a.iniziale - b.iniziale;
+      break;
+    case "attuale":
+      cmp = a.attuale - b.attuale;
+      break;
+    case "delta":
+    default:
+      cmp = a.delta - b.delta;
+      break;
+  }
+  if (cmp !== 0) return cmp * mul;
+  if (sortKey !== "attuale") {
+    const q = b.attuale - a.attuale;
+    if (q !== 0) return q;
+  }
+  if (sortKey !== "iniziale") {
+    const q = b.iniziale - a.iniziale;
+    if (q !== 0) return q;
+  }
+  return a.nome.localeCompare(b.nome, "it");
+}
+
+function SortTh({ label, sortKey, activeKey, sortDir, onSort }) {
+  const on = activeKey === sortKey;
+  return (
+    <th
+      className={"wm-th-sort" + (on ? " on" : "")}
+      onClick={() => onSort(sortKey)}
+      title="Clic per ordinare · clic di nuovo per invertire"
+    >
+      {label}{on ? (sortDir === "desc" ? " ↓" : " ↑") : " ↕"}
+    </th>
+  );
+}
+
 export default function QuotazioniConfrontoTab({ rows }) {
   const [ruolo, setRuolo] = useState("all");
   const [filtro, setFiltro] = useState("all");
   const [search, setSearch] = useState("");
+  const [sortKey, setSortKey] = useState("delta");
   const [sortDir, setSortDir] = useState("desc");
+
+  const clickSort = (key) => {
+    if (sortKey === key) setSortDir((d) => (d === "desc" ? "asc" : "desc"));
+    else {
+      setSortKey(key);
+      setSortDir(SORT_DEFAULT_DIR[key] || "desc");
+    }
+  };
 
   const stats = useMemo(() => {
     let up = 0;
@@ -58,13 +124,8 @@ export default function QuotazioniConfrontoTab({ rows }) {
         return true;
       })
       .filter((p) => !q || p.nome.toLowerCase().includes(q) || p.team.toLowerCase().includes(q) || p.nazione.toLowerCase().includes(q))
-      .sort((a, b) => {
-        const d = sortDir === "desc" ? b.delta - a.delta : a.delta - b.delta;
-        if (d !== 0) return d;
-        if (b.attuale !== a.attuale) return b.attuale - a.attuale;
-        return a.nome.localeCompare(b.nome);
-      });
-  }, [rows, ruolo, filtro, search, sortDir]);
+      .sort((a, b) => compareQuotRows(a, b, sortKey, sortDir));
+  }, [rows, ruolo, filtro, search, sortKey, sortDir]);
 
   const filtersActive = ruolo !== "all" || filtro !== "all" || search.trim() !== "";
 
@@ -113,13 +174,6 @@ export default function QuotazioniConfrontoTab({ rows }) {
               {label}
             </span>
           ))}
-          <span
-            className={"wm-fchip" + (sortDir === "desc" ? " on" : "")}
-            onClick={() => setSortDir((d) => (d === "desc" ? "asc" : "desc"))}
-            title="Ordina per delta"
-          >
-            Δ {sortDir === "desc" ? "↓" : "↑"}
-          </span>
           <button
             type="button"
             className="wm-freset"
@@ -134,11 +188,11 @@ export default function QuotazioniConfrontoTab({ rows }) {
           <table className="wm-table">
             <thead>
               <tr>
-                <th>Giocatore</th>
-                <th>Ruolo</th>
-                <th>Iniziale</th>
-                <th>2ª g.</th>
-                <th>Δ</th>
+                <SortTh label="Giocatore" sortKey="nome" activeKey={sortKey} sortDir={sortDir} onSort={clickSort} />
+                <SortTh label="Ruolo" sortKey="ruolo" activeKey={sortKey} sortDir={sortDir} onSort={clickSort} />
+                <SortTh label="1G" sortKey="iniziale" activeKey={sortKey} sortDir={sortDir} onSort={clickSort} />
+                <SortTh label="2G" sortKey="attuale" activeKey={sortKey} sortDir={sortDir} onSort={clickSort} />
+                <SortTh label="Δ" sortKey="delta" activeKey={sortKey} sortDir={sortDir} onSort={clickSort} />
               </tr>
             </thead>
             <tbody>

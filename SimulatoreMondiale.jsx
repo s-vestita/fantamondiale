@@ -1,14 +1,35 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
-import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown, BarChart3, Shield, TrendingUp } from "lucide-react";
+import { Trophy, Calendar, GitBranch, Zap, RotateCcw, Target, Star, Search, Users, Save, Plus, Trash2, Crosshair, CornerDownRight, LayoutGrid, ChevronUp, ChevronDown, Equal, BarChart3, Shield, TrendingUp } from "lucide-react";
 import ProiezioniTab from "./ProiezioniTab.jsx";
 import SquadreTab from "./SquadreTab.jsx";
 import QuotazioniConfrontoTab from "./QuotazioniConfrontoTab.jsx";
-import { buildListone, buildListoneIniziale, buildQuotazioniConfronto, FASCE, FASCIA_ORDER, ROSA_LIMITS, ROSA_BUDGET, NAT_TO_TEAM, natFlagUrl, teamName, TEAM_STRENGTH } from "./fantamondialeLogic.js";
+import { buildListone, buildListoneIniziale, buildQuotazioniConfronto, computeBudgetRimanenteSuccessiva, rosaBudgetBreakdown, FASCE, FASCIA_ORDER, ROSA_LIMITS, ROSA_BUDGET, NAT_TO_TEAM, natFlagUrl, teamName, TEAM_STRENGTH } from "./fantamondialeLogic.js";
 import { GROUPS, FIXTURES, ABBR, MD_DATES } from "./tournamentData.js";
 import { getMatchCells, diffColor, WIN_ODD_GREEN_MAX, WIN_ODD_YELLOW_MAX } from "./matchOddsLogic.js";
 import { SLOT_POSITIONS, slotRoleLetter, slotRosaRuolo, rosaRoleLetter } from "./formationPositions.js";
 import { SET_PIECES } from "./setPiecesData.js";
 import { simulateGroupStandings, pickThirdSlots } from "./bookmakerOdds.js";
+
+function RosaQuotCr({ attuale, iniziale }) {
+  const ini = iniziale ?? attuale;
+  const delta = attuale - ini;
+  const deltaLabel = delta > 0 ? `+${delta}` : String(delta);
+  const trend = delta > 0 ? "up" : delta < 0 ? "down" : "flat";
+  return (
+    <span
+      className="wm-rosa-quot"
+      title={`1G: ${ini} cr → 2G: ${attuale} cr (${deltaLabel})`}
+    >
+      <span className="wm-rosa-quot-cur">{attuale}</span>
+      <span className={`wm-rosa-quot-trend ${trend}`} aria-hidden>
+        {trend === "up" && <ChevronUp size={15} strokeWidth={3} />}
+        {trend === "down" && <ChevronDown size={15} strokeWidth={3} />}
+        {trend === "flat" && <Equal size={14} strokeWidth={3} />}
+      </span>
+      <span className="wm-rosa-quot-ini">{ini}</span>
+    </span>
+  );
+}
 
 const TEAM_TO_NAT = Object.fromEntries(Object.entries(NAT_TO_TEAM).map(([nat, t]) => [t, nat]));
 
@@ -69,7 +90,7 @@ function loadRosaMeta() {
   } catch {
     /* ignore */
   }
-  return { budgetRimanente: 2, rosaMode: "successiva" };
+  return { budgetRimanente: null, budgetManual: false, rosaMode: "successiva" };
 }
 
 function saveRosaMeta(meta) {
@@ -547,6 +568,13 @@ const CSS = `
 .wm-slot .nm{font-size:12px;font-weight:600;flex:1;min-width:0;overflow:hidden;line-height:1.35;}
 .wm-slot .nm > span:first-child{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .wm-slot .cr{font-family:'JetBrains Mono';font-size:11px;font-weight:700;}
+.wm-rosa-quot{display:inline-flex;align-items:center;gap:4px;flex-shrink:0;}
+.wm-rosa-quot-cur{color:var(--gold);}
+.wm-rosa-quot-ini{color:var(--mut);font-size:10px;font-weight:500;}
+.wm-rosa-quot-trend{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;flex-shrink:0;}
+.wm-rosa-quot-trend.up{color:#22c55e;filter:drop-shadow(0 0 4px rgba(34,197,94,.45));}
+.wm-rosa-quot-trend.down{color:#ef4444;filter:drop-shadow(0 0 4px rgba(239,68,68,.35));}
+.wm-rosa-quot-trend.flat{color:var(--gold);filter:drop-shadow(0 0 4px rgba(252,211,77,.45));}
 .wm-slot .x{cursor:pointer;color:var(--mut);display:flex;}
 .wm-slot .x:hover{color:#ef4444;}
 .wm-slot.empty{justify-content:center;color:var(--mut);font-size:11px;font-style:italic;border-style:dashed;background:transparent;}
@@ -705,7 +733,11 @@ export default function SimulatoreMondiale() {
   const [rosaIniziale, setRosaIniziale] = useState(emptyRosa);
   const [rosaSuccessiva, setRosaSuccessiva] = useState(emptyRosa);
   const [rosaMode, setRosaMode] = useState(() => loadRosaMeta().rosaMode || "successiva");
-  const [rosaBudgetRimanente, setRosaBudgetRimanente] = useState(() => loadRosaMeta().budgetRimanente ?? 2);
+  const [rosaBudgetRimanente, setRosaBudgetRimanente] = useState(() => {
+    const meta = loadRosaMeta();
+    return meta.budgetManual && meta.budgetRimanente != null ? meta.budgetRimanente : 0;
+  });
+  const [rosaBudgetManual, setRosaBudgetManual] = useState(() => loadRosaMeta().budgetManual === true);
   const [rosaRuolo, setRosaRuolo] = useState("portieri");
   const [rosaSearch, setRosaSearch] = useState("");
   const [rosaSorts, setRosaSorts] = useState([]);
@@ -857,8 +889,8 @@ export default function SimulatoreMondiale() {
   const isRosaIniziale = rosaMode === "iniziale";
 
   useEffect(() => {
-    saveRosaMeta({ budgetRimanente: rosaBudgetRimanente, rosaMode });
-  }, [rosaBudgetRimanente, rosaMode]);
+    saveRosaMeta({ budgetRimanente: rosaBudgetRimanente, budgetManual: rosaBudgetManual, rosaMode });
+  }, [rosaBudgetRimanente, rosaBudgetManual, rosaMode]);
 
   const listonePlayers = useMemo(
     () => buildListone(GROUPS, FIXTURES, ABBR),
@@ -929,6 +961,11 @@ export default function SimulatoreMondiale() {
       if (!cancelled) {
         setRosaSuccessiva(succ);
         setRosaIniziale(ini);
+        const meta = loadRosaMeta();
+        if (!meta.budgetManual) {
+          setRosaBudgetRimanente(computeBudgetRimanenteSuccessiva(succ, playerByKeyIniziale));
+          setRosaBudgetManual(false);
+        }
       }
     });
     return () => {
@@ -970,6 +1007,16 @@ export default function SimulatoreMondiale() {
     () => Object.values(rosaSuccessiva).reduce((s, arr) => s + arr.length, 0),
     [rosaSuccessiva]
   );
+  const rosaSuccessivaBreakdown = useMemo(
+    () => rosaBudgetBreakdown(rosaSuccessiva, playerByKeyIniziale, playerByKey),
+    [rosaSuccessiva, playerByKeyIniziale, playerByKey]
+  );
+
+  useEffect(() => {
+    if (rosaMode !== "successiva" || rosaBudgetManual || !rosaSuccessivaCount) return;
+    setRosaBudgetRimanente(computeBudgetRimanenteSuccessiva(rosaSuccessiva, playerByKeyIniziale));
+  }, [rosaMode, rosaSuccessiva, rosaSuccessivaCount, rosaBudgetManual, playerByKeyIniziale]);
+
   const rosaRemaining = isRosaIniziale ? ROSA_BUDGET - rosaSpent : rosaBudgetRimanente;
 
   const setActiveRosa = (updater) => {
@@ -1484,8 +1531,11 @@ export default function SimulatoreMondiale() {
                   min={0}
                   step={1}
                   value={rosaBudgetRimanente}
-                  onChange={(e) => setRosaBudgetRimanente(Math.max(0, Number(e.target.value) || 0))}
-                  title="Milioni rimasti dopo l'asta + eventuali svincoli e plusvalenze"
+                  onChange={(e) => {
+                    setRosaBudgetManual(true);
+                    setRosaBudgetRimanente(Math.max(0, Number(e.target.value) || 0));
+                  }}
+                  title="Milioni messi da parte dopo l'asta (es. 2 se hai speso 248 su 250) + eventuali plusvalenze da svincoli"
                 />
               </div>
             </>
@@ -1503,9 +1553,31 @@ export default function SimulatoreMondiale() {
         {!isRosaIniziale && rosaBudgetRimanente < 0 && (
           <div className="wm-note" style={{ color: "#ef4444", marginBottom: 10 }}>Budget in negativo di {-rosaBudgetRimanente} M: vendi giocatori o aggiorna il budget (es. plusvalenze da svincoli).</div>
         )}
-        {!isRosaIniziale && rosaSpent > ROSA_BUDGET && (
-          <div className="wm-note" style={{ color: "var(--gold)", marginBottom: 10 }}>
-            Patrimonio {rosaSpent} cr oltre i {ROSA_BUDGET} dell&apos;asta iniziale: normale se hai fatto plusvalenze sulle quotazioni.
+        {!isRosaIniziale && rosaSuccessivaCount > 0 && (
+          <div className="wm-note" style={{ marginBottom: 10, color: "var(--mut)" }}>
+            Spesa asta (quot. 1G): {rosaSuccessivaBreakdown.iniSum} cr · patrimonio attuale (2G): {rosaSuccessivaBreakdown.curSum} cr
+            {rosaSuccessivaBreakdown.plusvalenza !== 0 && (
+              <span style={{ color: rosaSuccessivaBreakdown.plusvalenza > 0 ? "#22c55e" : "#ef4444" }}>
+                {" "}· plusvalenza squadra: {rosaSuccessivaBreakdown.plusvalenza > 0 ? "+" : ""}{rosaSuccessivaBreakdown.plusvalenza} cr
+              </span>
+            )}
+            {!rosaBudgetManual ? (
+              <span> · Cassa asta auto: <b style={{ color: "var(--gold)" }}>{rosaSuccessivaBreakdown.cassaAsta} M</b></span>
+            ) : (
+              <>
+                {" "}· Valore budget modificato a mano.{" "}
+                <button
+                  type="button"
+                  className="wm-freset"
+                  onClick={() => {
+                    setRosaBudgetRimanente(rosaSuccessivaBreakdown.cassaAsta);
+                    setRosaBudgetManual(false);
+                  }}
+                >
+                  Ripristina cassa asta ({rosaSuccessivaBreakdown.cassaAsta} M)
+                </button>
+              </>
+            )}
           </div>
         )}
 
@@ -1513,14 +1585,23 @@ export default function SimulatoreMondiale() {
           {Object.keys(ROSA_LIMITS).map((r) => {
             const list = rosa[r];
             const cost = list.reduce((s, p) => s + p.valore, 0);
+            const costIni = !isRosaIniziale
+              ? list.reduce((s, p) => s + (playerByKeyIniziale.get(pkey(p))?.valore ?? p.valore), 0)
+              : cost;
             return (
               <div className="wm-rcol" key={r}>
                 <div className="wm-rh">
                   <b>{ROLE_LABELS[r]}</b>
-                  <span>{list.length}/{ROSA_LIMITS[r]} · {cost} cr</span>
+                  <span>
+                    {list.length}/{ROSA_LIMITS[r]} · {cost} cr
+                    {!isRosaIniziale && costIni !== cost && (
+                      <span style={{ color: "var(--mut)", fontWeight: 400 }}> (1G: {costIni})</span>
+                    )}
+                  </span>
                 </div>
                 {[...list].sort((a, b) => b.valore - a.valore).map((p) => {
                   const fm = fasciaMeta(p.fascia);
+                  const iniVal = playerByKeyIniziale.get(pkey(p))?.valore;
                   return (
                     <div className="wm-slot" key={pkey(p)}>
                       <span className="wm-fdot" style={{ background: fm.color }} />
@@ -1536,7 +1617,9 @@ export default function SimulatoreMondiale() {
                           <span key={c.md} className="wm-dot" title={c.win != null ? `G${c.md}: vs ${c.opp} · quota ${c.win}` : `G${c.md}: vs ${c.opp}`} style={{ background: diffColor(c.str), width: 16, height: 16, fontSize: 7 }}>{c.abbr}</span>
                         ))}
                       </span>
-                      <span className="cr">{p.valore}</span>
+                      <span className="cr">
+                        {isRosaIniziale ? p.valore : <RosaQuotCr attuale={p.valore} iniziale={iniVal} />}
+                      </span>
                       <span className="x" title="Rimuovi" onClick={() => removeFromRosa(p)}><Trash2 size={13} /></span>
                     </div>
                   );

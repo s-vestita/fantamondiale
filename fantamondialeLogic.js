@@ -200,6 +200,32 @@ export function classifyPlayer(p, groups, str) {
 export const ROSA_LIMITS = { portieri: 3, difensori: 8, centrocampisti: 8, attaccanti: 6 };
 export const ROSA_BUDGET = 250;
 
+/** Cassa messa da parte dopo l'asta: budget torneo − somma quotazioni 1G in rosa. */
+export function computeBudgetRimanenteSuccessiva(rosa, lookupIni, budget = ROSA_BUDGET) {
+  const players = Object.values(rosa).flat();
+  if (!players.length) return budget;
+  let iniSum = 0;
+  for (const p of players) {
+    const k = `${p.ruolo}|${p.nome}|${p.nazione}`;
+    iniSum += lookupIni.get(k)?.valore ?? 0;
+  }
+  return Math.max(0, budget - iniSum);
+}
+
+export function rosaBudgetBreakdown(rosa, lookupIni, lookupCur, budget = ROSA_BUDGET) {
+  const players = Object.values(rosa).flat();
+  let iniSum = 0;
+  let curSum = 0;
+  for (const p of players) {
+    const k = `${p.ruolo}|${p.nome}|${p.nazione}`;
+    iniSum += lookupIni.get(k)?.valore ?? 0;
+    curSum += lookupCur.get(k)?.valore ?? 0;
+  }
+  const cassaAsta = Math.max(0, budget - iniSum);
+  const plusvalenza = curSum - iniSum;
+  return { iniSum, curSum, cassaAsta, plusvalenza };
+}
+
 // Punteggio fanta per l'auto-generazione: fascia + calendario gironi + ruolo offensivo + blocco modificatore.
 export function playerValue(p) {
   const w = { top: 92, semitop: 62, titolari: 36, lowcost: 30, scommessa: 18, evita: 0 }[p.fascia] || 0;
