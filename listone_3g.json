@@ -1,0 +1,6270 @@
+{
+  "portieri": [
+    {
+      "nome": "MAIGNAN",
+      "nazione": "FRA",
+      "valore": 19
+    },
+    {
+      "nome": "SIMON UN.",
+      "nazione": "SPA",
+      "valore": 19
+    },
+    {
+      "nome": "BECKER",
+      "nazione": "BRA",
+      "valore": 18
+    },
+    {
+      "nome": "COSTA DI.",
+      "nazione": "POR",
+      "valore": 18
+    },
+    {
+      "nome": "MARTINEZ",
+      "nazione": "ARG",
+      "valore": 18
+    },
+    {
+      "nome": "NEUER",
+      "nazione": "GER",
+      "valore": 17
+    },
+    {
+      "nome": "COURTOIS",
+      "nazione": "BEL",
+      "valore": 17
+    },
+    {
+      "nome": "PICKFORD",
+      "nazione": "ING",
+      "valore": 15
+    },
+    {
+      "nome": "KOBEL",
+      "nazione": "SVI",
+      "valore": 16
+    },
+    {
+      "nome": "BOUNOU",
+      "nazione": "MAR",
+      "valore": 15
+    },
+    {
+      "nome": "VERBRUGGEN",
+      "nazione": "OLA",
+      "valore": 14
+    },
+    {
+      "nome": "LIVAKOVIC",
+      "nazione": "CRO",
+      "valore": 12
+    },
+    {
+      "nome": "CAKIR",
+      "nazione": "TUR",
+      "valore": 11
+    },
+    {
+      "nome": "ROCHET",
+      "nazione": "URU",
+      "valore": 11
+    },
+    {
+      "nome": "SUZUKI Z.",
+      "nazione": "GIA",
+      "valore": 13
+    },
+    {
+      "nome": "WILLIAMS R.",
+      "nazione": "SUD",
+      "valore": 11
+    },
+    {
+      "nome": "NYLAND",
+      "nazione": "NOR",
+      "valore": 11
+    },
+    {
+      "nome": "JOHANSSON VI.",
+      "nazione": "SVE",
+      "valore": 9
+    },
+    {
+      "nome": "MENDY E.",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "TURNER",
+      "nazione": "STA",
+      "valore": 9
+    },
+    {
+      "nome": "VARGAS CA.",
+      "nazione": "COL",
+      "valore": 11
+    },
+    {
+      "nome": "ACEVEDO LOPEZ",
+      "nazione": "MES",
+      "valore": 8
+    },
+    {
+      "nome": "ATI-ZIGI",
+      "nazione": "GHA",
+      "valore": 10
+    },
+    {
+      "nome": "EDERSON",
+      "nazione": "BRA",
+      "valore": 8
+    },
+    {
+      "nome": "FOFANA",
+      "nazione": "COS",
+      "valore": 10
+    },
+    {
+      "nome": "GALINDEZ",
+      "nazione": "ECU",
+      "valore": 11
+    },
+    {
+      "nome": "SCHLAGER",
+      "nazione": "UNB",
+      "valore": 9
+    },
+    {
+      "nome": "VASILJ",
+      "nazione": "BOS",
+      "valore": 8
+    },
+    {
+      "nome": "CHO H.",
+      "nazione": "COR",
+      "valore": 7
+    },
+    {
+      "nome": "GUNN",
+      "nazione": "SCO",
+      "valore": 10
+    },
+    {
+      "nome": "HACHIM",
+      "nazione": "IRQ",
+      "valore": 5
+    },
+    {
+      "nome": "KOVAR",
+      "nazione": "CEC",
+      "valore": 9
+    },
+    {
+      "nome": "RYAN",
+      "nazione": "AUS",
+      "valore": 7
+    },
+    {
+      "nome": "ST. CLAIR",
+      "nazione": "CAN",
+      "valore": 7
+    },
+    {
+      "nome": "AL-KASSAR",
+      "nazione": "ARA",
+      "valore": 6
+    },
+    {
+      "nome": "BARSHAM",
+      "nazione": "QAT",
+      "valore": 6
+    },
+    {
+      "nome": "BEIRANVAND",
+      "nazione": "IRN",
+      "valore": 9
+    },
+    {
+      "nome": "CROCOMBE",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "DAHMEN",
+      "nazione": "TUN",
+      "valore": 4
+    },
+    {
+      "nome": "OLIVEIRA",
+      "nazione": "PAR",
+      "valore": 6
+    },
+    {
+      "nome": "SHOBEIR",
+      "nazione": "EGI",
+      "valore": 9
+    },
+    {
+      "nome": "BAYINDIR",
+      "nazione": "TUR",
+      "valore": 5
+    },
+    {
+      "nome": "BENBOT",
+      "nazione": "ALG",
+      "valore": 5
+    },
+    {
+      "nome": "GUNOK",
+      "nazione": "TUR",
+      "valore": 5
+    },
+    {
+      "nome": "VOZINHA",
+      "nazione": "CAP",
+      "valore": 7
+    },
+    {
+      "nome": "YUSUPOV",
+      "nazione": "UZB",
+      "valore": 4
+    },
+    {
+      "nome": "MEJIA",
+      "nazione": "PAN",
+      "valore": 4
+    },
+    {
+      "nome": "PLACIDE",
+      "nazione": "HAI",
+      "valore": 4
+    },
+    {
+      "nome": "ROOM",
+      "nazione": "CUR",
+      "valore": 4
+    },
+    {
+      "nome": "ABU LAILA",
+      "nazione": "GIO",
+      "valore": 2
+    },
+    {
+      "nome": "ABUNAD",
+      "nazione": "QAT",
+      "valore": 1
+    },
+    {
+      "nome": "AL OWAIS",
+      "nazione": "ARA",
+      "valore": 2
+    },
+    {
+      "nome": "AL-AQIDI",
+      "nazione": "ARA",
+      "valore": 1
+    },
+    {
+      "nome": "ALAA",
+      "nazione": "EGI",
+      "valore": 1
+    },
+    {
+      "nome": "ALFAKHORI",
+      "nazione": "GIO",
+      "valore": 1
+    },
+    {
+      "nome": "ANANG",
+      "nazione": "GHA",
+      "valore": 1
+    },
+    {
+      "nome": "ASARE",
+      "nazione": "GHA",
+      "valore": 5
+    },
+    {
+      "nome": "BAUMANN",
+      "nazione": "GER",
+      "valore": 1
+    },
+    {
+      "nome": "BEACH",
+      "nazione": "AUS",
+      "valore": 3
+    },
+    {
+      "nome": "BEN HSAN",
+      "nazione": "TUN",
+      "valore": 1
+    },
+    {
+      "nome": "BODAK",
+      "nazione": "CUR",
+      "valore": 1
+    },
+    {
+      "nome": "BRADY",
+      "nazione": "STA",
+      "valore": 1
+    },
+    {
+      "nome": "CHAINE",
+      "nazione": "SUD",
+      "valore": 1
+    },
+    {
+      "nome": "CHAMAKH",
+      "nazione": "TUN",
+      "valore": 1
+    },
+    {
+      "nome": "CREPEAU",
+      "nazione": "CAN",
+      "valore": 4
+    },
+    {
+      "nome": "DIAW",
+      "nazione": "SEN",
+      "valore": 3
+    },
+    {
+      "nome": "DIOUF",
+      "nazione": "SEN",
+      "valore": 1
+    },
+    {
+      "nome": "DOORNBUSCH",
+      "nazione": "CUR",
+      "valore": 1
+    },
+    {
+      "nome": "DOS SANTOS",
+      "nazione": "CAP",
+      "valore": 1
+    },
+    {
+      "nome": "DUVERGER",
+      "nazione": "HAI",
+      "valore": 1
+    },
+    {
+      "nome": "EL KAJOUI",
+      "nazione": "MAR",
+      "valore": 1
+    },
+    {
+      "nome": "EL SHENAWY",
+      "nazione": "EGI",
+      "valore": 1
+    },
+    {
+      "nome": "ERGASHEV",
+      "nazione": "UZB",
+      "valore": 1
+    },
+    {
+      "nome": "FADHIL",
+      "nazione": "IRQ",
+      "valore": 1
+    },
+    {
+      "nome": "FAYULU",
+      "nazione": "CON",
+      "valore": 1
+    },
+    {
+      "nome": "FERNANDEZ TO.",
+      "nazione": "PAR",
+      "valore": 1
+    },
+    {
+      "nome": "FLEKKEN",
+      "nazione": "OLA",
+      "valore": 1
+    },
+    {
+      "nome": "GILL",
+      "nazione": "PAR",
+      "valore": 3
+    },
+    {
+      "nome": "GOODMAN",
+      "nazione": "CAN",
+      "valore": 1
+    },
+    {
+      "nome": "GORDON C.",
+      "nazione": "SCO",
+      "valore": 1
+    },
+    {
+      "nome": "GOSS",
+      "nazione": "SUD",
+      "valore": 1
+    },
+    {
+      "nome": "HAYAKAWA",
+      "nazione": "GIA",
+      "valore": 1
+    },
+    {
+      "nome": "HENDERSON D.",
+      "nazione": "ING",
+      "valore": 1
+    },
+    {
+      "nome": "HORNICEK",
+      "nazione": "CEC",
+      "valore": 1
+    },
+    {
+      "nome": "HOSSEINI",
+      "nazione": "IRN",
+      "valore": 1
+    },
+    {
+      "nome": "IZZO",
+      "nazione": "AUS",
+      "valore": 1
+    },
+    {
+      "nome": "JURKAS",
+      "nazione": "BOS",
+      "valore": 1
+    },
+    {
+      "nome": "KELLER",
+      "nazione": "SVI",
+      "valore": 1
+    },
+    {
+      "nome": "KELLY",
+      "nazione": "SCO",
+      "valore": 1
+    },
+    {
+      "nome": "KHALEEL BANI ATEYAH",
+      "nazione": "GIO",
+      "valore": 1
+    },
+    {
+      "nome": "KIM S.",
+      "nazione": "COR",
+      "valore": 4
+    },
+    {
+      "nome": "KONE MO.",
+      "nazione": "COS",
+      "valore": 1
+    },
+    {
+      "nome": "KOTARSKI",
+      "nazione": "CRO",
+      "valore": 1
+    },
+    {
+      "nome": "LAFONT",
+      "nazione": "COS",
+      "valore": 1
+    },
+    {
+      "nome": "LAMMENS",
+      "nazione": "BEL",
+      "valore": 1
+    },
+    {
+      "nome": "MASTIL",
+      "nazione": "ALG",
+      "valore": 1
+    },
+    {
+      "nome": "MATTHEW",
+      "nazione": "STA",
+      "valore": 5
+    },
+    {
+      "nome": "MATTHIEU EPOLO",
+      "nazione": "CON",
+      "valore": 1
+    },
+    {
+      "nome": "MONTERO",
+      "nazione": "COL",
+      "valore": 1
+    },
+    {
+      "nome": "MOSQUERA",
+      "nazione": "PAN",
+      "valore": 4
+    },
+    {
+      "nome": "MPASI-NZAU",
+      "nazione": "CON",
+      "valore": 4
+    },
+    {
+      "nome": "MUSLERA MICOL",
+      "nazione": "URU",
+      "valore": 2
+    },
+    {
+      "nome": "MUSSO",
+      "nazione": "ARG",
+      "valore": 1
+    },
+    {
+      "nome": "MVOGO",
+      "nazione": "SVI",
+      "valore": 1
+    },
+    {
+      "nome": "NEMATOV",
+      "nazione": "UZB",
+      "valore": 1
+    },
+    {
+      "nome": "NIAZMAND",
+      "nazione": "IRN",
+      "valore": 1
+    },
+    {
+      "nome": "NORDFELDT",
+      "nazione": "SVE",
+      "valore": 1
+    },
+    {
+      "nome": "NUBEL",
+      "nazione": "GER",
+      "valore": 1
+    },
+    {
+      "nome": "OCHOA MAGANA",
+      "nazione": "MES",
+      "valore": 1
+    },
+    {
+      "nome": "OSAKO",
+      "nazione": "GIA",
+      "valore": 1
+    },
+    {
+      "nome": "OSPINA",
+      "nazione": "COL",
+      "valore": 1
+    },
+    {
+      "nome": "PANDUR",
+      "nazione": "CRO",
+      "valore": 1
+    },
+    {
+      "nome": "PAULSEN",
+      "nazione": "NUO",
+      "valore": 1
+    },
+    {
+      "nome": "PENDERS",
+      "nazione": "BEL",
+      "valore": 1
+    },
+    {
+      "nome": "PENTZ",
+      "nazione": "UNB",
+      "valore": 1
+    },
+    {
+      "nome": "PIERRE AL.",
+      "nazione": "HAI",
+      "valore": 1
+    },
+    {
+      "nome": "PONS",
+      "nazione": "SPA",
+      "valore": 1
+    },
+    {
+      "nome": "RAHEEM",
+      "nazione": "IRQ",
+      "valore": 1
+    },
+    {
+      "nome": "RAMIREZ MO.",
+      "nazione": "ECU",
+      "valore": 1
+    },
+    {
+      "nome": "RAUL RANGEL",
+      "nazione": "MES",
+      "valore": 5
+    },
+    {
+      "nome": "RAYA",
+      "nazione": "SPA",
+      "valore": 1
+    },
+    {
+      "nome": "RISSER",
+      "nazione": "FRA",
+      "valore": 1
+    },
+    {
+      "nome": "ROEFS",
+      "nazione": "OLA",
+      "valore": 1
+    },
+    {
+      "nome": "ROSA",
+      "nazione": "CAP",
+      "valore": 1
+    },
+    {
+      "nome": "RULLI",
+      "nazione": "ARG",
+      "valore": 1
+    },
+    {
+      "nome": "SA",
+      "nazione": "POR",
+      "valore": 1
+    },
+    {
+      "nome": "SAMBA",
+      "nazione": "FRA",
+      "valore": 1
+    },
+    {
+      "nome": "SAMUDIO",
+      "nazione": "PAN",
+      "valore": 1
+    },
+    {
+      "nome": "SANTIAGO MELE",
+      "nazione": "URU",
+      "valore": 1
+    },
+    {
+      "nome": "SELVIK",
+      "nazione": "NOR",
+      "valore": 1
+    },
+    {
+      "nome": "SILVA RU.",
+      "nazione": "POR",
+      "valore": 1
+    },
+    {
+      "nome": "SOLIMAN",
+      "nazione": "EGI",
+      "valore": 1
+    },
+    {
+      "nome": "SONG B.",
+      "nazione": "COR",
+      "valore": 1
+    },
+    {
+      "nome": "STANEK",
+      "nazione": "CEC",
+      "valore": 1
+    },
+    {
+      "nome": "TAGNAOUTI",
+      "nazione": "MAR",
+      "valore": 1
+    },
+    {
+      "nome": "TANGVIK",
+      "nazione": "NOR",
+      "valore": 1
+    },
+    {
+      "nome": "TRAFFORD",
+      "nazione": "ING",
+      "valore": 1
+    },
+    {
+      "nome": "VALLE",
+      "nazione": "ECU",
+      "valore": 1
+    },
+    {
+      "nome": "WEVERTON",
+      "nazione": "BRA",
+      "valore": 1
+    },
+    {
+      "nome": "WIEGELE",
+      "nazione": "UNB",
+      "valore": 1
+    },
+    {
+      "nome": "WOUD",
+      "nazione": "NUO",
+      "valore": 1
+    },
+    {
+      "nome": "ZAKARIA",
+      "nazione": "QAT",
+      "valore": 1
+    },
+    {
+      "nome": "ZETTERSTROM",
+      "nazione": "SVE",
+      "valore": 1
+    },
+    {
+      "nome": "ZIDANE",
+      "nazione": "ALG",
+      "valore": 2
+    },
+    {
+      "nome": "ZLOMISLIC",
+      "nazione": "BOS",
+      "valore": 1
+    }
+  ],
+  "difensori": [
+    {
+      "nome": "DUMFRIES",
+      "nazione": "OLA",
+      "valore": 18
+    },
+    {
+      "nome": "MENDES",
+      "nazione": "POR",
+      "valore": 18
+    },
+    {
+      "nome": "CANCELO",
+      "nazione": "POR",
+      "valore": 16
+    },
+    {
+      "nome": "HAKIMI",
+      "nazione": "MAR",
+      "valore": 17
+    },
+    {
+      "nome": "VAN DIJK",
+      "nazione": "OLA",
+      "valore": 19
+    },
+    {
+      "nome": "GVARDIOL",
+      "nazione": "CRO",
+      "valore": 12
+    },
+    {
+      "nome": "MARQUINHOS",
+      "nazione": "BRA",
+      "valore": 15
+    },
+    {
+      "nome": "VAN DE VEN",
+      "nazione": "OLA",
+      "valore": 14
+    },
+    {
+      "nome": "ARAUJO RO.",
+      "nazione": "URU",
+      "valore": 13
+    },
+    {
+      "nome": "BREMER",
+      "nazione": "BRA",
+      "valore": 13
+    },
+    {
+      "nome": "DAVIES",
+      "nazione": "CAN",
+      "valore": 13
+    },
+    {
+      "nome": "GUEHI",
+      "nazione": "ING",
+      "valore": 13
+    },
+    {
+      "nome": "HERNANDEZ TH.",
+      "nazione": "FRA",
+      "valore": 13
+    },
+    {
+      "nome": "SCHLOTTERBECK",
+      "nazione": "GER",
+      "valore": 15
+    },
+    {
+      "nome": "DIAS",
+      "nazione": "POR",
+      "valore": 14
+    },
+    {
+      "nome": "INACIO",
+      "nazione": "POR",
+      "valore": 12
+    },
+    {
+      "nome": "KHUSANOV",
+      "nazione": "UZB",
+      "valore": 9
+    },
+    {
+      "nome": "KONSA",
+      "nazione": "ING",
+      "valore": 12
+    },
+    {
+      "nome": "KOUNDE",
+      "nazione": "FRA",
+      "valore": 12
+    },
+    {
+      "nome": "MAGALHAES",
+      "nazione": "BRA",
+      "valore": 13
+    },
+    {
+      "nome": "PORRO",
+      "nazione": "SPA",
+      "valore": 14
+    },
+    {
+      "nome": "RUDIGER",
+      "nazione": "GER",
+      "valore": 13
+    },
+    {
+      "nome": "SALIBA W.",
+      "nazione": "FRA",
+      "valore": 13
+    },
+    {
+      "nome": "ALABA",
+      "nazione": "UNB",
+      "valore": 12
+    },
+    {
+      "nome": "ALEX SANDRO",
+      "nazione": "BRA",
+      "valore": 11
+    },
+    {
+      "nome": "CUBARSI",
+      "nazione": "SPA",
+      "valore": 13
+    },
+    {
+      "nome": "CUCURELLA",
+      "nazione": "SPA",
+      "valore": 13
+    },
+    {
+      "nome": "DALOT",
+      "nazione": "POR",
+      "valore": 11
+    },
+    {
+      "nome": "KADIOGLU",
+      "nazione": "TUR",
+      "valore": 10
+    },
+    {
+      "nome": "KIM MJ.",
+      "nazione": "COR",
+      "valore": 11
+    },
+    {
+      "nome": "KONATE",
+      "nazione": "FRA",
+      "valore": 11
+    },
+    {
+      "nome": "LAIMER",
+      "nazione": "UNB",
+      "valore": 10
+    },
+    {
+      "nome": "LIVRAMENTO T.",
+      "nazione": "ING",
+      "valore": 12
+    },
+    {
+      "nome": "LLORENTE",
+      "nazione": "SPA",
+      "valore": 12
+    },
+    {
+      "nome": "MOLINA",
+      "nazione": "ARG",
+      "valore": 13
+    },
+    {
+      "nome": "N'DICKA",
+      "nazione": "COS",
+      "valore": 11
+    },
+    {
+      "nome": "PALMA VEIGA",
+      "nazione": "POR",
+      "valore": 11
+    },
+    {
+      "nome": "PEREIRA",
+      "nazione": "BRA",
+      "valore": 11
+    },
+    {
+      "nome": "PIERO HINCAPIE",
+      "nazione": "ECU",
+      "valore": 11
+    },
+    {
+      "nome": "QUANSAH",
+      "nazione": "ING",
+      "valore": 11
+    },
+    {
+      "nome": "RICHARDS",
+      "nazione": "STA",
+      "valore": 13
+    },
+    {
+      "nome": "ROMERO",
+      "nazione": "ARG",
+      "valore": 13
+    },
+    {
+      "nome": "RYERSON",
+      "nazione": "NOR",
+      "valore": 13
+    },
+    {
+      "nome": "TAH",
+      "nazione": "GER",
+      "valore": 14
+    },
+    {
+      "nome": "UPAMECANO",
+      "nazione": "FRA",
+      "valore": 14
+    },
+    {
+      "nome": "WILLIAN PACHO",
+      "nazione": "ECU",
+      "valore": 11
+    },
+    {
+      "nome": "AGUERD",
+      "nazione": "MAR",
+      "valore": 11
+    },
+    {
+      "nome": "AKANJI",
+      "nazione": "SVI",
+      "valore": 12
+    },
+    {
+      "nome": "AKE",
+      "nazione": "OLA",
+      "valore": 10
+    },
+    {
+      "nome": "ARAUJO",
+      "nazione": "POR",
+      "valore": 9
+    },
+    {
+      "nome": "DANILO OL.",
+      "nazione": "BRA",
+      "valore": 12
+    },
+    {
+      "nome": "ESTUPINAN",
+      "nazione": "ECU",
+      "valore": 10
+    },
+    {
+      "nome": "GRIMALDO GARCIA",
+      "nazione": "SPA",
+      "valore": 10
+    },
+    {
+      "nome": "GUSTO",
+      "nazione": "FRA",
+      "valore": 10
+    },
+    {
+      "nome": "HATO",
+      "nazione": "OLA",
+      "valore": 10
+    },
+    {
+      "nome": "HIEN",
+      "nazione": "SVE",
+      "valore": 10
+    },
+    {
+      "nome": "IBANEZ",
+      "nazione": "BRA",
+      "valore": 9
+    },
+    {
+      "nome": "ITO H.",
+      "nazione": "GIA",
+      "valore": 12
+    },
+    {
+      "nome": "JAMES",
+      "nazione": "ING",
+      "valore": 10
+    },
+    {
+      "nome": "LAPORTE",
+      "nazione": "SPA",
+      "valore": 13
+    },
+    {
+      "nome": "LIENHART",
+      "nazione": "UNB",
+      "valore": 11
+    },
+    {
+      "nome": "MAZRAOUI",
+      "nazione": "MAR",
+      "valore": 11
+    },
+    {
+      "nome": "MONTIEL",
+      "nazione": "ARG",
+      "valore": 11
+    },
+    {
+      "nome": "NUNES",
+      "nazione": "POR",
+      "valore": 10
+    },
+    {
+      "nome": "ORDONEZ JO.",
+      "nazione": "ECU",
+      "valore": 10
+    },
+    {
+      "nome": "OTAMENDI",
+      "nazione": "ARG",
+      "valore": 11
+    },
+    {
+      "nome": "PONGRACIC",
+      "nazione": "CRO",
+      "valore": 12
+    },
+    {
+      "nome": "ROBERTSON A.",
+      "nazione": "SCO",
+      "valore": 9
+    },
+    {
+      "nome": "SANTOS",
+      "nazione": "BRA",
+      "valore": 11
+    },
+    {
+      "nome": "SEMEDO",
+      "nazione": "POR",
+      "valore": 9
+    },
+    {
+      "nome": "TAGLIAFICO",
+      "nazione": "ARG",
+      "valore": 10
+    },
+    {
+      "nome": "TIMBER J.",
+      "nazione": "OLA",
+      "valore": 11
+    },
+    {
+      "nome": "VASSBAKK AJER",
+      "nazione": "NOR",
+      "valore": 12
+    },
+    {
+      "nome": "WESLEY",
+      "nazione": "BRA",
+      "valore": 11
+    },
+    {
+      "nome": "ARAUJO MA.",
+      "nazione": "URU",
+      "valore": 16
+    },
+    {
+      "nome": "BROWN",
+      "nazione": "GER",
+      "valore": 12
+    },
+    {
+      "nome": "CASTAGNE",
+      "nazione": "BEL",
+      "valore": 9
+    },
+    {
+      "nome": "CELIK ME.",
+      "nazione": "TUR",
+      "valore": 8
+    },
+    {
+      "nome": "DEMIRAL",
+      "nazione": "TUR",
+      "valore": 9
+    },
+    {
+      "nome": "GARCIA ER.",
+      "nazione": "SPA",
+      "valore": 10
+    },
+    {
+      "nome": "HEGGEM",
+      "nazione": "NOR",
+      "valore": 12
+    },
+    {
+      "nome": "ITAKURA",
+      "nazione": "GIA",
+      "valore": 12
+    },
+    {
+      "nome": "KOSSOUNOU",
+      "nazione": "COS",
+      "valore": 9
+    },
+    {
+      "nome": "KOULIBALY",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "MARTINEZ LI.",
+      "nazione": "ARG",
+      "valore": 14
+    },
+    {
+      "nome": "MEDINA",
+      "nazione": "ARG",
+      "valore": 13
+    },
+    {
+      "nome": "MENDY",
+      "nazione": "SEN",
+      "valore": 10
+    },
+    {
+      "nome": "MINA YE.",
+      "nazione": "COL",
+      "valore": 10
+    },
+    {
+      "nome": "OSTIGARD",
+      "nazione": "NOR",
+      "valore": 13
+    },
+    {
+      "nome": "ROBINSON",
+      "nazione": "STA",
+      "valore": 10
+    },
+    {
+      "nome": "SINGO",
+      "nazione": "COS",
+      "valore": 13
+    },
+    {
+      "nome": "STONES",
+      "nazione": "ING",
+      "valore": 10
+    },
+    {
+      "nome": "SUTALO",
+      "nazione": "CRO",
+      "valore": 10
+    },
+    {
+      "nome": "TALBI MO.",
+      "nazione": "TUN",
+      "valore": 7
+    },
+    {
+      "nome": "THEATE",
+      "nazione": "BEL",
+      "valore": 9
+    },
+    {
+      "nome": "THIAW",
+      "nazione": "GER",
+      "valore": 10
+    },
+    {
+      "nome": "VAN HECKE",
+      "nazione": "OLA",
+      "valore": 10
+    },
+    {
+      "nome": "WOLFE",
+      "nazione": "NOR",
+      "valore": 12
+    },
+    {
+      "nome": "AIT NOURI",
+      "nazione": "ALG",
+      "valore": 8
+    },
+    {
+      "nome": "AROUS",
+      "nazione": "TUN",
+      "valore": 9
+    },
+    {
+      "nome": "BUENO",
+      "nazione": "URU",
+      "valore": 9
+    },
+    {
+      "nome": "DEST",
+      "nazione": "STA",
+      "valore": 11
+    },
+    {
+      "nome": "EL OUAHDI",
+      "nazione": "MAR",
+      "valore": 9
+    },
+    {
+      "nome": "GIMENEZ JM.",
+      "nazione": "URU",
+      "valore": 9
+    },
+    {
+      "nome": "GUDMUNDSSON",
+      "nazione": "SVE",
+      "valore": 8
+    },
+    {
+      "nome": "MAIDANA",
+      "nazione": "PAR",
+      "valore": 9
+    },
+    {
+      "nome": "MEUNIER",
+      "nazione": "BEL",
+      "valore": 9
+    },
+    {
+      "nome": "MUNOZ DA.",
+      "nazione": "COL",
+      "valore": 15
+    },
+    {
+      "nome": "OLIVERA",
+      "nazione": "URU",
+      "valore": 7
+    },
+    {
+      "nome": "PUBILL",
+      "nazione": "SPA",
+      "valore": 9
+    },
+    {
+      "nome": "RAUM",
+      "nazione": "GER",
+      "valore": 8
+    },
+    {
+      "nome": "SANCHEZ DA.",
+      "nazione": "COL",
+      "valore": 12
+    },
+    {
+      "nome": "SOUTTAR HA.",
+      "nazione": "AUS",
+      "valore": 9
+    },
+    {
+      "nome": "SPENCE",
+      "nazione": "ING",
+      "valore": 9
+    },
+    {
+      "nome": "SVENSSON",
+      "nazione": "SVE",
+      "valore": 9
+    },
+    {
+      "nome": "VUSKOVIC",
+      "nazione": "CRO",
+      "valore": 7
+    },
+    {
+      "nome": "ABDI",
+      "nazione": "TUN",
+      "valore": 5
+    },
+    {
+      "nome": "BALBUENA",
+      "nazione": "PAR",
+      "valore": 8
+    },
+    {
+      "nome": "BARDAKCI",
+      "nazione": "TUR",
+      "valore": 8
+    },
+    {
+      "nome": "BURN",
+      "nazione": "ING",
+      "valore": 8
+    },
+    {
+      "nome": "CACERES",
+      "nazione": "PAR",
+      "valore": 8
+    },
+    {
+      "nome": "CACERES S.",
+      "nazione": "URU",
+      "valore": 8
+    },
+    {
+      "nome": "CAMARA",
+      "nazione": "SEN",
+      "valore": 8
+    },
+    {
+      "nome": "DEBAST",
+      "nazione": "BEL",
+      "valore": 8
+    },
+    {
+      "nome": "DIOUF E.",
+      "nazione": "SEN",
+      "valore": 6
+    },
+    {
+      "nome": "DOUE",
+      "nazione": "COS",
+      "valore": 9
+    },
+    {
+      "nome": "DUVERNE",
+      "nazione": "HAI",
+      "valore": 7
+    },
+    {
+      "nome": "ELMALI",
+      "nazione": "TUR",
+      "valore": 7
+    },
+    {
+      "nome": "ELVEDI",
+      "nazione": "SVI",
+      "valore": 9
+    },
+    {
+      "nome": "FREEMAN",
+      "nazione": "STA",
+      "valore": 13
+    },
+    {
+      "nome": "JURASEK",
+      "nazione": "CEC",
+      "valore": 8
+    },
+    {
+      "nome": "KABAK",
+      "nazione": "TUR",
+      "valore": 8
+    },
+    {
+      "nome": "KIM MO.",
+      "nazione": "COR",
+      "valore": 7
+    },
+    {
+      "nome": "KOLASINAC",
+      "nazione": "BOS",
+      "valore": 9
+    },
+    {
+      "nome": "LACROIX",
+      "nazione": "FRA",
+      "valore": 8
+    },
+    {
+      "nome": "LAGERBIELKE",
+      "nazione": "SVE",
+      "valore": 7
+    },
+    {
+      "nome": "LEE HB.",
+      "nazione": "COR",
+      "valore": 8
+    },
+    {
+      "nome": "LUCUMI",
+      "nazione": "COL",
+      "valore": 9
+    },
+    {
+      "nome": "MACHADO",
+      "nazione": "COL",
+      "valore": 8
+    },
+    {
+      "nome": "MCKENNA",
+      "nazione": "SCO",
+      "valore": 8
+    },
+    {
+      "nome": "MONTES",
+      "nazione": "MES",
+      "valore": 6
+    },
+    {
+      "nome": "MULDUR",
+      "nazione": "TUR",
+      "valore": 8
+    },
+    {
+      "nome": "NIAKHATE",
+      "nazione": "SEN",
+      "valore": 8
+    },
+    {
+      "nome": "O'REILLY",
+      "nazione": "ING",
+      "valore": 9
+    },
+    {
+      "nome": "PATTERSON",
+      "nazione": "SCO",
+      "valore": 7
+    },
+    {
+      "nome": "PEPRAH OPPONG",
+      "nazione": "GHA",
+      "valore": 8
+    },
+    {
+      "nome": "PIJNAKER",
+      "nazione": "NUO",
+      "valore": 8
+    },
+    {
+      "nome": "PIQUEREZ",
+      "nazione": "URU",
+      "valore": 8
+    },
+    {
+      "nome": "POSCH",
+      "nazione": "UNB",
+      "valore": 6
+    },
+    {
+      "nome": "RIAD C.",
+      "nazione": "MAR",
+      "valore": 10
+    },
+    {
+      "nome": "SEYS",
+      "nazione": "BEL",
+      "valore": 8
+    },
+    {
+      "nome": "STANISIC",
+      "nazione": "CRO",
+      "valore": 9
+    },
+    {
+      "nome": "TORRES FEL.",
+      "nazione": "ECU",
+      "valore": 8
+    },
+    {
+      "nome": "WIEFFER",
+      "nazione": "OLA",
+      "valore": 8
+    },
+    {
+      "nome": "ABDELMONEM",
+      "nazione": "EGI",
+      "valore": 7
+    },
+    {
+      "nome": "ADJETEY",
+      "nazione": "GHA",
+      "valore": 10
+    },
+    {
+      "nome": "AL TAMBAKTI",
+      "nazione": "ARA",
+      "valore": 5
+    },
+    {
+      "nome": "AL-SHAMAT",
+      "nazione": "ARA",
+      "valore": 6
+    },
+    {
+      "nome": "ALDERETE",
+      "nazione": "PAR",
+      "valore": 8
+    },
+    {
+      "nome": "ALIJONOV",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "ALONSO",
+      "nazione": "PAR",
+      "valore": 7
+    },
+    {
+      "nome": "ANTON",
+      "nazione": "GER",
+      "valore": 7
+    },
+    {
+      "nome": "ARCUS",
+      "nazione": "HAI",
+      "valore": 4
+    },
+    {
+      "nome": "BELGHALI",
+      "nazione": "ALG",
+      "valore": 6
+    },
+    {
+      "nome": "BOS",
+      "nazione": "AUS",
+      "valore": 7
+    },
+    {
+      "nome": "CELIK",
+      "nazione": "BOS",
+      "valore": 7
+    },
+    {
+      "nome": "DANSO",
+      "nazione": "UNB",
+      "valore": 7
+    },
+    {
+      "nome": "DELCROIX",
+      "nazione": "HAI",
+      "valore": 6
+    },
+    {
+      "nome": "DIGNE",
+      "nazione": "FRA",
+      "valore": 8
+    },
+    {
+      "nome": "DIOMANDE",
+      "nazione": "COS",
+      "valore": 7
+    },
+    {
+      "nome": "DIOP I.",
+      "nazione": "MAR",
+      "valore": 6
+    },
+    {
+      "nome": "DOSKI",
+      "nazione": "IRQ",
+      "valore": 6
+    },
+    {
+      "nome": "ELLIOT",
+      "nazione": "NUO",
+      "valore": 8
+    },
+    {
+      "nome": "FALCHENER",
+      "nazione": "NOR",
+      "valore": 7
+    },
+    {
+      "nome": "GUTIERREZ JO.",
+      "nazione": "PAN",
+      "valore": 7
+    },
+    {
+      "nome": "HANY",
+      "nazione": "EGI",
+      "valore": 7
+    },
+    {
+      "nome": "HENDRY",
+      "nazione": "SCO",
+      "valore": 9
+    },
+    {
+      "nome": "HERNANDEZ LU.",
+      "nazione": "FRA",
+      "valore": 7
+    },
+    {
+      "nome": "HICKEY",
+      "nazione": "SCO",
+      "valore": 7
+    },
+    {
+      "nome": "HOLES",
+      "nazione": "CEC",
+      "valore": 8
+    },
+    {
+      "nome": "HRANAC",
+      "nazione": "CEC",
+      "valore": 7
+    },
+    {
+      "nome": "JAQUEZ",
+      "nazione": "SVI",
+      "valore": 7
+    },
+    {
+      "nome": "KABINI",
+      "nazione": "SUD",
+      "valore": 7
+    },
+    {
+      "nome": "KREJCI",
+      "nazione": "CEC",
+      "valore": 10
+    },
+    {
+      "nome": "LEE GH.",
+      "nazione": "COR",
+      "valore": 7
+    },
+    {
+      "nome": "LINDELOF",
+      "nazione": "SVE",
+      "valore": 7
+    },
+    {
+      "nome": "MBOKAZI",
+      "nazione": "SUD",
+      "valore": 9
+    },
+    {
+      "nome": "MCKENZIE",
+      "nazione": "STA",
+      "valore": 7
+    },
+    {
+      "nome": "MECHELE",
+      "nazione": "BEL",
+      "valore": 9
+    },
+    {
+      "nome": "MEDINA YA.",
+      "nazione": "ECU",
+      "valore": 7
+    },
+    {
+      "nome": "MOJICA",
+      "nazione": "COL",
+      "valore": 8
+    },
+    {
+      "nome": "MUHAREMOVIC",
+      "nazione": "BOS",
+      "valore": 6
+    },
+    {
+      "nome": "NGOY",
+      "nazione": "BEL",
+      "valore": 5
+    },
+    {
+      "nome": "OZCAN",
+      "nazione": "TUR",
+      "valore": 7
+    },
+    {
+      "nome": "SARR",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "SECK",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "SEIDU",
+      "nazione": "GHA",
+      "valore": 7
+    },
+    {
+      "nome": "SEOL",
+      "nazione": "COR",
+      "valore": 7
+    },
+    {
+      "nome": "SOUTTAR",
+      "nazione": "SCO",
+      "valore": 7
+    },
+    {
+      "nome": "SUGAWARA Y.",
+      "nazione": "GIA",
+      "valore": 7
+    },
+    {
+      "nome": "TOMIYASU",
+      "nazione": "GIA",
+      "valore": 9
+    },
+    {
+      "nome": "VASQUEZ",
+      "nazione": "MES",
+      "valore": 10
+    },
+    {
+      "nome": "VINA",
+      "nazione": "URU",
+      "valore": 7
+    },
+    {
+      "nome": "WATANABE",
+      "nazione": "GIA",
+      "valore": 8
+    },
+    {
+      "nome": "ABDELMAGUID",
+      "nazione": "EGI",
+      "valore": 6
+    },
+    {
+      "nome": "ABDULHAMID",
+      "nazione": "ARA",
+      "valore": 6
+    },
+    {
+      "nome": "AFFENGRUBER",
+      "nazione": "UNB",
+      "valore": 6
+    },
+    {
+      "nome": "AL-AMRI",
+      "nazione": "ARA",
+      "valore": 8
+    },
+    {
+      "nome": "AMENDA",
+      "nazione": "SVI",
+      "valore": 6
+    },
+    {
+      "nome": "ARIAS SA.",
+      "nazione": "COL",
+      "valore": 6
+    },
+    {
+      "nome": "BALERDI ROSSA",
+      "nazione": "ARG",
+      "valore": 6
+    },
+    {
+      "nome": "BELAMMARI",
+      "nazione": "MAR",
+      "valore": 6
+    },
+    {
+      "nome": "BJORKAN",
+      "nazione": "NOR",
+      "valore": 6
+    },
+    {
+      "nome": "BOUSHAL",
+      "nazione": "ARA",
+      "valore": 6
+    },
+    {
+      "nome": "BRENET",
+      "nazione": "CUR",
+      "valore": 7
+    },
+    {
+      "nome": "CACACE",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "CALETA-CAR",
+      "nazione": "CRO",
+      "valore": 6
+    },
+    {
+      "nome": "CANALE",
+      "nazione": "PAR",
+      "valore": 6
+    },
+    {
+      "nome": "CHALOUPEK",
+      "nazione": "CEC",
+      "valore": 6
+    },
+    {
+      "nome": "COMENENCIA",
+      "nazione": "CUR",
+      "valore": 8
+    },
+    {
+      "nome": "CORDOBA JO.",
+      "nazione": "PAN",
+      "valore": 8
+    },
+    {
+      "nome": "CORNELIUS",
+      "nazione": "CAN",
+      "valore": 6
+    },
+    {
+      "nome": "DE CUYPER",
+      "nazione": "BEL",
+      "valore": 7
+    },
+    {
+      "nome": "DE VRIES",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "DE WINTER",
+      "nazione": "BEL",
+      "valore": 6
+    },
+    {
+      "nome": "DEDIC",
+      "nazione": "BOS",
+      "valore": 6
+    },
+    {
+      "nome": "DITTA",
+      "nazione": "COL",
+      "valore": 6
+    },
+    {
+      "nome": "EKDAL",
+      "nazione": "SVE",
+      "valore": 6
+    },
+    {
+      "nome": "ERIC DAVIS",
+      "nazione": "PAN",
+      "valore": 6
+    },
+    {
+      "nome": "ERLIC",
+      "nazione": "CRO",
+      "valore": 6
+    },
+    {
+      "nome": "ESCOBAR",
+      "nazione": "PAN",
+      "valore": 6
+    },
+    {
+      "nome": "FATOUH",
+      "nazione": "EGI",
+      "valore": 7
+    },
+    {
+      "nome": "GALLARDO",
+      "nazione": "MES",
+      "valore": 9
+    },
+    {
+      "nome": "GOMEZ GU.",
+      "nazione": "PAR",
+      "valore": 7
+    },
+    {
+      "nome": "HADJAM",
+      "nazione": "ALG",
+      "valore": 6
+    },
+    {
+      "nome": "HERRINGTON",
+      "nazione": "AUS",
+      "valore": 6
+    },
+    {
+      "nome": "JAKOBS",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "KANANI-ZADEGAN",
+      "nazione": "IRN",
+      "valore": 8
+    },
+    {
+      "nome": "KAYEMBE D.",
+      "nazione": "CON",
+      "valore": 8
+    },
+    {
+      "nome": "KHOUKHI",
+      "nazione": "QAT",
+      "valore": 7
+    },
+    {
+      "nome": "KIM TH.",
+      "nazione": "COR",
+      "valore": 6
+    },
+    {
+      "nome": "KONAN",
+      "nazione": "COS",
+      "valore": 7
+    },
+    {
+      "nome": "LAYE",
+      "nazione": "QAT",
+      "valore": 6
+    },
+    {
+      "nome": "LUCKASSEN",
+      "nazione": "GHA",
+      "valore": 6
+    },
+    {
+      "nome": "MALIC",
+      "nazione": "BOS",
+      "valore": 6
+    },
+    {
+      "nome": "MANDI",
+      "nazione": "ALG",
+      "valore": 6
+    },
+    {
+      "nome": "MBEMBA",
+      "nazione": "CON",
+      "valore": 8
+    },
+    {
+      "nome": "MENSAH",
+      "nazione": "GHA",
+      "valore": 9
+    },
+    {
+      "nome": "MUHEIM",
+      "nazione": "SVI",
+      "valore": 4
+    },
+    {
+      "nome": "MURILLO",
+      "nazione": "PAN",
+      "valore": 8
+    },
+    {
+      "nome": "NASRULLAYEV",
+      "nazione": "UZB",
+      "valore": 5
+    },
+    {
+      "nome": "OKON",
+      "nazione": "SUD",
+      "valore": 6
+    },
+    {
+      "nome": "OPOKU",
+      "nazione": "GHA",
+      "valore": 9
+    },
+    {
+      "nome": "PEDERSEN",
+      "nazione": "NOR",
+      "valore": 9
+    },
+    {
+      "nome": "PRECIADO",
+      "nazione": "ECU",
+      "valore": 6
+    },
+    {
+      "nome": "RADELJIC",
+      "nazione": "BOS",
+      "valore": 6
+    },
+    {
+      "nome": "RALSTON",
+      "nazione": "SCO",
+      "valore": 6
+    },
+    {
+      "nome": "RAMOS FI.",
+      "nazione": "PAN",
+      "valore": 7
+    },
+    {
+      "nome": "SALAH-EDDINE",
+      "nazione": "MAR",
+      "valore": 7
+    },
+    {
+      "nome": "SANCHEZ JO.",
+      "nazione": "MES",
+      "valore": 7
+    },
+    {
+      "nome": "SMITH",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "SMITH ER.",
+      "nazione": "SVE",
+      "valore": 6
+    },
+    {
+      "nome": "SOYUNCU",
+      "nazione": "TUR",
+      "valore": 6
+    },
+    {
+      "nome": "SVOBODA",
+      "nazione": "UNB",
+      "valore": 6
+    },
+    {
+      "nome": "TANIGUCHI",
+      "nazione": "GIA",
+      "valore": 7
+    },
+    {
+      "nome": "TIERNEY",
+      "nazione": "SCO",
+      "valore": 6
+    },
+    {
+      "nome": "TRUSTY",
+      "nazione": "STA",
+      "valore": 6
+    },
+    {
+      "nome": "VALERY",
+      "nazione": "TUN",
+      "valore": 4
+    },
+    {
+      "nome": "WAN-BISSAKA",
+      "nazione": "CON",
+      "valore": 7
+    },
+    {
+      "nome": "WATERMAN",
+      "nazione": "CAN",
+      "valore": 6
+    },
+    {
+      "nome": "YOUSEFI",
+      "nazione": "IRN",
+      "valore": 6
+    },
+    {
+      "nome": "ZELENY",
+      "nazione": "CEC",
+      "valore": 8
+    },
+    {
+      "nome": "ADE",
+      "nazione": "HAI",
+      "valore": 6
+    },
+    {
+      "nome": "AKAYDIN",
+      "nazione": "TUR",
+      "valore": 5
+    },
+    {
+      "nome": "AL OUI",
+      "nazione": "QAT",
+      "valore": 4
+    },
+    {
+      "nome": "AL-ARAB",
+      "nazione": "GIO",
+      "valore": 4
+    },
+    {
+      "nome": "AL-BRAIK",
+      "nazione": "QAT",
+      "valore": 4
+    },
+    {
+      "nome": "AL-HASHMI",
+      "nazione": "QAT",
+      "valore": 4
+    },
+    {
+      "nome": "BEHICH",
+      "nazione": "AUS",
+      "valore": 5
+    },
+    {
+      "nome": "BELAID",
+      "nazione": "ALG",
+      "valore": 5
+    },
+    {
+      "nome": "BENSEBAINI",
+      "nazione": "ALG",
+      "valore": 5
+    },
+    {
+      "nome": "BINDON",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "BLACKMAN",
+      "nazione": "PAN",
+      "valore": 5
+    },
+    {
+      "nome": "BOMBITO",
+      "nazione": "CAN",
+      "valore": 6
+    },
+    {
+      "nome": "BORGES",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "BURGESS",
+      "nazione": "AUS",
+      "valore": 4
+    },
+    {
+      "nome": "CHAVEZ MA.",
+      "nazione": "MES",
+      "valore": 5
+    },
+    {
+      "nome": "CORREIA",
+      "nazione": "QAT",
+      "valore": 6
+    },
+    {
+      "nome": "COUFAL",
+      "nazione": "CEC",
+      "valore": 9
+    },
+    {
+      "nome": "DE FOUGEROLLES",
+      "nazione": "CAN",
+      "valore": 7
+    },
+    {
+      "nome": "FARINA",
+      "nazione": "PAN",
+      "valore": 5
+    },
+    {
+      "nome": "FLORANUS",
+      "nazione": "CUR",
+      "valore": 4
+    },
+    {
+      "nome": "HADZIKADUNIC",
+      "nazione": "BOS",
+      "valore": 5
+    },
+    {
+      "nome": "HAFEZ",
+      "nazione": "EGI",
+      "valore": 5
+    },
+    {
+      "nome": "IBRAHIM Y.",
+      "nazione": "EGI",
+      "valore": 7
+    },
+    {
+      "nome": "ITALIANO",
+      "nazione": "AUS",
+      "valore": 6
+    },
+    {
+      "nome": "JONES",
+      "nazione": "CAN",
+      "valore": 5
+    },
+    {
+      "nome": "LANGAS",
+      "nazione": "NOR",
+      "valore": 5
+    },
+    {
+      "nome": "LARYEA",
+      "nazione": "CAN",
+      "valore": 8
+    },
+    {
+      "nome": "LEE TS.",
+      "nazione": "COR",
+      "valore": 5
+    },
+    {
+      "nome": "MAJRASHI",
+      "nazione": "ARA",
+      "valore": 5
+    },
+    {
+      "nome": "MAKHANYA",
+      "nazione": "SUD",
+      "valore": 5
+    },
+    {
+      "nome": "MENDES LU.",
+      "nazione": "QAT",
+      "valore": 5
+    },
+    {
+      "nome": "MODIBA",
+      "nazione": "SUD",
+      "valore": 6
+    },
+    {
+      "nome": "MOHAMMADI",
+      "nazione": "IRN",
+      "valore": 6
+    },
+    {
+      "nome": "MOREIRA",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "MUDAU",
+      "nazione": "SUD",
+      "valore": 5
+    },
+    {
+      "nome": "MUJAKIC",
+      "nazione": "BOS",
+      "valore": 5
+    },
+    {
+      "nome": "MUMIN",
+      "nazione": "GHA",
+      "valore": 5
+    },
+    {
+      "nome": "RABIA",
+      "nazione": "EGI",
+      "valore": 7
+    },
+    {
+      "nome": "REYES",
+      "nazione": "MES",
+      "valore": 8
+    },
+    {
+      "nome": "RODRIGUEZ ARAYA",
+      "nazione": "SVI",
+      "valore": 7
+    },
+    {
+      "nome": "SAMBO",
+      "nazione": "CUR",
+      "valore": 5
+    },
+    {
+      "nome": "SCALLY",
+      "nazione": "STA",
+      "valore": 5
+    },
+    {
+      "nome": "SENAYA",
+      "nazione": "GHA",
+      "valore": 8
+    },
+    {
+      "nome": "STARFELT",
+      "nazione": "SVE",
+      "valore": 5
+    },
+    {
+      "nome": "SURMAN",
+      "nazione": "NUO",
+      "valore": 9
+    },
+    {
+      "nome": "SUZUKI J.",
+      "nazione": "GIA",
+      "valore": 6
+    },
+    {
+      "nome": "TOUGAI",
+      "nazione": "ALG",
+      "valore": 5
+    },
+    {
+      "nome": "TUANZEBE",
+      "nazione": "CON",
+      "valore": 6
+    },
+    {
+      "nome": "UROZOV",
+      "nazione": "UZB",
+      "valore": 5
+    },
+    {
+      "nome": "VARELA",
+      "nazione": "URU",
+      "valore": 6
+    },
+    {
+      "nome": "ZIMA",
+      "nazione": "CEC",
+      "valore": 6
+    },
+    {
+      "nome": "ABADA",
+      "nazione": "ALG",
+      "valore": 4
+    },
+    {
+      "nome": "ABU TAHA",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "AGBADOU",
+      "nazione": "COS",
+      "valore": 6
+    },
+    {
+      "nome": "AHMED HO.",
+      "nazione": "QAT",
+      "valore": 3
+    },
+    {
+      "nome": "AL-HARBI",
+      "nazione": "ARA",
+      "valore": 4
+    },
+    {
+      "nome": "ANDRADE",
+      "nazione": "PAN",
+      "valore": 6
+    },
+    {
+      "nome": "ASHURMATOV",
+      "nazione": "UZB",
+      "valore": 3
+    },
+    {
+      "nome": "BABA",
+      "nazione": "GHA",
+      "valore": 4
+    },
+    {
+      "nome": "BATUBINSIKA",
+      "nazione": "CON",
+      "valore": 4
+    },
+    {
+      "nome": "BOXALL",
+      "nazione": "NUO",
+      "valore": 5
+    },
+    {
+      "nome": "CHERGUI",
+      "nazione": "ALG",
+      "valore": 4
+    },
+    {
+      "nome": "CHO WI.",
+      "nazione": "COR",
+      "valore": 4
+    },
+    {
+      "nome": "COMERT",
+      "nazione": "SVI",
+      "valore": 4
+    },
+    {
+      "nome": "DEGENEK",
+      "nazione": "AUS",
+      "valore": 4
+    },
+    {
+      "nome": "EXPERIENCE",
+      "nazione": "HAI",
+      "valore": 4
+    },
+    {
+      "nome": "FRIEDL",
+      "nazione": "UNB",
+      "valore": 5
+    },
+    {
+      "nome": "GAARI",
+      "nazione": "CUR",
+      "valore": 4
+    },
+    {
+      "nome": "HALHAL",
+      "nazione": "MAR",
+      "valore": 4
+    },
+    {
+      "nome": "HANLEY",
+      "nazione": "SCO",
+      "valore": 7
+    },
+    {
+      "nome": "HARDANI",
+      "nazione": "IRN",
+      "valore": 4
+    },
+    {
+      "nome": "JOHNSTON",
+      "nazione": "CAN",
+      "valore": 6
+    },
+    {
+      "nome": "KADESH",
+      "nazione": "ARA",
+      "valore": 4
+    },
+    {
+      "nome": "KATIC",
+      "nazione": "BOS",
+      "valore": 4
+    },
+    {
+      "nome": "LACROIX MA.",
+      "nazione": "HAI",
+      "valore": 4
+    },
+    {
+      "nome": "LAJAMI",
+      "nazione": "ARA",
+      "valore": 3
+    },
+    {
+      "nome": "LOPES",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "MILLER",
+      "nazione": "PAN",
+      "valore": 4
+    },
+    {
+      "nome": "NASIB A.",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "NDAMASE",
+      "nazione": "SUD",
+      "valore": 4
+    },
+    {
+      "nome": "NEFFATI",
+      "nazione": "TUN",
+      "valore": 4
+    },
+    {
+      "nome": "NEMATI",
+      "nazione": "IRN",
+      "valore": 7
+    },
+    {
+      "nome": "OPERI",
+      "nazione": "COS",
+      "valore": 4
+    },
+    {
+      "nome": "PAUGAIN",
+      "nazione": "HAI",
+      "valore": 4
+    },
+    {
+      "nome": "PAYNE",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "PINA",
+      "nazione": "CAP",
+      "valore": 4
+    },
+    {
+      "nome": "POROZO",
+      "nazione": "ECU",
+      "valore": 3
+    },
+    {
+      "nome": "RAHMAN",
+      "nazione": "IRQ",
+      "valore": 4
+    },
+    {
+      "nome": "REKIK",
+      "nazione": "TUN",
+      "valore": 6
+    },
+    {
+      "nome": "REZAEIAN",
+      "nazione": "IRN",
+      "valore": 7
+    },
+    {
+      "nome": "ROBINSON M.",
+      "nazione": "STA",
+      "valore": 4
+    },
+    {
+      "nome": "RODRIGUEZ BR.",
+      "nazione": "URU",
+      "valore": 4
+    },
+    {
+      "nome": "SANABRIA JM.",
+      "nazione": "URU",
+      "valore": 5
+    },
+    {
+      "nome": "SEMA",
+      "nazione": "SVE",
+      "valore": 4
+    },
+    {
+      "nome": "SIBISI",
+      "nazione": "SUD",
+      "valore": 3
+    },
+    {
+      "nome": "WIDMER",
+      "nazione": "SVI",
+      "valore": 4
+    },
+    {
+      "nome": "ABU HASHEESH",
+      "nazione": "GIO",
+      "valore": 3
+    },
+    {
+      "nome": "ABUALNADI",
+      "nazione": "GIO",
+      "valore": 4
+    },
+    {
+      "nome": "ABUDAHAB",
+      "nazione": "GIO",
+      "valore": 3
+    },
+    {
+      "nome": "AL ROSAN",
+      "nazione": "GIO",
+      "valore": 3
+    },
+    {
+      "nome": "ALAA TA.",
+      "nazione": "EGI",
+      "valore": 3
+    },
+    {
+      "nome": "BAZOER",
+      "nazione": "CUR",
+      "valore": 1
+    },
+    {
+      "nome": "BEN HMIDA",
+      "nazione": "TUN",
+      "valore": 1
+    },
+    {
+      "nome": "BRONN",
+      "nazione": "TUN",
+      "valore": 2
+    },
+    {
+      "nome": "CABRAL",
+      "nazione": "CAP",
+      "valore": 5
+    },
+    {
+      "nome": "CIRCATI",
+      "nazione": "AUS",
+      "valore": 4
+    },
+    {
+      "nome": "CROSS",
+      "nazione": "SUD",
+      "valore": 3
+    },
+    {
+      "nome": "ESHMURODOV",
+      "nazione": "UZB",
+      "valore": 3
+    },
+    {
+      "nome": "HADDAD",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "HAJISAFI",
+      "nazione": "IRN",
+      "valore": 5
+    },
+    {
+      "nome": "HYAM",
+      "nazione": "SCO",
+      "valore": 3
+    },
+    {
+      "nome": "KARIMOV",
+      "nazione": "UZB",
+      "valore": 5
+    },
+    {
+      "nome": "MWENE",
+      "nazione": "UNB",
+      "valore": 3
+    },
+    {
+      "nome": "OLD",
+      "nazione": "NUO",
+      "valore": 5
+    },
+    {
+      "nome": "PUTROS",
+      "nazione": "IRQ",
+      "valore": 3
+    },
+    {
+      "nome": "REAM",
+      "nazione": "STA",
+      "valore": 7
+    },
+    {
+      "nome": "SEBELEBELE",
+      "nazione": "SUD",
+      "valore": 3
+    },
+    {
+      "nome": "TAHSEEN",
+      "nazione": "IRQ",
+      "valore": 1
+    },
+    {
+      "nome": "ULMASALIEV",
+      "nazione": "UZB",
+      "valore": 3
+    },
+    {
+      "nome": "VELAZQUEZ",
+      "nazione": "PAR",
+      "valore": 5
+    },
+    {
+      "nome": "YAHYA A.",
+      "nazione": "IRQ",
+      "valore": 3
+    },
+    {
+      "nome": "AL-THAKRI",
+      "nazione": "ARA",
+      "valore": 2
+    },
+    {
+      "nome": "ALI H.",
+      "nazione": "IRQ",
+      "valore": 1
+    },
+    {
+      "nome": "BADAWI",
+      "nazione": "GIO",
+      "valore": 2
+    },
+    {
+      "nome": "CHIKHAOUI",
+      "nazione": "TUN",
+      "valore": 2
+    },
+    {
+      "nome": "COSTA",
+      "nazione": "CAP",
+      "valore": 2
+    },
+    {
+      "nome": "FONVILLE",
+      "nazione": "CUR",
+      "valore": 2
+    },
+    {
+      "nome": "IRI",
+      "nazione": "IRN",
+      "valore": 2
+    },
+    {
+      "nome": "KALULU",
+      "nazione": "CON",
+      "valore": 2
+    },
+    {
+      "nome": "KHALILZADEH",
+      "nazione": "IRN",
+      "valore": 5
+    },
+    {
+      "nome": "MASUAKU",
+      "nazione": "CON",
+      "valore": 6
+    },
+    {
+      "nome": "MATULUDI",
+      "nazione": "SUD",
+      "valore": 2
+    },
+    {
+      "nome": "NAGATOMO",
+      "nazione": "GIA",
+      "valore": 2
+    },
+    {
+      "nome": "OBISPO",
+      "nazione": "CUR",
+      "valore": 2
+    },
+    {
+      "nome": "PIRES",
+      "nazione": "CAP",
+      "valore": 2
+    },
+    {
+      "nome": "SAADOON",
+      "nazione": "IRQ",
+      "valore": 1
+    },
+    {
+      "nome": "STOPIRA",
+      "nazione": "CAP",
+      "valore": 2
+    },
+    {
+      "nome": "YAHYA AI.",
+      "nazione": "ARA",
+      "valore": 2
+    },
+    {
+      "nome": "YOUNNES",
+      "nazione": "IRQ",
+      "valore": 2
+    },
+    {
+      "nome": "GERIA",
+      "nazione": "AUS",
+      "valore": 3
+    },
+    {
+      "nome": "KAPUADI",
+      "nazione": "CON",
+      "valore": 4
+    },
+    {
+      "nome": "OBAID",
+      "nazione": "GIO",
+      "valore": 1
+    },
+    {
+      "nome": "SAYFIYEV",
+      "nazione": "UZB",
+      "valore": 2
+    },
+    {
+      "nome": "SULAKA",
+      "nazione": "IRQ",
+      "valore": 2
+    },
+    {
+      "nome": "THERMONCY",
+      "nazione": "HAI",
+      "valore": 1
+    },
+    {
+      "nome": "VAN EIJMA",
+      "nazione": "CUR",
+      "valore": 2
+    }
+  ],
+  "centrocampisti": [
+    {
+      "nome": "OLISE",
+      "nazione": "FRA",
+      "valore": 37
+    },
+    {
+      "nome": "BELLINGHAM",
+      "nazione": "ING",
+      "valore": 29
+    },
+    {
+      "nome": "MUSIALA",
+      "nazione": "GER",
+      "valore": 29
+    },
+    {
+      "nome": "SON",
+      "nazione": "COR",
+      "valore": 24
+    },
+    {
+      "nome": "WIRTZ",
+      "nazione": "GER",
+      "valore": 28
+    },
+    {
+      "nome": "DOKU",
+      "nazione": "BEL",
+      "valore": 26
+    },
+    {
+      "nome": "SANE",
+      "nazione": "GER",
+      "valore": 24
+    },
+    {
+      "nome": "PULISIC",
+      "nazione": "STA",
+      "valore": 27
+    },
+    {
+      "nome": "FERNANDES",
+      "nazione": "POR",
+      "valore": 24
+    },
+    {
+      "nome": "DE BRUYNE",
+      "nazione": "BEL",
+      "valore": 20
+    },
+    {
+      "nome": "PEDRI",
+      "nazione": "SPA",
+      "valore": 20
+    },
+    {
+      "nome": "GULER",
+      "nazione": "TUR",
+      "valore": 19
+    },
+    {
+      "nome": "ODEGAARD",
+      "nazione": "NOR",
+      "valore": 25
+    },
+    {
+      "nome": "OLMO",
+      "nazione": "SPA",
+      "valore": 22
+    },
+    {
+      "nome": "RICE",
+      "nazione": "ING",
+      "valore": 21
+    },
+    {
+      "nome": "VALVERDE",
+      "nazione": "URU",
+      "valore": 19
+    },
+    {
+      "nome": "CHERKI",
+      "nazione": "FRA",
+      "valore": 18
+    },
+    {
+      "nome": "DE KETELAERE",
+      "nazione": "BEL",
+      "valore": 18
+    },
+    {
+      "nome": "EZE",
+      "nazione": "ING",
+      "valore": 18
+    },
+    {
+      "nome": "PAZ",
+      "nazione": "ARG",
+      "valore": 19
+    },
+    {
+      "nome": "SILVA BE.",
+      "nazione": "POR",
+      "valore": 16
+    },
+    {
+      "nome": "TRINCAO",
+      "nazione": "POR",
+      "valore": 18
+    },
+    {
+      "nome": "DIALLO AM.",
+      "nazione": "COS",
+      "valore": 20
+    },
+    {
+      "nome": "GONZALEZ",
+      "nazione": "ARG",
+      "valore": 19
+    },
+    {
+      "nome": "MCTOMINAY",
+      "nazione": "SCO",
+      "valore": 17
+    },
+    {
+      "nome": "NEVES JO.",
+      "nazione": "POR",
+      "valore": 21
+    },
+    {
+      "nome": "RODRI",
+      "nazione": "SPA",
+      "valore": 18
+    },
+    {
+      "nome": "ROGERS",
+      "nazione": "ING",
+      "valore": 16
+    },
+    {
+      "nome": "FERNANDEZ",
+      "nazione": "ARG",
+      "valore": 19
+    },
+    {
+      "nome": "GRAVENBERCH",
+      "nazione": "OLA",
+      "valore": 21
+    },
+    {
+      "nome": "MERINO",
+      "nazione": "SPA",
+      "valore": 15
+    },
+    {
+      "nome": "NAKAMURA",
+      "nazione": "GIA",
+      "valore": 23
+    },
+    {
+      "nome": "DE JONG",
+      "nazione": "OLA",
+      "valore": 16
+    },
+    {
+      "nome": "KIMMICH",
+      "nazione": "GER",
+      "valore": 19
+    },
+    {
+      "nome": "MAC ALLISTER",
+      "nazione": "ARG",
+      "valore": 18
+    },
+    {
+      "nome": "REIJNDERS",
+      "nazione": "OLA",
+      "valore": 14
+    },
+    {
+      "nome": "TCHOUAMENI",
+      "nazione": "FRA",
+      "valore": 17
+    },
+    {
+      "nome": "CAMARA L.",
+      "nazione": "SEN",
+      "valore": 13
+    },
+    {
+      "nome": "GUIMARAES",
+      "nazione": "BRA",
+      "valore": 18
+    },
+    {
+      "nome": "PASALIC",
+      "nazione": "CRO",
+      "valore": 16
+    },
+    {
+      "nome": "RUIZ",
+      "nazione": "SPA",
+      "valore": 14
+    },
+    {
+      "nome": "ZAIRE-EMERY",
+      "nazione": "FRA",
+      "valore": 15
+    },
+    {
+      "nome": "BAUMGARTNER",
+      "nazione": "UNB",
+      "valore": 15
+    },
+    {
+      "nome": "CAICEDO MO.",
+      "nazione": "ECU",
+      "valore": 15
+    },
+    {
+      "nome": "CALHANOGLU",
+      "nazione": "TUR",
+      "valore": 13
+    },
+    {
+      "nome": "DE ARRASCAETA",
+      "nazione": "URU",
+      "valore": 14
+    },
+    {
+      "nome": "DIARRA",
+      "nazione": "SEN",
+      "valore": 13
+    },
+    {
+      "nome": "ENCISO",
+      "nazione": "PAR",
+      "valore": 19
+    },
+    {
+      "nome": "GAVI",
+      "nazione": "SPA",
+      "valore": 13
+    },
+    {
+      "nome": "MAURICIO",
+      "nazione": "PAR",
+      "valore": 18
+    },
+    {
+      "nome": "PAQUETA",
+      "nazione": "BRA",
+      "valore": 16
+    },
+    {
+      "nome": "RIOS",
+      "nazione": "COL",
+      "valore": 12
+    },
+    {
+      "nome": "TIELEMANS",
+      "nazione": "BEL",
+      "valore": 14
+    },
+    {
+      "nome": "UZUN",
+      "nazione": "TUR",
+      "valore": 14
+    },
+    {
+      "nome": "VITINHA",
+      "nazione": "POR",
+      "valore": 15
+    },
+    {
+      "nome": "ZUBIMENDI",
+      "nazione": "SPA",
+      "valore": 14
+    },
+    {
+      "nome": "BATURINA",
+      "nazione": "CRO",
+      "valore": 17
+    },
+    {
+      "nome": "BENTANCUR",
+      "nazione": "URU",
+      "valore": 12
+    },
+    {
+      "nome": "CHUKWUEMEKA",
+      "nazione": "UNB",
+      "valore": 13
+    },
+    {
+      "nome": "GOMEZ DI.",
+      "nazione": "PAR",
+      "valore": 12
+    },
+    {
+      "nome": "KLUIVERT",
+      "nazione": "OLA",
+      "valore": 13
+    },
+    {
+      "nome": "KOKCU",
+      "nazione": "TUR",
+      "valore": 12
+    },
+    {
+      "nome": "KONE",
+      "nazione": "CAN",
+      "valore": 14
+    },
+    {
+      "nome": "KRAMARIC",
+      "nazione": "CRO",
+      "valore": 11
+    },
+    {
+      "nome": "LEE KI.",
+      "nazione": "COR",
+      "valore": 15
+    },
+    {
+      "nome": "MAZA",
+      "nazione": "ALG",
+      "valore": 12
+    },
+    {
+      "nome": "ONANA",
+      "nazione": "BEL",
+      "valore": 13
+    },
+    {
+      "nome": "PERISIC",
+      "nazione": "CRO",
+      "valore": 15
+    },
+    {
+      "nome": "RODRIGUEZ JA.",
+      "nazione": "COL",
+      "valore": 13
+    },
+    {
+      "nome": "SAIBARI",
+      "nazione": "MAR",
+      "valore": 19
+    },
+    {
+      "nome": "SARR P.",
+      "nazione": "SEN",
+      "valore": 13
+    },
+    {
+      "nome": "SIMEONE",
+      "nazione": "ARG",
+      "valore": 13
+    },
+    {
+      "nome": "ANDERSON",
+      "nazione": "ING",
+      "valore": 14
+    },
+    {
+      "nome": "AYARI",
+      "nazione": "SVE",
+      "valore": 15
+    },
+    {
+      "nome": "BOUADDI",
+      "nazione": "MAR",
+      "valore": 13
+    },
+    {
+      "nome": "DANILO",
+      "nazione": "BRA",
+      "valore": 13
+    },
+    {
+      "nome": "GUEYE",
+      "nazione": "SEN",
+      "valore": 11
+    },
+    {
+      "nome": "KAMADA",
+      "nazione": "GIA",
+      "valore": 18
+    },
+    {
+      "nome": "KONE M.",
+      "nazione": "FRA",
+      "valore": 13
+    },
+    {
+      "nome": "MAINOO",
+      "nazione": "ING",
+      "valore": 12
+    },
+    {
+      "nome": "MANZAMBI",
+      "nazione": "SVI",
+      "valore": 15
+    },
+    {
+      "nome": "MCKENNIE",
+      "nazione": "STA",
+      "valore": 14
+    },
+    {
+      "nome": "NYGREN",
+      "nazione": "SVE",
+      "valore": 10
+    },
+    {
+      "nome": "PAEZ",
+      "nazione": "ECU",
+      "valore": 12
+    },
+    {
+      "nome": "PAVLOVIC",
+      "nazione": "GER",
+      "valore": 14
+    },
+    {
+      "nome": "RABIOT",
+      "nazione": "FRA",
+      "valore": 16
+    },
+    {
+      "nome": "SUCIC L.",
+      "nazione": "CRO",
+      "valore": 12
+    },
+    {
+      "nome": "SULC",
+      "nazione": "CEC",
+      "valore": 11
+    },
+    {
+      "nome": "SUMMERVILLE",
+      "nazione": "OLA",
+      "valore": 18
+    },
+    {
+      "nome": "TILLMAN",
+      "nazione": "STA",
+      "valore": 16
+    },
+    {
+      "nome": "TIMBER",
+      "nazione": "OLA",
+      "valore": 12
+    },
+    {
+      "nome": "VOLPATO",
+      "nazione": "AUS",
+      "valore": 12
+    },
+    {
+      "nome": "AASGAARD",
+      "nazione": "NOR",
+      "valore": 11
+    },
+    {
+      "nome": "ALVAREZ ED.",
+      "nazione": "MES",
+      "valore": 13
+    },
+    {
+      "nome": "BELLEGARDE",
+      "nazione": "HAI",
+      "valore": 10
+    },
+    {
+      "nome": "BERGE",
+      "nazione": "NOR",
+      "valore": 14
+    },
+    {
+      "nome": "BERGVALL",
+      "nazione": "SVE",
+      "valore": 12
+    },
+    {
+      "nome": "CHONG",
+      "nazione": "CUR",
+      "valore": 11
+    },
+    {
+      "nome": "DE LA CRUZ",
+      "nazione": "URU",
+      "valore": 12
+    },
+    {
+      "nome": "DE PAUL",
+      "nazione": "ARG",
+      "valore": 15
+    },
+    {
+      "nome": "EL KHANNOUSS",
+      "nazione": "MAR",
+      "valore": 11
+    },
+    {
+      "nome": "KARL",
+      "nazione": "GER",
+      "valore": 12
+    },
+    {
+      "nome": "KOVACIC",
+      "nazione": "CRO",
+      "valore": 12
+    },
+    {
+      "nome": "MODRIC",
+      "nazione": "CRO",
+      "valore": 11
+    },
+    {
+      "nome": "NEVES RU.",
+      "nazione": "POR",
+      "valore": 11
+    },
+    {
+      "nome": "PALACIOS",
+      "nazione": "ARG",
+      "valore": 11
+    },
+    {
+      "nome": "PEPE",
+      "nazione": "COS",
+      "valore": 12
+    },
+    {
+      "nome": "SABITZER",
+      "nazione": "UNB",
+      "valore": 12
+    },
+    {
+      "nome": "SADIKI",
+      "nazione": "CON",
+      "valore": 11
+    },
+    {
+      "nome": "SAELEMAEKERS",
+      "nazione": "BEL",
+      "valore": 11
+    },
+    {
+      "nome": "SANGARE",
+      "nazione": "COS",
+      "valore": 12
+    },
+    {
+      "nome": "SANO K.",
+      "nazione": "GIA",
+      "valore": 14
+    },
+    {
+      "nome": "SOUCEK",
+      "nazione": "CEC",
+      "valore": 12
+    },
+    {
+      "nome": "STILLER",
+      "nazione": "GER",
+      "valore": 11
+    },
+    {
+      "nome": "TAHIROVIC",
+      "nazione": "BOS",
+      "valore": 11
+    },
+    {
+      "nome": "AURSNES",
+      "nazione": "NOR",
+      "valore": 10
+    },
+    {
+      "nome": "BACUNA",
+      "nazione": "CUR",
+      "valore": 9
+    },
+    {
+      "nome": "BUCHANAN",
+      "nazione": "CAN",
+      "valore": 12
+    },
+    {
+      "nome": "CARRASCAL",
+      "nazione": "COL",
+      "valore": 10
+    },
+    {
+      "nome": "CASEMIRO",
+      "nazione": "BRA",
+      "valore": 10
+    },
+    {
+      "nome": "EL AYNAOUI",
+      "nazione": "MAR",
+      "valore": 13
+    },
+    {
+      "nome": "IRVINE",
+      "nazione": "AUS",
+      "valore": 11
+    },
+    {
+      "nome": "JASARI",
+      "nazione": "SVI",
+      "valore": 10
+    },
+    {
+      "nome": "KAKU",
+      "nazione": "PAR",
+      "valore": 11
+    },
+    {
+      "nome": "KESSIE",
+      "nazione": "COS",
+      "valore": 14
+    },
+    {
+      "nome": "LIRA",
+      "nazione": "MES",
+      "valore": 14
+    },
+    {
+      "nome": "MEJBRI",
+      "nazione": "TUN",
+      "valore": 12
+    },
+    {
+      "nome": "MOREIRA DI.",
+      "nazione": "BEL",
+      "valore": 10
+    },
+    {
+      "nome": "NMECHA",
+      "nazione": "GER",
+      "valore": 16
+    },
+    {
+      "nome": "PINEDA",
+      "nazione": "MES",
+      "valore": 10
+    },
+    {
+      "nome": "WEAH",
+      "nazione": "STA",
+      "valore": 11
+    },
+    {
+      "nome": "XHAKA",
+      "nazione": "SVI",
+      "valore": 14
+    },
+    {
+      "nome": "YIRENKYI",
+      "nazione": "GHA",
+      "valore": 14
+    },
+    {
+      "nome": "YUKSEK",
+      "nazione": "TUR",
+      "valore": 9
+    },
+    {
+      "nome": "ZAKARIA D.",
+      "nazione": "SVI",
+      "valore": 10
+    },
+    {
+      "nome": "BARCO",
+      "nazione": "ARG",
+      "valore": 10
+    },
+    {
+      "nome": "BOBADILLA",
+      "nazione": "PAR",
+      "valore": 8
+    },
+    {
+      "nome": "CARRASQUILLA",
+      "nazione": "PAN",
+      "valore": 10
+    },
+    {
+      "nome": "CASTANO",
+      "nazione": "COL",
+      "valore": 10
+    },
+    {
+      "nome": "CASTROP",
+      "nazione": "COR",
+      "valore": 10
+    },
+    {
+      "nome": "CHAIBI",
+      "nazione": "ALG",
+      "valore": 10
+    },
+    {
+      "nome": "CHAVEZ LU.",
+      "nazione": "MES",
+      "valore": 10
+    },
+    {
+      "nome": "COSTA SA.",
+      "nazione": "POR",
+      "valore": 10
+    },
+    {
+      "nome": "FOFANA SE.",
+      "nazione": "COS",
+      "valore": 9
+    },
+    {
+      "nome": "GORETZKA",
+      "nazione": "GER",
+      "valore": 10
+    },
+    {
+      "nome": "INAO OULAI",
+      "nazione": "COS",
+      "valore": 10
+    },
+    {
+      "nome": "JEAN JACQUES",
+      "nazione": "HAI",
+      "valore": 9
+    },
+    {
+      "nome": "KANTE",
+      "nazione": "FRA",
+      "valore": 10
+    },
+    {
+      "nome": "KOOPMEINERS",
+      "nazione": "OLA",
+      "valore": 9
+    },
+    {
+      "nome": "MUKAU",
+      "nazione": "CON",
+      "valore": 9
+    },
+    {
+      "nome": "OZCAN SA.",
+      "nazione": "TUR",
+      "valore": 9
+    },
+    {
+      "nome": "QUINTERO JF.",
+      "nazione": "COL",
+      "valore": 12
+    },
+    {
+      "nome": "RIEDER",
+      "nazione": "SVI",
+      "valore": 8
+    },
+    {
+      "nome": "SCHMID",
+      "nazione": "UNB",
+      "valore": 12
+    },
+    {
+      "nome": "SKHIRI",
+      "nazione": "TUN",
+      "valore": 6
+    },
+    {
+      "nome": "TANAKA A.",
+      "nazione": "GIA",
+      "valore": 11
+    },
+    {
+      "nome": "VAARGAS",
+      "nazione": "MES",
+      "valore": 11
+    },
+    {
+      "nome": "VANAKEN",
+      "nazione": "BEL",
+      "valore": 9
+    },
+    {
+      "nome": "VLASIC",
+      "nazione": "CRO",
+      "valore": 9
+    },
+    {
+      "nome": "ZALAZAR",
+      "nazione": "URU",
+      "valore": 10
+    },
+    {
+      "nome": "ADAMS T.",
+      "nazione": "STA",
+      "valore": 11
+    },
+    {
+      "nome": "AL-JUWAYR",
+      "nazione": "ARA",
+      "valore": 8
+    },
+    {
+      "nome": "AMRABAT",
+      "nazione": "MAR",
+      "valore": 9
+    },
+    {
+      "nome": "BAE JH.",
+      "nazione": "COR",
+      "valore": 9
+    },
+    {
+      "nome": "BERG",
+      "nazione": "NOR",
+      "valore": 12
+    },
+    {
+      "nome": "BOAKYE",
+      "nazione": "GHA",
+      "valore": 9
+    },
+    {
+      "nome": "BOUDAOUI",
+      "nazione": "ALG",
+      "valore": 8
+    },
+    {
+      "nome": "CHRISTIE",
+      "nazione": "SCO",
+      "valore": 9
+    },
+    {
+      "nome": "ENDO",
+      "nazione": "GIA",
+      "valore": 9
+    },
+    {
+      "nome": "EZATOLAHI",
+      "nazione": "IRN",
+      "valore": 10
+    },
+    {
+      "nome": "FERGUSON",
+      "nazione": "SCO",
+      "valore": 11
+    },
+    {
+      "nome": "FIDALGO",
+      "nazione": "MES",
+      "valore": 9
+    },
+    {
+      "nome": "FRUK",
+      "nazione": "CRO",
+      "valore": 9
+    },
+    {
+      "nome": "GALARZA",
+      "nazione": "PAR",
+      "valore": 12
+    },
+    {
+      "nome": "IQBAL",
+      "nazione": "IRQ",
+      "valore": 8
+    },
+    {
+      "nome": "MAHMIC",
+      "nazione": "BOS",
+      "valore": 12
+    },
+    {
+      "nome": "MCGINN",
+      "nazione": "SCO",
+      "valore": 10
+    },
+    {
+      "nome": "MOKOENA",
+      "nazione": "SUD",
+      "valore": 10
+    },
+    {
+      "nome": "MORO",
+      "nazione": "CRO",
+      "valore": 9
+    },
+    {
+      "nome": "O'NEILL",
+      "nazione": "AUS",
+      "valore": 11
+    },
+    {
+      "nome": "PARTEY",
+      "nazione": "GHA",
+      "valore": 10
+    },
+    {
+      "nome": "PORTILLA",
+      "nazione": "COL",
+      "valore": 9
+    },
+    {
+      "nome": "RASKIN",
+      "nazione": "BEL",
+      "valore": 9
+    },
+    {
+      "nome": "REYNA",
+      "nazione": "STA",
+      "valore": 12
+    },
+    {
+      "nome": "SADILEK",
+      "nazione": "CEC",
+      "valore": 12
+    },
+    {
+      "nome": "SALIBA",
+      "nazione": "CAN",
+      "valore": 12
+    },
+    {
+      "nome": "SCHLAGER X.",
+      "nazione": "UNB",
+      "valore": 10
+    },
+    {
+      "nome": "SEIWALD",
+      "nazione": "UNB",
+      "valore": 10
+    },
+    {
+      "nome": "SOW",
+      "nazione": "SVI",
+      "valore": 10
+    },
+    {
+      "nome": "STAMENIC",
+      "nazione": "NUO",
+      "valore": 10
+    },
+    {
+      "nome": "SUCIC",
+      "nazione": "CRO",
+      "valore": 9
+    },
+    {
+      "nome": "UGARTE",
+      "nazione": "URU",
+      "valore": 9
+    },
+    {
+      "nome": "AARONSON",
+      "nazione": "STA",
+      "valore": 8
+    },
+    {
+      "nome": "ADAMS J.",
+      "nazione": "SUD",
+      "valore": 6
+    },
+    {
+      "nome": "AMIRI",
+      "nazione": "GER",
+      "valore": 10
+    },
+    {
+      "nome": "ASHOUR",
+      "nazione": "EGI",
+      "valore": 11
+    },
+    {
+      "nome": "ATTIA",
+      "nazione": "EGI",
+      "valore": 9
+    },
+    {
+      "nome": "BENTALEB",
+      "nazione": "ALG",
+      "valore": 7
+    },
+    {
+      "nome": "CERV",
+      "nazione": "CEC",
+      "valore": 8
+    },
+    {
+      "nome": "CUBAS",
+      "nazione": "PAR",
+      "valore": 10
+    },
+    {
+      "nome": "DIATTA",
+      "nazione": "SEN",
+      "valore": 9
+    },
+    {
+      "nome": "EUSTAQUIO",
+      "nazione": "CAN",
+      "valore": 10
+    },
+    {
+      "nome": "FATHI H.",
+      "nazione": "EGI",
+      "valore": 8
+    },
+    {
+      "nome": "GIGOVIC",
+      "nazione": "BOS",
+      "valore": 9
+    },
+    {
+      "nome": "GUTIERREZ",
+      "nazione": "MES",
+      "valore": 8
+    },
+    {
+      "nome": "HADZIAHMETOVIC",
+      "nazione": "BOS",
+      "valore": 9
+    },
+    {
+      "nome": "HWANG IB.",
+      "nazione": "COR",
+      "valore": 11
+    },
+    {
+      "nome": "JAHANBAKHSH",
+      "nazione": "IRN",
+      "valore": 8
+    },
+    {
+      "nome": "JAKIC",
+      "nazione": "CRO",
+      "valore": 8
+    },
+    {
+      "nome": "LENINI",
+      "nazione": "CAP",
+      "valore": 12
+    },
+    {
+      "nome": "LERMA",
+      "nazione": "COL",
+      "valore": 9
+    },
+    {
+      "nome": "LO CELSO",
+      "nazione": "ARG",
+      "valore": 8
+    },
+    {
+      "nome": "MCCOWATT",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "MEMIC",
+      "nazione": "BOS",
+      "valore": 7
+    },
+    {
+      "nome": "MORA",
+      "nazione": "MES",
+      "valore": 9
+    },
+    {
+      "nome": "OJEDA",
+      "nazione": "PAR",
+      "valore": 8
+    },
+    {
+      "nome": "OKON-ENGSTLER",
+      "nazione": "AUS",
+      "valore": 10
+    },
+    {
+      "nome": "OUNAHI",
+      "nazione": "MAR",
+      "valore": 10
+    },
+    {
+      "nome": "PASALIC M.",
+      "nazione": "CRO",
+      "valore": 8
+    },
+    {
+      "nome": "PRASS",
+      "nazione": "UNB",
+      "valore": 7
+    },
+    {
+      "nome": "RAZZAGHINIA",
+      "nazione": "IRN",
+      "valore": 8
+    },
+    {
+      "nome": "SVANBERG",
+      "nazione": "SVE",
+      "valore": 11
+    },
+    {
+      "nome": "THORSTVEDT",
+      "nazione": "NOR",
+      "valore": 9
+    },
+    {
+      "nome": "VITE UCA",
+      "nazione": "ECU",
+      "valore": 9
+    },
+    {
+      "nome": "AHMED",
+      "nazione": "CAN",
+      "valore": 8
+    },
+    {
+      "nome": "AL RAWABDEH",
+      "nazione": "GIO",
+      "valore": 10
+    },
+    {
+      "nome": "AOUAR",
+      "nazione": "ALG",
+      "valore": 7
+    },
+    {
+      "nome": "BACUNA LE.",
+      "nazione": "CUR",
+      "valore": 5
+    },
+    {
+      "nome": "BASIC",
+      "nazione": "BOS",
+      "valore": 7
+    },
+    {
+      "nome": "DARIDA",
+      "nazione": "CEC",
+      "valore": 8
+    },
+    {
+      "nome": "DOUDERA",
+      "nazione": "CEC",
+      "valore": 7
+    },
+    {
+      "nome": "DUARTE DE.",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "EL MOURABET",
+      "nazione": "MAR",
+      "valore": 8
+    },
+    {
+      "nome": "FABINHO",
+      "nazione": "BRA",
+      "valore": 7
+    },
+    {
+      "nome": "GRILLITSCH",
+      "nazione": "UNB",
+      "valore": 7
+    },
+    {
+      "nome": "LASHEEN",
+      "nazione": "EGI",
+      "valore": 8
+    },
+    {
+      "nome": "MARTINEZ CH.",
+      "nazione": "PAN",
+      "valore": 6
+    },
+    {
+      "nome": "MBATHA",
+      "nazione": "SUD",
+      "valore": 5
+    },
+    {
+      "nome": "METCALFE",
+      "nazione": "AUS",
+      "valore": 10
+    },
+    {
+      "nome": "NDIAYE B.",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "OWUSU",
+      "nazione": "GHA",
+      "valore": 8
+    },
+    {
+      "nome": "PICKEL",
+      "nazione": "CON",
+      "valore": 7
+    },
+    {
+      "nome": "PUERTA",
+      "nazione": "COL",
+      "valore": 11
+    },
+    {
+      "nome": "ROLDAN",
+      "nazione": "STA",
+      "valore": 7
+    },
+    {
+      "nome": "SIGUR",
+      "nazione": "CAN",
+      "valore": 8
+    },
+    {
+      "nome": "SLIMANE",
+      "nazione": "TUN",
+      "valore": 5
+    },
+    {
+      "nome": "SUNJIC",
+      "nazione": "BOS",
+      "valore": 7
+    },
+    {
+      "nome": "TIL",
+      "nazione": "OLA",
+      "valore": 8
+    },
+    {
+      "nome": "TITRAOUI",
+      "nazione": "ALG",
+      "valore": 7
+    },
+    {
+      "nome": "VISINSKY",
+      "nazione": "CEC",
+      "valore": 7
+    },
+    {
+      "nome": "ABDULSALLAM",
+      "nazione": "QAT",
+      "valore": 4
+    },
+    {
+      "nome": "AEBISCHER",
+      "nazione": "SVI",
+      "valore": 7
+    },
+    {
+      "nome": "AL-DAWSARI S.",
+      "nazione": "ARA",
+      "valore": 7
+    },
+    {
+      "nome": "BAYESH",
+      "nazione": "IRQ",
+      "valore": 5
+    },
+    {
+      "nome": "BERHALTER",
+      "nazione": "STA",
+      "valore": 7
+    },
+    {
+      "nome": "BURNIC",
+      "nazione": "BOS",
+      "valore": 6
+    },
+    {
+      "nome": "CASTILLO",
+      "nazione": "ECU",
+      "valore": 6
+    },
+    {
+      "nome": "CISS",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "DE ROON",
+      "nazione": "OLA",
+      "valore": 6
+    },
+    {
+      "nome": "DUARTE",
+      "nazione": "CAP",
+      "valore": 7
+    },
+    {
+      "nome": "DUNGA",
+      "nazione": "EGI",
+      "valore": 6
+    },
+    {
+      "nome": "FASSNACHT",
+      "nazione": "SVI",
+      "valore": 6
+    },
+    {
+      "nome": "FREULER",
+      "nazione": "SVI",
+      "valore": 8
+    },
+    {
+      "nome": "GANIYEV",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "HARVEY",
+      "nazione": "PAN",
+      "valore": 7
+    },
+    {
+      "nome": "HENDERSON",
+      "nazione": "ING",
+      "valore": 6
+    },
+    {
+      "nome": "HRUSTIC",
+      "nazione": "AUS",
+      "valore": 6
+    },
+    {
+      "nome": "JAMOUS",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "KARLSTROM",
+      "nazione": "SVE",
+      "valore": 6
+    },
+    {
+      "nome": "KAYEMBE",
+      "nazione": "CON",
+      "valore": 7
+    },
+    {
+      "nome": "LEE JS.",
+      "nazione": "COR",
+      "valore": 6
+    },
+    {
+      "nome": "MARTINEZ EM.",
+      "nazione": "URU",
+      "valore": 6
+    },
+    {
+      "nome": "MCLEAN",
+      "nazione": "SCO",
+      "valore": 6
+    },
+    {
+      "nome": "MONTEIRO J.",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "MOUTOUSSAMY",
+      "nazione": "CON",
+      "valore": 7
+    },
+    {
+      "nome": "MOZGOVOY",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "NOSLIN",
+      "nazione": "CUR",
+      "valore": 6
+    },
+    {
+      "nome": "PAIK",
+      "nazione": "COR",
+      "valore": 6
+    },
+    {
+      "nome": "PAREDES",
+      "nazione": "ARG",
+      "valore": 6
+    },
+    {
+      "nome": "PAULO",
+      "nazione": "CAP",
+      "valore": 7
+    },
+    {
+      "nome": "PIERRE LE.",
+      "nazione": "HAI",
+      "valore": 6
+    },
+    {
+      "nome": "ROMO",
+      "nazione": "MES",
+      "valore": 9
+    },
+    {
+      "nome": "SABER",
+      "nazione": "EGI",
+      "valore": 6
+    },
+    {
+      "nome": "SEKO",
+      "nazione": "GIA",
+      "valore": 7
+    },
+    {
+      "nome": "SHER",
+      "nazione": "IRQ",
+      "valore": 7
+    },
+    {
+      "nome": "SHUKUROV",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "SIBO",
+      "nazione": "GHA",
+      "valore": 8
+    },
+    {
+      "nome": "SINGH",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "SOJKA",
+      "nazione": "CEC",
+      "valore": 9
+    },
+    {
+      "nome": "TREWIN",
+      "nazione": "AUS",
+      "valore": 6
+    },
+    {
+      "nome": "WANNER",
+      "nazione": "UNB",
+      "valore": 6
+    },
+    {
+      "nome": "ZENELI",
+      "nazione": "SVE",
+      "valore": 7
+    },
+    {
+      "nome": "ZERROUKI",
+      "nazione": "ALG",
+      "valore": 5
+    },
+    {
+      "nome": "ZWANE",
+      "nazione": "SUD",
+      "valore": 3
+    },
+    {
+      "nome": "ABDULLAH",
+      "nazione": "QAT",
+      "valore": 5
+    },
+    {
+      "nome": "AL HAJJI",
+      "nazione": "ARA",
+      "valore": 5
+    },
+    {
+      "nome": "AL-AMMARI",
+      "nazione": "IRQ",
+      "valore": 5
+    },
+    {
+      "nome": "AL-DULAIMI",
+      "nazione": "IRQ",
+      "valore": 4
+    },
+    {
+      "nome": "AL-HAYDOS",
+      "nazione": "QAT",
+      "valore": 5
+    },
+    {
+      "nome": "AL-MANAI",
+      "nazione": "QAT",
+      "valore": 2
+    },
+    {
+      "nome": "AL-RASHDAN",
+      "nazione": "GIO",
+      "valore": 9
+    },
+    {
+      "nome": "AYHAN",
+      "nazione": "TUR",
+      "valore": 5
+    },
+    {
+      "nome": "BELHADJ MAHMOUD",
+      "nazione": "TUN",
+      "valore": 4
+    },
+    {
+      "nome": "BELL",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "CHESHMI",
+      "nazione": "IRN",
+      "valore": 5
+    },
+    {
+      "nome": "CHOINIERE",
+      "nazione": "CAN",
+      "valore": 5
+    },
+    {
+      "nome": "ELIA",
+      "nazione": "CON",
+      "valore": 5
+    },
+    {
+      "nome": "ESANOV",
+      "nazione": "UZB",
+      "valore": 5
+    },
+    {
+      "nome": "FELIDA",
+      "nazione": "CUR",
+      "valore": 5
+    },
+    {
+      "nome": "FRANCO",
+      "nazione": "ECU",
+      "valore": 7
+    },
+    {
+      "nome": "GHODDOS",
+      "nazione": "IRN",
+      "valore": 6
+    },
+    {
+      "nome": "GHORBANI",
+      "nazione": "IRN",
+      "valore": 5
+    },
+    {
+      "nome": "GODOY",
+      "nazione": "PAN",
+      "valore": 5
+    },
+    {
+      "nome": "GROS",
+      "nazione": "GER",
+      "valore": 5
+    },
+    {
+      "nome": "GUEYE I.",
+      "nazione": "SEN",
+      "valore": 7
+    },
+    {
+      "nome": "HASAN",
+      "nazione": "GIO",
+      "valore": 5
+    },
+    {
+      "nome": "JOHANSSON",
+      "nazione": "SVE",
+      "valore": 5
+    },
+    {
+      "nome": "KHEDIRA",
+      "nazione": "TUN",
+      "valore": 3
+    },
+    {
+      "nome": "KIM JG.",
+      "nazione": "COR",
+      "valore": 5
+    },
+    {
+      "nome": "LEE DG.",
+      "nazione": "COR",
+      "valore": 5
+    },
+    {
+      "nome": "OSORIO",
+      "nazione": "CAN",
+      "valore": 5
+    },
+    {
+      "nome": "PARK JS.",
+      "nazione": "COR",
+      "valore": 5
+    },
+    {
+      "nome": "RUFER",
+      "nazione": "NUO",
+      "valore": 5
+    },
+    {
+      "nome": "SITHOLE",
+      "nazione": "SUD",
+      "valore": 3
+    },
+    {
+      "nome": "STROUD",
+      "nazione": "SVE",
+      "valore": 5
+    },
+    {
+      "nome": "WITSEL",
+      "nazione": "BEL",
+      "valore": 5
+    },
+    {
+      "nome": "YAKOB",
+      "nazione": "IRQ",
+      "valore": 5
+    },
+    {
+      "nome": "AL KHAIBARI",
+      "nazione": "ARA",
+      "valore": 4
+    },
+    {
+      "nome": "AL-JOHANI",
+      "nazione": "ARA",
+      "valore": 4
+    },
+    {
+      "nome": "ALCIVAR",
+      "nazione": "ECU",
+      "valore": 3
+    },
+    {
+      "nome": "DEVLIN",
+      "nazione": "AUS",
+      "valore": 4
+    },
+    {
+      "nome": "FARJI",
+      "nazione": "IRQ",
+      "valore": 6
+    },
+    {
+      "nome": "FATHI AH.",
+      "nazione": "QAT",
+      "valore": 4
+    },
+    {
+      "nome": "GARBETT",
+      "nazione": "NUO",
+      "valore": 4
+    },
+    {
+      "nome": "KAKUTA",
+      "nazione": "CON",
+      "valore": 4
+    },
+    {
+      "nome": "KANNO",
+      "nazione": "ARA",
+      "valore": 4
+    },
+    {
+      "nome": "MADIBO",
+      "nazione": "QAT",
+      "valore": 3
+    },
+    {
+      "nome": "ROEMERATOE",
+      "nazione": "CUR",
+      "valore": 4
+    },
+    {
+      "nome": "SAADEH",
+      "nazione": "GIO",
+      "valore": 4
+    },
+    {
+      "nome": "SCHOPF",
+      "nazione": "UNB",
+      "valore": 4
+    },
+    {
+      "nome": "SEMEDO Y.",
+      "nazione": "CAP",
+      "valore": 5
+    },
+    {
+      "nome": "SOCHUREK",
+      "nazione": "CEC",
+      "valore": 4
+    },
+    {
+      "nome": "THOMAS",
+      "nazione": "NUO",
+      "valore": 6
+    },
+    {
+      "nome": "THORSBY",
+      "nazione": "NOR",
+      "valore": 4
+    },
+    {
+      "nome": "BAYLISS",
+      "nazione": "NUO",
+      "valore": 3
+    },
+    {
+      "nome": "BOUDIAF",
+      "nazione": "QAT",
+      "valore": 4
+    },
+    {
+      "nome": "FLETCHER",
+      "nazione": "SCO",
+      "valore": 3
+    },
+    {
+      "nome": "ISKANDEROV",
+      "nazione": "UZB",
+      "valore": 3
+    },
+    {
+      "nome": "KHAMROBEKOV",
+      "nazione": "UZB",
+      "valore": 2
+    },
+    {
+      "nome": "AL-DAWOUD",
+      "nazione": "GIO",
+      "valore": 2
+    },
+    {
+      "nome": "KAKHRAMONJON",
+      "nazione": "UZB",
+      "valore": 2
+    },
+    {
+      "nome": "SAINTE",
+      "nazione": "HAI",
+      "valore": 2
+    },
+    {
+      "nome": "SERI",
+      "nazione": "COS",
+      "valore": 2
+    },
+    {
+      "nome": "SIMON",
+      "nazione": "HAI",
+      "valore": 3
+    },
+    {
+      "nome": "TSHIBOLA",
+      "nazione": "CON",
+      "valore": 2
+    },
+    {
+      "nome": "PIERRE",
+      "nazione": "HAI",
+      "valore": 1
+    }
+  ],
+  "attaccanti": [
+    {
+      "nome": "MBAPPE",
+      "nazione": "FRA",
+      "valore": 50
+    },
+    {
+      "nome": "KANE",
+      "nazione": "ING",
+      "valore": 42
+    },
+    {
+      "nome": "DEMBELE",
+      "nazione": "FRA",
+      "valore": 40
+    },
+    {
+      "nome": "HAALAND",
+      "nazione": "NOR",
+      "valore": 46
+    },
+    {
+      "nome": "YAMAL",
+      "nazione": "SPA",
+      "valore": 40
+    },
+    {
+      "nome": "MARTINEZ LA.",
+      "nazione": "ARG",
+      "valore": 33
+    },
+    {
+      "nome": "ALVAREZ",
+      "nazione": "ARG",
+      "valore": 30
+    },
+    {
+      "nome": "VINICIUS",
+      "nazione": "BRA",
+      "valore": 40
+    },
+    {
+      "nome": "GAKPO",
+      "nazione": "OLA",
+      "valore": 34
+    },
+    {
+      "nome": "SALAH",
+      "nazione": "EGI",
+      "valore": 34
+    },
+    {
+      "nome": "DOUE DE.",
+      "nazione": "FRA",
+      "valore": 27
+    },
+    {
+      "nome": "MESSI",
+      "nazione": "ARG",
+      "valore": 36
+    },
+    {
+      "nome": "ISAK",
+      "nazione": "SVE",
+      "valore": 32
+    },
+    {
+      "nome": "BARCOLA",
+      "nazione": "FRA",
+      "valore": 30
+    },
+    {
+      "nome": "DIAZ LU.",
+      "nazione": "COL",
+      "valore": 30
+    },
+    {
+      "nome": "RAPHINHA",
+      "nazione": "BRA",
+      "valore": 25
+    },
+    {
+      "nome": "RASHFORD",
+      "nazione": "ING",
+      "valore": 31
+    },
+    {
+      "nome": "TROSSARD",
+      "nazione": "BEL",
+      "valore": 25
+    },
+    {
+      "nome": "WILLIAMS NI.",
+      "nazione": "SPA",
+      "valore": 27
+    },
+    {
+      "nome": "DEPAY",
+      "nazione": "OLA",
+      "valore": 26
+    },
+    {
+      "nome": "GYOKERES",
+      "nazione": "SVE",
+      "valore": 29
+    },
+    {
+      "nome": "HAVERTZ",
+      "nazione": "GER",
+      "valore": 29
+    },
+    {
+      "nome": "RONALDO",
+      "nazione": "POR",
+      "valore": 28
+    },
+    {
+      "nome": "TORRES FER.",
+      "nazione": "SPA",
+      "valore": 25
+    },
+    {
+      "nome": "MADUEKE",
+      "nazione": "ING",
+      "valore": 24
+    },
+    {
+      "nome": "SAKA",
+      "nazione": "ING",
+      "valore": 26
+    },
+    {
+      "nome": "MALEN",
+      "nazione": "OLA",
+      "valore": 23
+    },
+    {
+      "nome": "MARTINELLI",
+      "nazione": "BRA",
+      "valore": 24
+    },
+    {
+      "nome": "WOLTEMADE",
+      "nazione": "GER",
+      "valore": 25
+    },
+    {
+      "nome": "LEAO",
+      "nazione": "POR",
+      "valore": 25
+    },
+    {
+      "nome": "WATKINS",
+      "nazione": "ING",
+      "valore": 23
+    },
+    {
+      "nome": "YILDIZ",
+      "nazione": "TUR",
+      "valore": 21
+    },
+    {
+      "nome": "DAVID",
+      "nazione": "CAN",
+      "valore": 24
+    },
+    {
+      "nome": "MUNOZ",
+      "nazione": "SPA",
+      "valore": 22
+    },
+    {
+      "nome": "OYARZABAL",
+      "nazione": "SPA",
+      "valore": 24
+    },
+    {
+      "nome": "GORDON",
+      "nazione": "ING",
+      "valore": 19
+    },
+    {
+      "nome": "SORLOTH",
+      "nazione": "NOR",
+      "valore": 20
+    },
+    {
+      "nome": "THURAM",
+      "nazione": "FRA",
+      "valore": 21
+    },
+    {
+      "nome": "YILMAZ",
+      "nazione": "TUR",
+      "valore": 18
+    },
+    {
+      "nome": "BEIER",
+      "nazione": "GER",
+      "valore": 20
+    },
+    {
+      "nome": "GIMENEZ",
+      "nazione": "MES",
+      "valore": 19
+    },
+    {
+      "nome": "LEWELING",
+      "nazione": "GER",
+      "valore": 20
+    },
+    {
+      "nome": "NEYMAR",
+      "nazione": "BRA",
+      "valore": 20
+    },
+    {
+      "nome": "NUNEZ",
+      "nazione": "URU",
+      "valore": 18
+    },
+    {
+      "nome": "BALOGUN",
+      "nazione": "STA",
+      "valore": 22
+    },
+    {
+      "nome": "CUNHA",
+      "nazione": "BRA",
+      "valore": 21
+    },
+    {
+      "nome": "IGLESIAS",
+      "nazione": "SPA",
+      "valore": 19
+    },
+    {
+      "nome": "JIMENEZ",
+      "nazione": "MES",
+      "valore": 22
+    },
+    {
+      "nome": "LARSEN",
+      "nazione": "NOR",
+      "valore": 19
+    },
+    {
+      "nome": "LUKEBAKIO",
+      "nazione": "BEL",
+      "valore": 19
+    },
+    {
+      "nome": "RAMOS",
+      "nazione": "POR",
+      "valore": 19
+    },
+    {
+      "nome": "UNDAV",
+      "nazione": "GER",
+      "valore": 26
+    },
+    {
+      "nome": "ARNAUTOVIC",
+      "nazione": "UNB",
+      "valore": 20
+    },
+    {
+      "nome": "BONNY",
+      "nazione": "COS",
+      "valore": 17
+    },
+    {
+      "nome": "CANOBBIO",
+      "nazione": "URU",
+      "valore": 21
+    },
+    {
+      "nome": "ELANGA",
+      "nazione": "SVE",
+      "valore": 21
+    },
+    {
+      "nome": "GUESSAND",
+      "nazione": "COS",
+      "valore": 18
+    },
+    {
+      "nome": "JACKSON",
+      "nazione": "SEN",
+      "valore": 20
+    },
+    {
+      "nome": "LANG",
+      "nazione": "OLA",
+      "valore": 18
+    },
+    {
+      "nome": "MAHREZ",
+      "nazione": "ALG",
+      "valore": 19
+    },
+    {
+      "nome": "NETO",
+      "nazione": "POR",
+      "valore": 18
+    },
+    {
+      "nome": "PINO",
+      "nazione": "SPA",
+      "valore": 18
+    },
+    {
+      "nome": "RAYAN",
+      "nazione": "BRA",
+      "valore": 18
+    },
+    {
+      "nome": "SCHICK",
+      "nazione": "CEC",
+      "valore": 17
+    },
+    {
+      "nome": "TONEY",
+      "nazione": "ING",
+      "valore": 18
+    },
+    {
+      "nome": "DIAZ B.",
+      "nazione": "MAR",
+      "valore": 22
+    },
+    {
+      "nome": "EZZALZOULI",
+      "nazione": "MAR",
+      "valore": 18
+    },
+    {
+      "nome": "FERNANDEZ PARDO",
+      "nazione": "BEL",
+      "valore": 17
+    },
+    {
+      "nome": "LUKAKU",
+      "nazione": "BEL",
+      "valore": 15
+    },
+    {
+      "nome": "MANE",
+      "nazione": "SEN",
+      "valore": 19
+    },
+    {
+      "nome": "NDIAYE I.",
+      "nazione": "SEN",
+      "valore": 19
+    },
+    {
+      "nome": "NUSA",
+      "nazione": "NOR",
+      "valore": 16
+    },
+    {
+      "nome": "QUINONES",
+      "nazione": "MES",
+      "valore": 21
+    },
+    {
+      "nome": "RODRIGUEZ",
+      "nazione": "SPA",
+      "valore": 17
+    },
+    {
+      "nome": "SEMENYO",
+      "nazione": "GHA",
+      "valore": 17
+    },
+    {
+      "nome": "SUAREZ",
+      "nazione": "COL",
+      "valore": 16
+    },
+    {
+      "nome": "TOURE",
+      "nazione": "COS",
+      "valore": 17
+    },
+    {
+      "nome": "WEGHORST",
+      "nazione": "OLA",
+      "valore": 17
+    },
+    {
+      "nome": "WRIGHT",
+      "nazione": "STA",
+      "valore": 17
+    },
+    {
+      "nome": "AKTURKOGLU",
+      "nazione": "TUR",
+      "valore": 14
+    },
+    {
+      "nome": "EMBOLO",
+      "nazione": "SVI",
+      "valore": 22
+    },
+    {
+      "nome": "ITO J.",
+      "nazione": "GIA",
+      "valore": 19
+    },
+    {
+      "nome": "KUBO",
+      "nazione": "GIA",
+      "valore": 18
+    },
+    {
+      "nome": "MATETA",
+      "nazione": "FRA",
+      "valore": 16
+    },
+    {
+      "nome": "SARR I.",
+      "nazione": "SEN",
+      "valore": 18
+    },
+    {
+      "nome": "WIMMER",
+      "nazione": "UNB",
+      "valore": 15
+    },
+    {
+      "nome": "AKGUN",
+      "nazione": "TUR",
+      "valore": 13
+    },
+    {
+      "nome": "BOBB",
+      "nazione": "NOR",
+      "valore": 16
+    },
+    {
+      "nome": "BRIAN RODRIGUEZ",
+      "nazione": "URU",
+      "valore": 16
+    },
+    {
+      "nome": "DIAKITE",
+      "nazione": "COS",
+      "valore": 15
+    },
+    {
+      "nome": "DOAK",
+      "nazione": "SCO",
+      "valore": 15
+    },
+    {
+      "nome": "DZEKO",
+      "nazione": "BOS",
+      "valore": 15
+    },
+    {
+      "nome": "HWANG H.",
+      "nazione": "COR",
+      "valore": 15
+    },
+    {
+      "nome": "LOPEZ",
+      "nazione": "ARG",
+      "valore": 15
+    },
+    {
+      "nome": "NDOYE",
+      "nazione": "SVI",
+      "valore": 17
+    },
+    {
+      "nome": "AFIF",
+      "nazione": "QAT",
+      "valore": 15
+    },
+    {
+      "nome": "AL DAWSARI SA.",
+      "nazione": "ARA",
+      "valore": 14
+    },
+    {
+      "nome": "AMOURA",
+      "nazione": "ALG",
+      "valore": 14
+    },
+    {
+      "nome": "ANGULO",
+      "nazione": "ECU",
+      "valore": 15
+    },
+    {
+      "nome": "ARIAS JH.",
+      "nazione": "COL",
+      "valore": 15
+    },
+    {
+      "nome": "BROBBEY",
+      "nazione": "OLA",
+      "valore": 18
+    },
+    {
+      "nome": "BUDIMIR",
+      "nazione": "CRO",
+      "valore": 18
+    },
+    {
+      "nome": "CONCEICAO",
+      "nazione": "POR",
+      "valore": 15
+    },
+    {
+      "nome": "GONZALEZ AR.",
+      "nazione": "MES",
+      "valore": 14
+    },
+    {
+      "nome": "MBAYE",
+      "nazione": "SEN",
+      "valore": 18
+    },
+    {
+      "nome": "PELLISTRI",
+      "nazione": "URU",
+      "valore": 14
+    },
+    {
+      "nome": "TALBI",
+      "nazione": "MAR",
+      "valore": 15
+    },
+    {
+      "nome": "THOMAS-ASANTE",
+      "nazione": "GHA",
+      "valore": 17
+    },
+    {
+      "nome": "ZIZO",
+      "nazione": "EGI",
+      "valore": 15
+    },
+    {
+      "nome": "ALAJBEGOVIC",
+      "nazione": "BOS",
+      "valore": 14
+    },
+    {
+      "nome": "ENDRICK",
+      "nazione": "BRA",
+      "valore": 13
+    },
+    {
+      "nome": "HASSAN",
+      "nazione": "EGI",
+      "valore": 13
+    },
+    {
+      "nome": "HLOZEK",
+      "nazione": "CEC",
+      "valore": 14
+    },
+    {
+      "nome": "OH H.",
+      "nazione": "COR",
+      "valore": 16
+    },
+    {
+      "nome": "OKAFOR",
+      "nazione": "SVI",
+      "valore": 13
+    },
+    {
+      "nome": "PEPI",
+      "nazione": "STA",
+      "valore": 13
+    },
+    {
+      "nome": "SANABRIA AN.",
+      "nazione": "PAR",
+      "valore": 13
+    },
+    {
+      "nome": "SCHJELDERUP",
+      "nazione": "NOR",
+      "valore": 15
+    },
+    {
+      "nome": "SULEMANA",
+      "nazione": "GHA",
+      "valore": 13
+    },
+    {
+      "nome": "TAREMI",
+      "nazione": "IRN",
+      "valore": 15
+    },
+    {
+      "nome": "VALENCIA EN.",
+      "nazione": "ECU",
+      "valore": 14
+    },
+    {
+      "nome": "ADAMS",
+      "nazione": "SCO",
+      "valore": 12
+    },
+    {
+      "nome": "EL KAABI",
+      "nazione": "MAR",
+      "valore": 12
+    },
+    {
+      "nome": "GOMEZ AN.",
+      "nazione": "COL",
+      "valore": 12
+    },
+    {
+      "nome": "GOTO",
+      "nazione": "GIA",
+      "valore": 12
+    },
+    {
+      "nome": "GREGORITSCH",
+      "nazione": "UNB",
+      "valore": 12
+    },
+    {
+      "nome": "HENRIQUE",
+      "nazione": "BRA",
+      "valore": 13
+    },
+    {
+      "nome": "KAHVECI",
+      "nazione": "TUR",
+      "valore": 12
+    },
+    {
+      "nome": "MUSA",
+      "nazione": "CRO",
+      "valore": 14
+    },
+    {
+      "nome": "PLATA",
+      "nazione": "ECU",
+      "valore": 14
+    },
+    {
+      "nome": "THIAGO",
+      "nazione": "BRA",
+      "valore": 12
+    },
+    {
+      "nome": "WAHI",
+      "nazione": "COS",
+      "valore": 13
+    },
+    {
+      "nome": "AGUIRRE SOTO",
+      "nazione": "URU",
+      "valore": 11
+    },
+    {
+      "nome": "ALEX ZENDEJAS",
+      "nazione": "STA",
+      "valore": 11
+    },
+    {
+      "nome": "ALMADA",
+      "nazione": "ARG",
+      "valore": 13
+    },
+    {
+      "nome": "AREVALO",
+      "nazione": "ECU",
+      "valore": 11
+    },
+    {
+      "nome": "AYDIN",
+      "nazione": "TUR",
+      "valore": 11
+    },
+    {
+      "nome": "CAMPAZ",
+      "nazione": "COL",
+      "valore": 15
+    },
+    {
+      "nome": "FOSTER",
+      "nazione": "SUD",
+      "valore": 11
+    },
+    {
+      "nome": "GUIAGON",
+      "nazione": "COS",
+      "valore": 11
+    },
+    {
+      "nome": "HADJ MOUSSA",
+      "nazione": "ALG",
+      "valore": 12
+    },
+    {
+      "nome": "HASSAN M.",
+      "nazione": "EGI",
+      "valore": 15
+    },
+    {
+      "nome": "MASTOURI",
+      "nazione": "TUN",
+      "valore": 11
+    },
+    {
+      "nome": "NUAMAH",
+      "nazione": "GHA",
+      "valore": 12
+    },
+    {
+      "nome": "UEDA",
+      "nazione": "GIA",
+      "valore": 16
+    },
+    {
+      "nome": "WILLIAMS",
+      "nazione": "GHA",
+      "valore": 11
+    },
+    {
+      "nome": "YANG HJ.",
+      "nazione": "COR",
+      "valore": 13
+    },
+    {
+      "nome": "ABDELKARIM",
+      "nazione": "EGI",
+      "valore": 11
+    },
+    {
+      "nome": "ADINGRA",
+      "nazione": "COS",
+      "valore": 11
+    },
+    {
+      "nome": "ARFSTEN",
+      "nazione": "STA",
+      "valore": 10
+    },
+    {
+      "nome": "AYEW",
+      "nazione": "GHA",
+      "valore": 13
+    },
+    {
+      "nome": "BOULEBINA",
+      "nazione": "ALG",
+      "valore": 11
+    },
+    {
+      "nome": "CHO GS.",
+      "nazione": "COR",
+      "valore": 12
+    },
+    {
+      "nome": "DA SILVA",
+      "nazione": "QAT",
+      "valore": 12
+    },
+    {
+      "nome": "DEMIROVIC",
+      "nazione": "BOS",
+      "valore": 10
+    },
+    {
+      "nome": "DOAN",
+      "nazione": "GIA",
+      "valore": 12
+    },
+    {
+      "nome": "EOM JS.",
+      "nazione": "COR",
+      "valore": 12
+    },
+    {
+      "nome": "FAJARDO",
+      "nazione": "PAN",
+      "valore": 10
+    },
+    {
+      "nome": "MAEDA",
+      "nazione": "GIA",
+      "valore": 11
+    },
+    {
+      "nome": "MATANOVIC",
+      "nazione": "CRO",
+      "valore": 11
+    },
+    {
+      "nome": "RODRIGUEZ JL.",
+      "nazione": "PAN",
+      "valore": 11
+    },
+    {
+      "nome": "SOSA",
+      "nazione": "PAR",
+      "valore": 12
+    },
+    {
+      "nome": "SUZUKI Y.",
+      "nazione": "GIA",
+      "valore": 11
+    },
+    {
+      "nome": "VARGAS",
+      "nazione": "SVI",
+      "valore": 15
+    },
+    {
+      "nome": "VINAS",
+      "nazione": "URU",
+      "valore": 10
+    },
+    {
+      "nome": "WAINE",
+      "nazione": "NUO",
+      "valore": 10
+    },
+    {
+      "nome": "YASSINE G.",
+      "nazione": "MAR",
+      "valore": 10
+    },
+    {
+      "nome": "YEBOAH",
+      "nazione": "ECU",
+      "valore": 13
+    },
+    {
+      "nome": "APPOLLIS",
+      "nazione": "SUD",
+      "valore": 12
+    },
+    {
+      "nome": "ARCE",
+      "nazione": "PAR",
+      "valore": 10
+    },
+    {
+      "nome": "BAAH",
+      "nazione": "GHA",
+      "valore": 10
+    },
+    {
+      "nome": "BAJRAKTAREVIC",
+      "nazione": "BOS",
+      "valore": 10
+    },
+    {
+      "nome": "BENBOUALI",
+      "nazione": "ALG",
+      "valore": 13
+    },
+    {
+      "nome": "DIAO",
+      "nazione": "SEN",
+      "valore": 10
+    },
+    {
+      "nome": "DIAZ IS.",
+      "nazione": "PAN",
+      "valore": 11
+    },
+    {
+      "nome": "GOUIRI",
+      "nazione": "ALG",
+      "valore": 11
+    },
+    {
+      "nome": "GUL",
+      "nazione": "TUR",
+      "valore": 9
+    },
+    {
+      "nome": "HAUGE",
+      "nazione": "NOR",
+      "valore": 10
+    },
+    {
+      "nome": "HIRST",
+      "nazione": "SCO",
+      "valore": 10
+    },
+    {
+      "nome": "HOSSEINZADEH",
+      "nazione": "IRN",
+      "valore": 11
+    },
+    {
+      "nome": "HUERTA",
+      "nazione": "MES",
+      "valore": 10
+    },
+    {
+      "nome": "JUST",
+      "nazione": "NUO",
+      "valore": 13
+    },
+    {
+      "nome": "KUCHTA",
+      "nazione": "CEC",
+      "valore": 10
+    },
+    {
+      "nome": "MINDA",
+      "nazione": "ECU",
+      "valore": 11
+    },
+    {
+      "nome": "PITTA",
+      "nazione": "PAR",
+      "valore": 10
+    },
+    {
+      "nome": "RANDALL",
+      "nazione": "NUO",
+      "valore": 10
+    },
+    {
+      "nome": "SHAFFELBURG",
+      "nazione": "CAN",
+      "valore": 11
+    },
+    {
+      "nome": "ZICO",
+      "nazione": "EGI",
+      "valore": 13
+    },
+    {
+      "nome": "AL-HAMDAN",
+      "nazione": "ARA",
+      "valore": 10
+    },
+    {
+      "nome": "ALMIRON",
+      "nazione": "PAR",
+      "valore": 8
+    },
+    {
+      "nome": "AMAIMOUNI",
+      "nazione": "MAR",
+      "valore": 10
+    },
+    {
+      "nome": "AVALOS",
+      "nazione": "PAR",
+      "valore": 9
+    },
+    {
+      "nome": "BARBAROUSES",
+      "nazione": "NUO",
+      "valore": 9
+    },
+    {
+      "nome": "BAZDAR",
+      "nazione": "BOS",
+      "valore": 10
+    },
+    {
+      "nome": "BONGONDA",
+      "nazione": "CON",
+      "valore": 9
+    },
+    {
+      "nome": "DIOMANDE YA.",
+      "nazione": "COS",
+      "valore": 12
+    },
+    {
+      "nome": "DYKES",
+      "nazione": "SCO",
+      "valore": 10
+    },
+    {
+      "nome": "GHAEDI",
+      "nazione": "IRN",
+      "valore": 10
+    },
+    {
+      "nome": "GHARBI",
+      "nazione": "TUN",
+      "valore": 9
+    },
+    {
+      "nome": "GHEDJEMIS",
+      "nazione": "ALG",
+      "valore": 9
+    },
+    {
+      "nome": "GUEDES",
+      "nazione": "POR",
+      "valore": 9
+    },
+    {
+      "nome": "LECKIE",
+      "nazione": "AUS",
+      "valore": 8
+    },
+    {
+      "nome": "MILLAR",
+      "nazione": "CAN",
+      "valore": 9
+    },
+    {
+      "nome": "NDIAYE",
+      "nazione": "SEN",
+      "valore": 9
+    },
+    {
+      "nome": "RAHIMI",
+      "nazione": "MAR",
+      "valore": 9
+    },
+    {
+      "nome": "RODRIGUEZ KE.",
+      "nazione": "ECU",
+      "valore": 11
+    },
+    {
+      "nome": "SAAD E.",
+      "nazione": "TUN",
+      "valore": 9
+    },
+    {
+      "nome": "SHIOGAI",
+      "nazione": "GIA",
+      "valore": 9
+    },
+    {
+      "nome": "TORABI",
+      "nazione": "IRN",
+      "valore": 10
+    },
+    {
+      "nome": "ADEL",
+      "nazione": "EGI",
+      "valore": 8
+    },
+    {
+      "nome": "ADU",
+      "nazione": "GHA",
+      "valore": 8
+    },
+    {
+      "nome": "AL-GHANNAM",
+      "nazione": "ARA",
+      "valore": 8
+    },
+    {
+      "nome": "ALIPOUR",
+      "nazione": "IRN",
+      "valore": 9
+    },
+    {
+      "nome": "ALVARADO",
+      "nazione": "MES",
+      "valore": 12
+    },
+    {
+      "nome": "AMDOUNI",
+      "nazione": "SVI",
+      "valore": 8
+    },
+    {
+      "nome": "BARCENAS",
+      "nazione": "PAN",
+      "valore": 10
+    },
+    {
+      "nome": "CHORY",
+      "nazione": "CEC",
+      "valore": 9
+    },
+    {
+      "nome": "CORDOBA JH.",
+      "nazione": "COL",
+      "valore": 8
+    },
+    {
+      "nome": "CUCHO",
+      "nazione": "COL",
+      "valore": 10
+    },
+    {
+      "nome": "ELLOUMI",
+      "nazione": "TUN",
+      "valore": 8
+    },
+    {
+      "nome": "FLORES",
+      "nazione": "CAN",
+      "valore": 8
+    },
+    {
+      "nome": "FORTUNE",
+      "nazione": "HAI",
+      "valore": 8
+    },
+    {
+      "nome": "IRANKUNDA",
+      "nazione": "AUS",
+      "valore": 11
+    },
+    {
+      "nome": "ISSAHAKU",
+      "nazione": "GHA",
+      "valore": 11
+    },
+    {
+      "nome": "ITTEN",
+      "nazione": "SVI",
+      "valore": 8
+    },
+    {
+      "nome": "JASIM",
+      "nazione": "IRQ",
+      "valore": 9
+    },
+    {
+      "nome": "KALAJDZIC",
+      "nazione": "UNB",
+      "valore": 9
+    },
+    {
+      "nome": "MABIL",
+      "nazione": "AUS",
+      "valore": 8
+    },
+    {
+      "nome": "MAKGOPA",
+      "nazione": "SUD",
+      "valore": 10
+    },
+    {
+      "nome": "SHANKLAND",
+      "nazione": "SCO",
+      "valore": 9
+    },
+    {
+      "nome": "TOURE MO.",
+      "nazione": "AUS",
+      "valore": 10
+    },
+    {
+      "nome": "VEGA",
+      "nazione": "MES",
+      "valore": 9
+    },
+    {
+      "nome": "WOOD",
+      "nazione": "NUO",
+      "valore": 11
+    },
+    {
+      "nome": "ACHOURI",
+      "nazione": "TUN",
+      "valore": 8
+    },
+    {
+      "nome": "AL-HAMADI",
+      "nazione": "IRQ",
+      "valore": 8
+    },
+    {
+      "nome": "ALI TA.",
+      "nazione": "SVE",
+      "valore": 8
+    },
+    {
+      "nome": "BAKAMBU",
+      "nazione": "CON",
+      "valore": 8
+    },
+    {
+      "nome": "BANZA",
+      "nazione": "CON",
+      "valore": 8
+    },
+    {
+      "nome": "BEN OUANNES",
+      "nazione": "TUN",
+      "valore": 7
+    },
+    {
+      "nome": "BENCHIMOL",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "BERNHARDSSON",
+      "nazione": "SVE",
+      "valore": 8
+    },
+    {
+      "nome": "CABRAL J.",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "CAICEDO JO.",
+      "nazione": "ECU",
+      "valore": 7
+    },
+    {
+      "nome": "CHYTIL",
+      "nazione": "CEC",
+      "valore": 7
+    },
+    {
+      "nome": "DA COSTA",
+      "nazione": "CAP",
+      "valore": 10
+    },
+    {
+      "nome": "DEEDSON",
+      "nazione": "HAI",
+      "valore": 9
+    },
+    {
+      "nome": "HUSSEIN A.",
+      "nazione": "IRQ",
+      "valore": 9
+    },
+    {
+      "nome": "LARIN",
+      "nazione": "CAN",
+      "valore": 12
+    },
+    {
+      "nome": "MARMOUSH",
+      "nazione": "EGI",
+      "valore": 10
+    },
+    {
+      "nome": "MOGHANLOU",
+      "nazione": "IRN",
+      "valore": 10
+    },
+    {
+      "nome": "MOHEBI",
+      "nazione": "IRN",
+      "valore": 10
+    },
+    {
+      "nome": "OGAWA",
+      "nazione": "GIA",
+      "valore": 9
+    },
+    {
+      "nome": "TOUNEKTI",
+      "nazione": "TUN",
+      "valore": 7
+    },
+    {
+      "nome": "VELUPILLAY",
+      "nazione": "AUS",
+      "valore": 8
+    },
+    {
+      "nome": "YENGI",
+      "nazione": "AUS",
+      "valore": 8
+    },
+    {
+      "nome": "AL-GANEHI",
+      "nazione": "QAT",
+      "valore": 6
+    },
+    {
+      "nome": "AZAIZEH",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "CABALLERO",
+      "nazione": "PAR",
+      "valore": 6
+    },
+    {
+      "nome": "CASIMIR",
+      "nazione": "HAI",
+      "valore": 7
+    },
+    {
+      "nome": "CURTIS",
+      "nazione": "SCO",
+      "valore": 6
+    },
+    {
+      "nome": "ETIENNE JR.",
+      "nazione": "HAI",
+      "valore": 6
+    },
+    {
+      "nome": "HASHIM",
+      "nazione": "IRQ",
+      "valore": 6
+    },
+    {
+      "nome": "KHAMDAMOV",
+      "nazione": "UZB",
+      "valore": 8
+    },
+    {
+      "nome": "MARTHA",
+      "nazione": "CUR",
+      "valore": 6
+    },
+    {
+      "nome": "MENDES R.",
+      "nazione": "CAP",
+      "valore": 9
+    },
+    {
+      "nome": "NAZON",
+      "nazione": "HAI",
+      "valore": 6
+    },
+    {
+      "nome": "RATOMO",
+      "nazione": "SUD",
+      "valore": 6
+    },
+    {
+      "nome": "RAYNERS",
+      "nazione": "SUD",
+      "valore": 6
+    },
+    {
+      "nome": "RODRIGUEZ TO.",
+      "nazione": "PAN",
+      "valore": 6
+    },
+    {
+      "nome": "SHARARA",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "VARELA H.",
+      "nazione": "CAP",
+      "valore": 9
+    },
+    {
+      "nome": "WATERMAN CE.",
+      "nazione": "PAN",
+      "valore": 8
+    },
+    {
+      "nome": "ABDELMOTAAL",
+      "nazione": "QAT",
+      "valore": 7
+    },
+    {
+      "nome": "AL TAMARI",
+      "nazione": "GIO",
+      "valore": 9
+    },
+    {
+      "nome": "ANTONISSE",
+      "nazione": "CUR",
+      "valore": 5
+    },
+    {
+      "nome": "ARCANJO",
+      "nazione": "CAP",
+      "valore": 8
+    },
+    {
+      "nome": "CHAOUAT",
+      "nazione": "TUN",
+      "valore": 6
+    },
+    {
+      "nome": "DIENG B.",
+      "nazione": "SEN",
+      "valore": 5
+    },
+    {
+      "nome": "ECKERT",
+      "nazione": "IRN",
+      "valore": 5
+    },
+    {
+      "nome": "FAYZULLAYEV",
+      "nazione": "UZB",
+      "valore": 8
+    },
+    {
+      "nome": "HANSEN",
+      "nazione": "CUR",
+      "valore": 5
+    },
+    {
+      "nome": "JAMSHID",
+      "nazione": "QAT",
+      "valore": 5
+    },
+    {
+      "nome": "LOCADIA",
+      "nazione": "CUR",
+      "valore": 5
+    },
+    {
+      "nome": "LONDONO",
+      "nazione": "PAN",
+      "valore": 7
+    },
+    {
+      "nome": "LUKIC",
+      "nazione": "BOS",
+      "valore": 8
+    },
+    {
+      "nome": "MARTINEZ GU.",
+      "nazione": "MES",
+      "valore": 5
+    },
+    {
+      "nome": "MAYELE",
+      "nazione": "CON",
+      "valore": 5
+    },
+    {
+      "nome": "MBUKU",
+      "nazione": "CON",
+      "valore": 7
+    },
+    {
+      "nome": "MOREMI",
+      "nazione": "SUD",
+      "valore": 5
+    },
+    {
+      "nome": "MUNTARI",
+      "nazione": "QAT",
+      "valore": 5
+    },
+    {
+      "nome": "NILSSON",
+      "nazione": "SVE",
+      "valore": 5
+    },
+    {
+      "nome": "OLWAN",
+      "nazione": "GIO",
+      "valore": 8
+    },
+    {
+      "nome": "PROVOD",
+      "nazione": "CEC",
+      "valore": 8
+    },
+    {
+      "nome": "QASIM",
+      "nazione": "IRQ",
+      "valore": 6
+    },
+    {
+      "nome": "STEWART",
+      "nazione": "SCO",
+      "valore": 5
+    },
+    {
+      "nome": "URUNOV",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "VALENCIA AN.",
+      "nazione": "ECU",
+      "valore": 5
+    },
+    {
+      "nome": "YANIS",
+      "nazione": "PAN",
+      "valore": 5
+    },
+    {
+      "nome": "YOUSSEF",
+      "nazione": "QAT",
+      "valore": 6
+    },
+    {
+      "nome": "AL MARDI",
+      "nazione": "GIO",
+      "valore": 6
+    },
+    {
+      "nome": "AL-BURAIKAN",
+      "nazione": "ARA",
+      "valore": 6
+    },
+    {
+      "nome": "ALI M.",
+      "nazione": "IRQ",
+      "valore": 5
+    },
+    {
+      "nome": "AMONOV",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "AMYN",
+      "nazione": "IRQ",
+      "valore": 5
+    },
+    {
+      "nome": "AYARI KH.",
+      "nazione": "TUN",
+      "valore": 4
+    },
+    {
+      "nome": "CIPENGA",
+      "nazione": "CON",
+      "valore": 4
+    },
+    {
+      "nome": "FAKHOURI O.",
+      "nazione": "GIO",
+      "valore": 7
+    },
+    {
+      "nome": "JOSEPH",
+      "nazione": "HAI",
+      "valore": 6
+    },
+    {
+      "nome": "KUWAS",
+      "nazione": "CUR",
+      "valore": 4
+    },
+    {
+      "nome": "MASEKO",
+      "nazione": "SUD",
+      "valore": 5
+    },
+    {
+      "nome": "SHOMURODOV",
+      "nazione": "UZB",
+      "valore": 6
+    },
+    {
+      "nome": "TABAKOVIC",
+      "nazione": "BOS",
+      "valore": 4
+    },
+    {
+      "nome": "LIVRAMENTO",
+      "nazione": "CAP",
+      "valore": 4
+    },
+    {
+      "nome": "MASHARIPOV",
+      "nazione": "UZB",
+      "valore": 3
+    },
+    {
+      "nome": "PROMISE DAVID",
+      "nazione": "CAN",
+      "valore": 5
+    },
+    {
+      "nome": "QUINTERO AL.",
+      "nazione": "PAN",
+      "valore": 3
+    },
+    {
+      "nome": "SABRA I.",
+      "nazione": "GIO",
+      "valore": 3
+    },
+    {
+      "nome": "SEMEDO W.",
+      "nazione": "CAP",
+      "valore": 5
+    },
+    {
+      "nome": "AKLIOUCHE",
+      "nazione": "FRA",
+      "valore": 2
+    },
+    {
+      "nome": "GORRE",
+      "nazione": "CUR",
+      "valore": 3
+    },
+    {
+      "nome": "ISIDOR",
+      "nazione": "HAI",
+      "valore": 5
+    },
+    {
+      "nome": "JOAO FELIX",
+      "nazione": "POR",
+      "valore": 4
+    },
+    {
+      "nome": "MANDASH",
+      "nazione": "ARA",
+      "valore": 2
+    },
+    {
+      "nome": "OLUWASEYI",
+      "nazione": "CAN",
+      "valore": 5
+    },
+    {
+      "nome": "PROVIDENCE",
+      "nazione": "HAI",
+      "valore": 4
+    },
+    {
+      "nome": "RODRIGUES",
+      "nazione": "CAP",
+      "valore": 3
+    },
+    {
+      "nome": "SERGEEV",
+      "nazione": "UZB",
+      "valore": 3
+    },
+    {
+      "nome": "WISSA",
+      "nazione": "CON",
+      "valore": 5
+    },
+    {
+      "nome": "ABDULLA",
+      "nazione": "QAT",
+      "valore": 1
+    },
+    {
+      "nome": "AL-SHEHRI",
+      "nazione": "ARA",
+      "valore": 1
+    },
+    {
+      "nome": "KASTANEER",
+      "nazione": "CUR",
+      "valore": 1
+    },
+    {
+      "nome": "MARGARITHA",
+      "nazione": "CUR",
+      "valore": 3
+    },
+    {
+      "nome": "PIERROT",
+      "nazione": "HAI",
+      "valore": 2
+    }
+  ]
+}

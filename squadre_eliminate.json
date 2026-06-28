@@ -1,0 +1,22 @@
+{
+  "aggiornato": "2026-06-28",
+  "nota": "Squadre uscite dalla competizione (fase a gironi)",
+  "squadre": [
+    { "nat": "COR", "nome": "Corea del Sud", "girone": "A" },
+    { "nat": "CEC", "nome": "Cechia", "girone": "A" },
+    { "nat": "QAT", "nome": "Qatar", "girone": "B" },
+    { "nat": "SCO", "nome": "Scozia", "girone": "C" },
+    { "nat": "HAI", "nome": "Haiti", "girone": "C" },
+    { "nat": "TUR", "nome": "Turchia", "girone": "D" },
+    { "nat": "CUR", "nome": "Curaçao", "girone": "E" },
+    { "nat": "TUN", "nome": "Tunisia", "girone": "F" },
+    { "nat": "IRN", "nome": "Iran", "girone": "G" },
+    { "nat": "NUO", "nome": "Nuova Zelanda", "girone": "G" },
+    { "nat": "URU", "nome": "Uruguay", "girone": "H" },
+    { "nat": "ARA", "nome": "Arabia Saudita", "girone": "H" },
+    { "nat": "IRQ", "nome": "Iraq", "girone": "I" },
+    { "nat": "GIO", "nome": "Giordania", "girone": "J" },
+    { "nat": "UZB", "nome": "Uzbekistan", "girone": "K" },
+    { "nat": "PAN", "nome": "Panama", "girone": "L" }
+  ]
+}

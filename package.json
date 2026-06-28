@@ -8,7 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "fetch-odds": "node scripts/fetch-sofascore-odds.mjs",
-    "parse-quotazioni-2g": "node scripts/parse-quotazioni-2g.mjs"
+    "parse-quotazioni-2g": "node scripts/parse-quotazioni-g.mjs 2",
+    "parse-quotazioni-3g": "node scripts/parse-quotazioni-g.mjs 3",
+    "parse-quotazioni-4g": "node scripts/parse-quotazioni-g.mjs 4",
+    "parse-quotazioni-g": "node scripts/parse-quotazioni-g.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.511.0",

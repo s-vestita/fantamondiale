@@ -18,18 +18,8 @@
   ],
   "difensori": [
     {
-      "nome": "SULAKA",
-      "nazione": "IRQ",
-      "ruolo": "difensori"
-    },
-    {
       "nome": "O'REILLY",
       "nazione": "ING",
-      "ruolo": "difensori"
-    },
-    {
-      "nome": "SAYFIYEV",
-      "nazione": "UZB",
       "ruolo": "difensori"
     },
     {
@@ -43,11 +33,6 @@
       "ruolo": "difensori"
     },
     {
-      "nome": "ARAUJO MA.",
-      "nazione": "URU",
-      "ruolo": "difensori"
-    },
-    {
       "nome": "DE CUYPER",
       "nazione": "BEL",
       "ruolo": "difensori"
@@ -56,14 +41,24 @@
       "nome": "RYERSON",
       "nazione": "NOR",
       "ruolo": "difensori"
+    },
+    {
+      "nome": "GERIA",
+      "nazione": "AUS",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "BENSEBAINI",
+      "nazione": "ALG",
+      "ruolo": "difensori"
+    },
+    {
+      "nome": "COSTA",
+      "nazione": "CAP",
+      "ruolo": "difensori"
     }
   ],
   "centrocampisti": [
-    {
-      "nome": "PIERRE",
-      "nazione": "HAI",
-      "ruolo": "centrocampisti"
-    },
     {
       "nome": "DE KETELAERE",
       "nazione": "BEL",
@@ -75,28 +70,33 @@
       "ruolo": "centrocampisti"
     },
     {
-      "nome": "KHAMROBEKOV",
-      "nazione": "UZB",
-      "ruolo": "centrocampisti"
-    },
-    {
-      "nome": "KAKHRAMONJON",
-      "nazione": "UZB",
-      "ruolo": "centrocampisti"
-    },
-    {
       "nome": "KAKUTA",
       "nazione": "CON",
       "ruolo": "centrocampisti"
     },
     {
-      "nome": "BOUDIAF",
-      "nazione": "QAT",
+      "nome": "FERNANDES",
+      "nazione": "POR",
       "ruolo": "centrocampisti"
     },
     {
-      "nome": "FERNANDES",
-      "nazione": "POR",
+      "nome": "AOUAR",
+      "nazione": "ALG",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "TSHIBOLA",
+      "nazione": "CON",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "SERI",
+      "nazione": "COS",
+      "ruolo": "centrocampisti"
+    },
+    {
+      "nome": "AEBISCHER",
+      "nazione": "SVI",
       "ruolo": "centrocampisti"
     }
   ],

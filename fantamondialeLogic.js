@@ -1,5 +1,7 @@
 import listoneIniziale from "./listone.json" with { type: "json" };
-import listone from "./listone_2g.json" with { type: "json" };
+import listone2g from "./listone_2g.json" with { type: "json" };
+import listone3g from "./listone_3g.json" with { type: "json" };
+import listone from "./listone_4g.json" with { type: "json" };
 import startersData from "./starters.json" with { type: "json" };
 import positionsData from "./positions.json" with { type: "json" };
 import { getPlayerSetPieces } from "./setPiecesData.js";
@@ -197,6 +199,8 @@ export function classifyPlayer(p, groups, str) {
   return { fascia, note: parts.join(" · ") };
 }
 
+export const LISTONE_GIORNATA = 4;
+export const LISTONE_FILE = "listone_4g.json";
 export const ROSA_LIMITS = { portieri: 3, difensori: 8, centrocampisti: 8, attaccanti: 6 };
 export const ROSA_BUDGET = 250;
 
@@ -304,9 +308,17 @@ export function buildQuotazioniConfronto() {
     const iniByKey = new Map(
       listoneIniziale[ruolo].map((p) => [`${p.nome}|${p.nazione}`, p.valore])
     );
+    const g2ByKey = new Map(
+      listone2g[ruolo].map((p) => [`${p.nome}|${p.nazione}`, p.valore])
+    );
+    const g3ByKey = new Map(
+      listone3g[ruolo].map((p) => [`${p.nome}|${p.nazione}`, p.valore])
+    );
     for (const p of listone[ruolo]) {
       const key = `${p.nome}|${p.nazione}`;
       const iniziale = iniByKey.get(key) ?? p.valore;
+      const g2 = g2ByKey.get(key) ?? iniziale;
+      const g3 = g3ByKey.get(key) ?? g2;
       const attuale = p.valore;
       out.push({
         nome: p.nome,
@@ -315,6 +327,8 @@ export function buildQuotazioniConfronto() {
         ruoloLabel: RUOLO_LABEL[ruolo],
         team: NAT_TO_TEAM[p.nazione] || p.nazione,
         iniziale,
+        g2,
+        g3,
         attuale,
         delta: attuale - iniziale,
       });

@@ -1,0 +1,112 @@
+{
+    "gironi": [
+      {
+        "girone": 1,
+        "squadre": [
+          { "nome": "Messico", "utente": "mike8", "PU": 5, "VI": 1, "PA": 2, "SC": 0, "GF": 8, "GS": 7, "fantapunti": 236.5 },
+          { "nome": "Corea del Sud", "utente": "magliuzzi", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 10, "GS": 9, "fantapunti": 246.5 },
+          { "nome": "Sudafrica", "utente": "cuoricinho", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 8, "GS": 8, "fantapunti": 239.5 },
+          { "nome": "Repubblica Ceca", "utente": "alezmani", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 6, "GS": 8, "fantapunti": 222 }
+        ]
+      },
+      {
+        "girone": 2,
+        "squadre": [
+          { "nome": "Bosnia", "utente": "gspagnulo02", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 11, "GS": 7, "fantapunti": 251 },
+          { "nome": "Canada", "utente": "paoloman99", "PU": 6, "VI": 2, "PA": 0, "SC": 1, "GF": 11, "GS": 8, "fantapunti": 255 },
+          { "nome": "Svizzera", "utente": "acewiseas03", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 7, "GS": 11, "fantapunti": 227 },
+          { "nome": "Qatar", "utente": "vombato2626", "PU": 1, "VI": 0, "PA": 1, "SC": 2, "GF": 8, "GS": 11, "fantapunti": 237 }
+        ]
+      },
+      {
+        "girone": 3,
+        "squadre": [
+          { "nome": "Brasile", "utente": "nicolabr1", "PU": 9, "VI": 3, "PA": 0, "SC": 0, "GF": 8, "GS": 3, "fantapunti": 236 },
+          { "nome": "Haiti", "utente": "domenico40", "PU": 6, "VI": 2, "PA": 0, "SC": 1, "GF": 8, "GS": 7, "fantapunti": 240 },
+          { "nome": "Marocco", "utente": "simonee96", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 7, "GS": 7, "fantapunti": 228.5 },
+          { "nome": "Scozia", "utente": "antonio9703", "PU": 0, "VI": 0, "PA": 0, "SC": 3, "GF": 5, "GS": 11, "fantapunti": 214.5 }
+        ]
+      },
+      {
+        "girone": 4,
+        "squadre": [
+          { "nome": "Stati Uniti", "utente": "andcor92", "PU": 6, "VI": 2, "PA": 0, "SC": 1, "GF": 8, "GS": 8, "fantapunti": 238 },
+          { "nome": "Australia", "utente": "k4ne", "PU": 5, "VI": 1, "PA": 2, "SC": 0, "GF": 9, "GS": 7, "fantapunti": 246.5 },
+          { "nome": "Turchia", "utente": "daniscar94", "PU": 2, "VI": 0, "PA": 2, "SC": 1, "GF": 10, "GS": 11, "fantapunti": 251.5 },
+          { "nome": "Paraguay", "utente": "nicosr95", "PU": 2, "VI": 0, "PA": 2, "SC": 1, "GF": 7, "GS": 8, "fantapunti": 227 }
+        ]
+      },
+      {
+        "girone": 5,
+        "squadre": [
+          { "nome": "Germania", "utente": "gianlucamagi", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 11, "GS": 7, "fantapunti": 254 },
+          { "nome": "Costa d'Avorio", "utente": "loribee93", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 9, "GS": 8, "fantapunti": 240 },
+          { "nome": "Curacao", "utente": "vinsasacc", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 9, "GS": 9, "fantapunti": 238 },
+          { "nome": "Ecuador", "utente": "n1n0000", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 6, "GS": 11, "fantapunti": 220.5 }
+        ]
+      },
+      {
+        "girone": 6,
+        "squadre": [
+          { "nome": "Tunisia", "utente": "ciccio2896", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 9, "GS": 5, "fantapunti": 239 },
+          { "nome": "Giappone", "utente": "gabriele003", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 6, "GS": 6, "fantapunti": 230.5 },
+          { "nome": "Olanda", "utente": "olanda88", "PU": 3, "VI": 0, "PA": 3, "SC": 0, "GF": 6, "GS": 6, "fantapunti": 230.5 },
+          { "nome": "Svezia", "utente": "simo47848", "PU": 1, "VI": 0, "PA": 1, "SC": 2, "GF": 4, "GS": 8, "fantapunti": 214.5 }
+        ]
+      },
+      {
+        "girone": 7,
+        "squadre": [
+          { "nome": "Nuova Zelanda", "utente": "rickytommy", "PU": 6, "VI": 2, "PA": 0, "SC": 1, "GF": 8, "GS": 4, "fantapunti": 235 },
+          { "nome": "Belgio", "utente": "virtus71", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 7, "GS": 8, "fantapunti": 227 },
+          { "nome": "Iran", "utente": "parencj", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 5, "GS": 6, "fantapunti": 220.5 },
+          { "nome": "Egitto", "utente": "guala", "PU": 2, "VI": 0, "PA": 2, "SC": 1, "GF": 6, "GS": 8, "fantapunti": 226.5 }
+        ]
+      },
+      {
+        "girone": 8,
+        "squadre": [
+          { "nome": "Capo Verde", "utente": "therock90", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 10, "GS": 6, "fantapunti": 247 },
+          { "nome": "Spagna", "utente": "luka12", "PU": 6, "VI": 2, "PA": 0, "SC": 1, "GF": 5, "GS": 5, "fantapunti": 218 },
+          { "nome": "Uruguay", "utente": "angeloacq90", "PU": 2, "VI": 0, "PA": 2, "SC": 2, "GF": 8, "GS": 10, "fantapunti": 240.5 },
+          { "nome": "Arabia Saudita", "utente": "gero9955", "PU": 1, "VI": 0, "PA": 1, "SC": 2, "GF": 6, "GS": 8, "fantapunti": 225.5 }
+        ]
+      },
+      {
+        "girone": 9,
+        "squadre": [
+          { "nome": "Senegal", "utente": "gentleman00", "PU": 9, "VI": 3, "PA": 0, "SC": 0, "GF": 16, "GS": 6, "fantapunti": 288 },
+          { "nome": "Norvegia", "utente": "levimant", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 8, "GS": 9, "fantapunti": 233 },
+          { "nome": "Iraq", "utente": "tonyiraq00", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 4, "GS": 6, "fantapunti": 215 },
+          { "nome": "Francia", "utente": "matteos92", "PU": 1, "VI": 0, "PA": 1, "SC": 2, "GF": 3, "GS": 10, "fantapunti": 209 }
+        ]
+      },
+      {
+        "girone": 10,
+        "squadre": [
+          { "nome": "Giordania", "utente": "cspagnulo94", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 9, "GS": 6, "fantapunti": 242.5 },
+          { "nome": "Argentina", "utente": "luigistati", "PU": 4, "VI": 1, "PA": 1, "SC": 1, "GF": 7, "GS": 5, "fantapunti": 230.5 },
+          { "nome": "Austria", "utente": "minestrone", "PU": 2, "VI": 0, "PA": 2, "SC": 1, "GF": 6, "GS": 10, "fantapunti": 222 },
+          { "nome": "Algeria", "utente": "andrematt", "PU": 2, "VI": 0, "PA": 2, "SC": 1, "GF": 3, "GS": 4, "fantapunti": 202 }
+        ]
+      },
+      {
+        "girone": 11,
+        "squadre": [
+          { "nome": "Colombia", "utente": "saso93", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 12, "GS": 7, "fantapunti": 262 },
+          { "nome": "Portogallo", "utente": "kobraraf91", "PU": 6, "VI": 2, "PA": 0, "SC": 1, "GF": 9, "GS": 7, "fantapunti": 241.5 },
+          { "nome": "Uzbekistan", "utente": "tombinoo", "PU": 3, "VI": 1, "PA": 0, "SC": 2, "GF": 8, "GS": 11, "fantapunti": 237 },
+          { "nome": "Congo", "utente": "sgbarber", "PU": 1, "VI": 0, "PA": 1, "SC": 2, "GF": 7, "GS": 11, "fantapunti": 234.5 }
+        ]
+      },
+      {
+        "girone": 12,
+        "squadre": [
+          { "nome": "Inghilterra", "utente": "itsbruwn", "PU": 7, "VI": 2, "PA": 1, "SC": 0, "GF": 11, "GS": 4, "fantapunti": 250.5 },
+          { "nome": "Panama", "utente": "smonta", "PU": 5, "VI": 1, "PA": 2, "SC": 0, "GF": 6, "GS": 5, "fantapunti": 226 },
+          { "nome": "Croazia", "utente": "spalettone", "PU": 2, "VI": 0, "PA": 2, "SC": 1, "GF": 3, "GS": 7, "fantapunti": 210.5 },
+          { "nome": "Ghana", "utente": "luchenardone", "PU": 1, "VI": 0, "PA": 1, "SC": 2, "GF": 6, "GS": 10, "fantapunti": 224 }
+        ]
+      }
+    ]
+  }
